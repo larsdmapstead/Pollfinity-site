@@ -1111,3 +1111,58 @@ strong { font-weight: 600; }
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* ── Nav logo — text wordmark (replaces tiny image) ── */
+.nav-logo-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+.nav-logo-icon {
+  width: 32px;
+  height: 32px;
+  background: #4f46e5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -1px;
+}
+.nav-logo-words {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.nav-logo-words strong {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.01em;
+}
+.nav-logo-words span {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #0d9488;
+}
+
+/* ── Hero logo image ── */
+.hero-logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+.hero-logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
