@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodology — Pollfinity Research LLC</title>
+  <meta name="description" content="Full explanation of Pollfinity Research's SMS-to-web survey methodology, L2 voter file sampling, demographic weighting, and quality standards.">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/logo.jpg" alt="Pollfinity Research">
+      <span class="nav-logo-text">
+        Pollfinity Research
+        <span class="nav-logo-sub">LLC</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true'); document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="polls/index.html">Polls</a></li>
+      <li><a href="methodology.html" class="active">Methodology</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Technical Documentation</p>
+    <h1>Survey Methodology</h1>
+    <p class="subhead">A full account of how Pollfinity Research designs, fields, weights, and reports public opinion surveys — and why we believe methodological transparency is non-negotiable.</p>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="section">
+  <div class="container">
+    <div class="prose">
+
+      <h2>Overview</h2>
+      <p>
+        Pollfinity Research employs an SMS-to-web panel methodology anchored in probability-based
+        sampling from the L2 national voter file. Our approach combines the reach and cost
+        efficiency of digital outreach with the statistical rigor of a known sampling frame —
+        a combination that, when properly executed, produces results comparable in accuracy to
+        traditional telephone surveys at a fraction of the cost.
+      </p>
+      <p>
+        Every design decision we make — from sample selection to weighting scheme to margin-of-error
+        calculation — is documented and published alongside our topline results. We believe
+        polling consumers deserve to evaluate the technical underpinnings of any survey before
+        placing weight on its conclusions.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- Method Cards -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Core Components</span>
+      <h2>How We Build a Survey</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="method-grid">
+      <div class="method-card">
+        <h4>Sampling Frame: L2 Voter File</h4>
+        <p>
+          Our sampling universe is drawn from the L2 national voter file — a commercially
+          maintained database of registered voters that aggregates official state voter
+          registration records with commercially sourced consumer and demographic data.
+          L2 provides individual-level records including name, address, party registration,
+          vote history, age, and in many states, gender and race/ethnicity.
+        </p>
+        <p style="margin-top:0.75rem;">
+          Drawing from a registered voter file rather than random-digit dialing (RDD) or
+          opt-in internet panels provides a defined, probabilistic sampling frame with
+          verifiable demographic characteristics — a significant methodological advantage
+          over non-probability approaches.
+        </p>
+      </div>
+
+      <div class="method-card">
+        <h4>Outreach: SMS-to-Web Invitation</h4>
+        <p>
+          Selected respondents receive an SMS message from Pollfinity Research containing
+          a unique survey link. The link directs respondents to a mobile-optimized web
+          survey hosted on Typeform. Outreach is conducted in compliance with the Telephone
+          Consumer Protection Act (TCPA); respondents may opt out at any time by replying STOP.
+        </p>
+        <p style="margin-top:0.75rem;">
+          SMS outreach rates among registered voters are substantially higher than cold-call
+          telephone response rates, and the web survey format allows for richer questionnaire
+          design including visual ballot-style question presentation.
+        </p>
+      </div>
+
+      <div class="method-card">
+        <h4>Likely Voter Screening</h4>
+        <p>
+          Raw sample draws from registered voter records. We apply a likely voter screen
+          based on a combination of respondent self-report ("How likely are you to vote
+          in the November 2026 election?") and verified vote history from the L2 file.
+          Respondents with low self-reported probability and no recent vote history are
+          excluded from topline results.
+        </p>
+        <p style="margin-top:0.75rem;">
+          The specific likely voter model applied to each survey is documented in that
+          survey's technical report.
+        </p>
+      </div>
+
+      <div class="method-card">
+        <h4>Demographic Weighting</h4>
+        <p>
+          Completed interviews are weighted to match the demographic and geographic
+          characteristics of the likely voter population. Weighting targets are derived
+          from the L2 voter file and, where applicable, from state Board of Elections
+          registration data.
+        </p>
+        <p style="margin-top:0.75rem;">
+          Standard weighting variables include: party registration, geographic region,
+          age cohort (18–34, 35–49, 50–64, 65+), and gender. Additional variables
+          (race/ethnicity, education) may be incorporated on a survey-by-survey basis
+          where sufficient cell counts permit reliable estimates.
+        </p>
+      </div>
+
+      <div class="method-card">
+        <h4>Survey Platform: Typeform</h4>
+        <p>
+          Surveys are hosted on Typeform, a GDPR-compliant web survey platform with
+          strong mobile responsiveness. Typeform's one-question-at-a-time format reduces
+          question-order effects and improves completion rates relative to traditional
+          grid-style survey interfaces.
+        </p>
+        <p style="margin-top:0.75rem;">
+          Response data is stored in Pollfinity Research's private account and is not
+          shared with or accessible to Typeform for any marketing or third-party purpose.
+        </p>
+      </div>
+
+      <div class="method-card">
+        <h4>AI-Assisted Automation</h4>
+        <p>
+          Pollfinity Research uses artificial intelligence tooling to automate routine
+          survey production tasks: sample selection and stratification, SMS outreach
+          sequencing, data cleaning, weighting computation, and results formatting.
+          AI automation enables us to operate at lower cost than traditional survey
+          organizations without sacrificing statistical rigor.
+        </p>
+        <p style="margin-top:0.75rem;">
+          All AI outputs are reviewed by a human researcher before any results are
+          published. We do not use AI to impute, synthesize, or fabricate survey responses.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Margin of Error -->
+<section class="section">
+  <div class="container">
+    <div class="prose">
+
+      <h2>Margin of Error and Sampling Error</h2>
+      <p>
+        The margin of error (MoE) for a simple random sample of <em>n</em> = 1,500 at the
+        95% confidence level is approximately ±2.5 percentage points for a 50%/50% proportion
+        — the most conservative estimate. For proportions further from 50% (e.g., 20% or 80%),
+        the margin narrows.
+      </p>
+      <p>
+        The formula for a proportion's 95% confidence interval margin is:
+      </p>
+      <div class="info-box info-box-gray" style="font-family:monospace; font-size:0.95rem; text-align:center;">
+        MoE = 1.96 × √( p(1−p) / n )
+      </div>
+      <p>
+        Reported margins of error apply to the full sample. Subgroup analyses (e.g., results
+        among Republicans only, or among voters in New York City) carry larger margins owing
+        to smaller cell sizes. Pollfinity Research reports subgroup margins in its full
+        technical crosstabs.
+      </p>
+      <p>
+        <strong>Important caveat:</strong> Sampling error is one source of total survey error.
+        Other sources include non-response bias, coverage error (voters not in the voter file),
+        question wording effects, and weighting model assumptions. We endeavor to minimize
+        each of these and to document them honestly.
+      </p>
+
+      <h2>Independence and Funding</h2>
+      <p>
+        Pollfinity Research LLC does not accept funding from candidates, campaigns, political
+        action committees, political parties, or advocacy organizations. All survey work is
+        self-funded. This independence is structural: it is enforced by our operating policy,
+        not merely stated as an aspiration.
+      </p>
+      <p>
+        We publish results regardless of which candidate or position leads. We do not offer
+        private or proprietary polling services and have no commercial relationship with any
+        electoral actor.
+      </p>
+
+      <h2>Transparency Standards</h2>
+      <p>For every published survey, Pollfinity Research provides:</p>
+      <ul>
+        <li>Full questionnaire wording, in order of administration</li>
+        <li>Field dates (start and end)</li>
+        <li>Sample size and completion rate</li>
+        <li>Sampling methodology and population definition</li>
+        <li>Weighting variables and targets</li>
+        <li>Margin of error for full sample and major subgroups</li>
+        <li>Funding and independence disclosure</li>
+      </ul>
+      <p>
+        Full crosstabs are available upon request to journalists and academic researchers.
+        Contact <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>.
+      </p>
+
+      <h2>Quality Control</h2>
+      <p>
+        Prior to publication, each dataset undergoes the following review steps:
+      </p>
+      <ol>
+        <li><strong>Data cleaning:</strong> Removal of straight-line responses, implausibly fast completions, and respondents who fail embedded consistency checks.</li>
+        <li><strong>Weight trimming:</strong> Individual weights are capped at 3.0× and floored at 0.25× the unweighted cell proportion to prevent extreme observations from distorting results.</li>
+        <li><strong>Internal consistency check:</strong> Topline figures are cross-validated against subgroup breakdowns to identify anomalies.</li>
+        <li><strong>Human review:</strong> A Pollfinity researcher reviews all outputs before publication and signs off on the final release document.</li>
+      </ol>
+
+      <h2>Contact and Data Requests</h2>
+      <p>
+        Journalists, academics, and researchers may request full crosstabs, raw (anonymized)
+        data, or technical documentation for any published Pollfinity Research survey.
+        Contact: <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>.
+      </p>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.jpg" alt="Pollfinity Research">
+        <div class="footer-brand-text">
+          <strong>Pollfinity Research LLC</strong>
+          California Limited Liability Company · Est. 2026
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="polls/index.html">Polls</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html">About</a>
+        <a href="media.html">Media</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      © 2026 Pollfinity Research LLC. All rights reserved. · California LLC ·
+      <a href="mailto:polls@pollfinity.com" style="color:#475569;">polls@pollfinity.com</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
