@@ -1167,3 +1167,103 @@ strong { font-weight: 600; }
   border-radius: 0;
   box-shadow: none;
 }
+
+/* ── Mobile-first fixes ── */
+
+/* Poll release page two-column layout */
+.release-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Nav mobile hamburger fix */
+.site-nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+/* Prevent any element from causing horizontal scroll */
+*, *::before, *::after {
+  max-width: 100%;
+}
+img { max-width: 100%; height: auto; }
+
+/* Hero logo responsive */
+.hero-logo img {
+  width: min(420px, 90vw);
+}
+
+/* Credential bar — wrap on mobile */
+.credential-bar .container {
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 860px) {
+  /* Poll release grid → stack */
+  .release-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* About grid → stack */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* Content grid (media/privacy pages) → stack */
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+  .content-sidebar { position: static; }
+
+  /* Nav links — ensure hamburger works */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #1a1a2e;
+    padding: 1rem 1.5rem;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  }
+  .nav-links.open { display: flex; }
+  .nav-toggle { display: flex; }
+
+  /* Release meta — stack on mobile */
+  .release-meta {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  /* Section padding tighter on mobile */
+  .section { padding: 2.5rem 0; }
+  .page-header { padding: 2rem 0 1.5rem; }
+
+  /* Stats grid — 2 col on mobile is fine */
+  .about-stats { grid-template-columns: 1fr 1fr; }
+
+  /* Hero */
+  .hero { padding: 3rem 0 2.5rem; }
+  .hero h1 { font-size: 2rem; }
+
+  /* Findings table scroll on mobile */
+  .findings-table-wrap { overflow-x: auto; }
+}
+
+@media (max-width: 480px) {
+  .container { padding: 0 1rem; }
+  .about-stats { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 1.75rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+  .poll-card-meta { flex-direction: column; gap: 0.25rem; }
+  .footer-links { flex-direction: column; gap: 0.5rem; }
+}
