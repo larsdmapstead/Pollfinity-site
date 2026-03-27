@@ -1,29 +1,76 @@
 {
-  "generated_at": "2026-03-27T01:19:53.596799Z",
+  "generated_at": "2026-03-27T19:16:46.489408Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
-      "last_updated": "2026-03-22",
-      "polls_in_average": 6,
+      "last_updated": "2026-03-26",
+      "polls_in_average": 19,
       "current": {
-        "approve": 38.9,
-        "disapprove": 59.4,
-        "net": -20.5
+        "approve": 37.3,
+        "disapprove": 60.8,
+        "net": -23.5
       },
       "history": [
         {
-          "date": "2026-03-20",
-          "approve": 39.0,
-          "disapprove": 59.3
+          "date": "2026-01-14",
+          "approve": 30.0,
+          "disapprove": 68.0
         },
         {
-          "date": "2026-03-23",
+          "date": "2026-02-10",
+          "approve": 32.6,
+          "disapprove": 60.3
+        },
+        {
+          "date": "2026-03-21",
+          "approve": 38.5,
+          "disapprove": 59.9
+        },
+        {
+          "date": "2026-03-24",
           "approve": 37.0,
-          "disapprove": 61.0
+          "disapprove": 60.9
+        },
+        {
+          "date": "2026-03-27",
+          "approve": 34.0,
+          "disapprove": 72.0
         }
       ],
       "polls_used": [
+        {
+          "pollster": "Big Data Poll",
+          "end_date": "2026-03-24",
+          "sample_size": "3003",
+          "approve": 42.0,
+          "disapprove": 56.0,
+          "weight": 0.4419
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 60.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "Quinnipiac University",
+          "end_date": "2026-03-23",
+          "sample_size": "1191",
+          "approve": 38.0,
+          "disapprove": 56.0,
+          "weight": 0.7094
+        },
+        {
+          "pollster": "Beach Research/Shaw & Co. Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1001",
+          "approve": 41.0,
+          "disapprove": 59.0,
+          "weight": 0.1951
+        },
         {
           "pollster": "J.L. Partners",
           "end_date": "2026-03-20",
@@ -57,88 +104,259 @@
           "weight": 1.187
         },
         {
-          "pollster": "Ipsos",
-          "end_date": "2026-03-19",
-          "sample_size": "1545",
-          "approve": 40.0,
-          "disapprove": 58.0,
-          "weight": 0.8079
+          "pollster": "",
+          "end_date": "2026-03-26",
+          "sample_size": null,
+          "approve": 34.0,
+          "disapprove": 72.0,
+          "weight": 0.0765
         },
         {
-          "pollster": "IAPolls2022",
-          "end_date": "2026-03-22",
-          "sample_size": "524",
-          "approve": 37.0,
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 60.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
           "disapprove": 61.0,
-          "weight": 0.1412
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 34.0,
+          "disapprove": 64.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 35.0,
+          "disapprove": 63.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 60.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 34.0,
+          "disapprove": 64.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 35.0,
+          "disapprove": 63.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 36.0,
+          "disapprove": 62.0,
+          "weight": 0.697
         }
       ]
     },
     "generic_ballot": {
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
-      "last_updated": "2026-03-23",
-      "polls_in_average": 4,
+      "last_updated": "2026-03-24",
+      "polls_in_average": 2,
       "current": {
-        "dem": 43.5,
-        "rep": 31.0,
-        "dem_lead": 12.5
+        "dem": 49.8,
+        "rep": 40.0,
+        "dem_lead": 9.8
       },
       "history": [
         {
-          "date": "2026-03-20",
-          "dem": 36.5,
-          "rep": 33.5
-        },
-        {
-          "date": "2026-03-23",
-          "dem": 57.0,
-          "rep": 26.0
+          "date": "2026-03-24",
+          "dem": 49.8,
+          "rep": 40.0
         }
       ],
       "polls_used": [
         {
-          "pollster": "Ipsos",
-          "end_date": "2026-03-19",
-          "sample_size": "1545",
-          "dem": 35.0,
-          "rep": 32.0,
-          "weight": 0.8079
+          "pollster": "Big Data Poll",
+          "end_date": "2026-03-24",
+          "sample_size": "3003",
+          "dem": 48.0,
+          "rep": 40.0,
+          "weight": 0.4419
         },
         {
-          "pollster": "Ipsos",
-          "end_date": "2026-03-19",
-          "sample_size": "1206",
-          "dem": 40.0,
-          "rep": 37.0,
-          "weight": 0.7138
-        },
-        {
-          "pollster": "Ipsos",
-          "end_date": "2026-03-19",
-          "sample_size": "1545",
-          "dem": 35.0,
-          "rep": 32.0,
-          "weight": 0.8079
-        },
-        {
-          "pollster": "Quinnipiac",
+          "pollster": "Quinnipiac University",
           "end_date": "2026-03-23",
-          "sample_size": "2018",
-          "dem": 57.0,
-          "rep": 26.0,
-          "weight": 1.2075
+          "sample_size": "1191",
+          "dem": 51.0,
+          "rep": 40.0,
+          "weight": 0.7094
         }
       ]
     },
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-03-26",
-      "total_polls": 6,
+      "last_updated": "2026-03-27",
+      "total_polls": 1,
       "lp_included": 0,
       "lp_pct": 0.0,
       "example_races": []
+    },
+    "iran_military": {
+      "label": "U.S. Military Action in Iran",
+      "subtitle": "Has U.S. military action against Iran gone too far?",
+      "last_updated": "2026-03-23",
+      "polls_in_average": 7,
+      "current": {
+        "pos": 52.6,
+        "neg": 21.1,
+        "net": 31.5,
+        "pos_label": "Gone Too Far",
+        "neg_label": "About Right"
+      },
+      "polls_used": [
+        {
+          "pollster": "AP-NORC",
+          "subject": "U.S. Military Action Against Iran \u2014 Gone Too Far?",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 59.0,
+          "neg": 13.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "Favor/Oppose U.S. Ground Troops in Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 62.0,
+          "neg": 12.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "Recent U.S. Military Action Against Iran - Extent",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 59.0,
+          "neg": 13.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "War in Iran - Conducting Airstrikes Against Military Targets",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 26.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "War in Iran - Conducting Targeted Airstrikes to Kill Iranian Leaders",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 28.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "War in Iran - Deploying U.S. Troops on the Ground",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 62.0,
+          "neg": 26.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "War in Iran - Sending Government Funds to Aid Israel's Military",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 48.0,
+          "neg": 30.0,
+          "weight": 0.697
+        }
+      ]
+    },
+    "trump_economy": {
+      "label": "Trump Economy Approval",
+      "subtitle": "Approve or disapprove of Trump's handling of the economy",
+      "last_updated": "2026-03-23",
+      "polls_in_average": 3,
+      "current": {
+        "pos": 38.0,
+        "neg": 61.0,
+        "net": -23.0,
+        "pos_label": "Approve",
+        "neg_label": "Disapprove"
+      },
+      "polls_used": [
+        {
+          "pollster": "AP-NORC",
+          "subject": "Trump Economy Approval",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "Trump Approval - The Economy",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.697
+        },
+        {
+          "pollster": "AP-NORC",
+          "subject": "Trump Approval - Trade Negotiations",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.697
+        }
+      ]
     }
   }
 }
