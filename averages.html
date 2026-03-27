@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polling Averages — Pollfinity Research LLC</title>
+  <meta name="description" content="Weighted polling averages for Trump job approval, the 2026 generic congressional ballot, and third-party inclusion rates. Updated daily.">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    .averages-loading { text-align:center; padding:4rem 1rem; color:#64748b; font-size:1.1rem; }
+    .averages-error { text-align:center; padding:3rem 1rem; background:#fef2f2; border:1px solid #fecaca; border-radius:8px; color:#b91c1c; font-size:1rem; }
+    .current-numbers { display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem; }
+    .current-number-card { flex:1 1 160px; background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:1.25rem 1.5rem; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+    .current-number-card .cn-label { font-size:.7rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#94a3b8; margin-bottom:.4rem; }
+    .current-number-card .cn-value { font-size:2.4rem; font-weight:800; line-height:1; letter-spacing:-.02em; }
+    .cn-approve { color:#0d9488; } .cn-disapprove { color:#dc2626; }
+    .cn-net-pos { color:#0d9488; } .cn-net-neg { color:#dc2626; }
+    .cn-dem { color:#2563eb; } .cn-rep { color:#dc2626; }
+    .cn-lead-dem { color:#2563eb; } .cn-lead-rep { color:#dc2626; }
+    .chart-container { position:relative; height:300px; margin:1.5rem 0; }
+    @media(max-width:600px){ .chart-container{height:220px;} }
+    .polls-meta { font-size:.85rem; color:#64748b; margin-bottom:1rem; }
+    .toggle-btn { display:inline-block; background:#f1f5f9; border:1px solid #cbd5e1; border-radius:6px; padding:.4rem 1rem; font-size:.82rem; font-weight:600; color:#334155; cursor:pointer; user-select:none; transition:background .15s; }
+    .toggle-btn:hover { background:#e2e8f0; }
+    .polls-table-wrap { display:none; margin-top:.75rem; overflow-x:auto; }
+    .polls-table-wrap.open { display:block; }
+    .polls-table { width:100%; border-collapse:collapse; font-size:.85rem; }
+    .polls-table th { text-align:left; padding:.5rem .75rem; background:#f8fafc; border-bottom:2px solid #e2e8f0; font-weight:700; color:#334155; white-space:nowrap; }
+    .polls-table td { padding:.45rem .75rem; border-bottom:1px solid #f1f5f9; color:#475569; }
+    .polls-table tr:last-child td { border-bottom:none; }
+    .stat-cards { display:flex; flex-wrap:wrap; gap:1.5rem; margin-bottom:1.5rem; }
+    .stat-card { flex:1 1 200px; background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:1.5rem; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+    .stat-card .stat-big { font-size:3rem; font-weight:800; line-height:1; letter-spacing:-.03em; color:#0f172a; margin-bottom:.4rem; }
+    .stat-card .stat-desc { font-size:.85rem; color:#64748b; }
+    .callout-box { background:#f0fdf4; border-left:4px solid #16a34a; border-radius:0 8px 8px 0; padding:1.25rem 1.5rem; margin:1.5rem 0; color:#166534; font-size:.95rem; line-height:1.6; }
+    .lp-races-list { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.75rem; }
+    .lp-races-list li { background:#eff6ff; color:#1d4ed8; border:1px solid #bfdbfe; border-radius:20px; padding:.25rem .85rem; font-size:.82rem; font-weight:600; }
+    .method-note { background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:1.5rem 2rem; }
+    .method-note h3 { font-size:1rem; font-weight:700; color:#0f172a; margin:0 0 .75rem; }
+    .method-note p { font-size:.9rem; color:#475569; line-height:1.65; margin:0 0 .5rem; }
+    .method-note p:last-child { margin-bottom:0; }
+    .updated-badge { display:inline-block; background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.35); border-radius:20px; padding:.3rem .9rem; font-size:.78rem; font-weight:600; letter-spacing:.04em; color:rgba(255,255,255,.9); margin-top:1rem; }
+    .track-header { display:flex; align-items:flex-end; justify-content:space-between; margin-bottom:1.25rem; flex-wrap:wrap; gap:.5rem; }
+    .track-header h2 { font-size:1.35rem; font-weight:800; color:#0f172a; margin:0; }
+    .track-subtitle { font-size:.85rem; color:#94a3b8; margin-top:.2rem; }
+    .track-last-updated { font-size:.78rem; color:#94a3b8; white-space:nowrap; }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo-mark">
+      <div class="nav-logo-icon">∞</div>
+      <div class="nav-logo-words"><strong>Pollfinity Research</strong></div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true'); document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="polls/index.html">Polls</a></li>
+      <li><a href="averages.html" class="active">Averages</a></li>
+      <li><a href="methodology.html">Methodology</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">POLLING AVERAGES</p>
+    <h1>The Pollfinity Tracker</h1>
+    <p class="subhead">Weighted averages of national and state polls — updated daily. The only tracker that consistently includes third-party and Libertarian candidates.</p>
+    <div class="updated-badge" id="hero-updated">Loading...</div>
+  </div>
+</section>
+
+<!-- Dynamic content root -->
+<div id="averages-root">
+  <div class="averages-loading"><p>Loading polling averages...</p></div>
+</div>
+
+<!-- Methodology Note -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">How We Compute It</span>
+      <h2>Weighting Methodology</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="method-note">
+      <h3>Three-Factor Weighting System</h3>
+      <p>
+        Each poll receives a combined weight equal to the product of three factors:
+        <strong>pollster quality tier</strong> (1.0 for top-rated firms like YouGov, Ipsos, and Quinnipiac;
+        down to 0.3 for unrated sources), <strong>recency</strong> (1.0 for polls from the last 3 days,
+        declining to 0.2 for polls older than 14 days), and <strong>sample size</strong>
+        (&radic;(n/1000), so a 1,000-person poll scores 1.0 and a 4,000-person poll scores ~2.0).
+      </p>
+      <p>
+        The final weighted average is the sum of (value &times; weight) divided by the sum of all weights — a standard weighted mean.
+        Only polls from the last 30 days are included in current averages; historical trend lines use 90-day windows in 3-day buckets.
+      </p>
+      <p>
+        <a href="methodology.html">Full methodology documentation &rarr;</a>
+        &nbsp;&middot;&nbsp;
+        Raw data available on request: <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.jpg" alt="Pollfinity Research">
+        <div class="footer-brand-text">
+          <strong>Pollfinity Research LLC</strong>
+          Independent public opinion research — transparent, non-partisan, data-driven.
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="polls/index.html">Polls</a>
+        <a href="averages.html">Averages</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html">About</a>
+        <a href="media.html">Media</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>
+        <a href="https://x.com/pollfinity" target="_blank" rel="noopener">&#x1D54F; @Pollfinity</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      &copy; 2026 Pollfinity Research LLC. All rights reserved. &middot; California LLC &middot;
+      <a href="mailto:polls@pollfinity.com" style="color:#475569;">polls@pollfinity.com</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ── Pollfinity Averages Tracker JS ──────────────────────────────────────────
+
+function fmtDate(str) {
+  if (!str) return '';
+  try {
+    var d = new Date(str + 'T00:00:00');
+    return d.toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
+  } catch(e) { return str; }
+}
+
+function signedNum(n) {
+  if (n === null || n === undefined) return '—';
+  return (n >= 0 ? '+' : '') + Number(n).toFixed(1);
+}
+
+function toggleTable(btnId, wrapId) {
+  var btn = document.getElementById(btnId);
+  var wrap = document.getElementById(wrapId);
+  if (!btn || !wrap) return;
+  var open = wrap.classList.toggle('open');
+  btn.textContent = open ? '▲ Hide polls used' : '▾ Show polls used';
+}
+
+function buildLineChart(canvasId, labels, datasets, yMin, yMax) {
+  var ctx = document.getElementById(canvasId);
+  if (!ctx) return;
+  new Chart(ctx.getContext('2d'), {
+    type: 'line',
+    data: { labels: labels, datasets: datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: { font: { size: 12, weight: '600' }, usePointStyle: true }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) { return ' ' + ctx.dataset.label + ': ' + Number(ctx.parsed.y).toFixed(1) + '%'; }
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { maxTicksLimit: 8, font: { size: 11 }, color: '#94a3b8' },
+          grid: { color: '#f1f5f9' }
+        },
+        y: {
+          min: yMin || 20,
+          max: yMax || 80,
+          ticks: {
+            callback: function(v) { return v + '%'; },
+            font: { size: 11 },
+            color: '#94a3b8'
+          },
+          grid: { color: '#f1f5f9' }
+        }
+      }
+    }
+  });
+}
+
+function approvalHTML(track) {
+  var c = track.current || {};
+  var netClass = ((c.net || 0) >= 0) ? 'cn-net-pos' : 'cn-net-neg';
+  var netStr = (c.net !== undefined) ? signedNum(c.net) : '—';
+
+  var dates = (track.polls_used || []).map(function(p){return p.end_date;}).filter(Boolean).sort();
+  var dateRange = dates.length > 1
+    ? fmtDate(dates[0]) + ' – ' + fmtDate(dates[dates.length-1])
+    : (dates.length === 1 ? fmtDate(dates[0]) : 'N/A');
+  var pollsters = [];
+  (track.polls_used || []).forEach(function(p){ if(p.pollster && pollsters.indexOf(p.pollster)===-1) pollsters.push(p.pollster); });
+  var pollsterStr = pollsters.join(', ') || 'N/A';
+
+  var tableRows = (track.polls_used || [])
+    .slice().sort(function(a,b){ return (b.end_date||'').localeCompare(a.end_date||''); })
+    .map(function(p){
+      return '<tr><td>' + (p.pollster||'—') + '</td><td>' + fmtDate(p.end_date) + '</td><td>'
+        + (p.sample_size ? Number(p.sample_size).toLocaleString() : '—') + '</td>'
+        + '<td style="color:#0d9488;font-weight:700">' + (p.approve!==undefined ? Number(p.approve).toFixed(1)+'%' : '—') + '</td>'
+        + '<td style="color:#dc2626;font-weight:700">' + (p.disapprove!==undefined ? Number(p.disapprove).toFixed(1)+'%' : '—') + '</td>'
+        + '<td>' + (p.weight!==undefined ? Number(p.weight).toFixed(3) : '—') + '</td></tr>';
+    }).join('');
+
+  var history = (track.history || []).filter(function(h){ return h.approve!==null && h.disapprove!==null; });
+  var histLabels = history.map(function(h){ return fmtDate(h.date); });
+  var approveArr = history.map(function(h){ return h.approve; });
+  var disapproveArr = history.map(function(h){ return h.disapprove; });
+
+  var html = '<section class="section"><div class="container">';
+  html += '<div class="track-header"><div>';
+  html += '<h2>' + (track.label||'Trump Job Approval') + '</h2>';
+  html += '<div class="track-subtitle">' + (track.subtitle||'') + '</div>';
+  html += '</div><div class="track-last-updated">Updated ' + fmtDate(track.last_updated) + '</div></div>';
+
+  html += '<div class="current-numbers">';
+  html += '<div class="current-number-card"><div class="cn-label">Approve</div><div class="cn-value cn-approve">' + (c.approve!==undefined ? Number(c.approve).toFixed(1)+'%' : '—') + '</div></div>';
+  html += '<div class="current-number-card"><div class="cn-label">Disapprove</div><div class="cn-value cn-disapprove">' + (c.disapprove!==undefined ? Number(c.disapprove).toFixed(1)+'%' : '—') + '</div></div>';
+  html += '<div class="current-number-card"><div class="cn-label">Net</div><div class="cn-value ' + netClass + '">' + netStr + '</div></div>';
+  html += '</div>';
+
+  if (history.length > 0) {
+    html += '<div class="chart-container"><canvas id="chart-approval"></canvas></div>';
+  } else {
+    html += '<p style="color:#94a3b8;font-style:italic;margin:1.5rem 0;">Not enough historical data yet for trend chart.</p>';
+  }
+
+  html += '<p class="polls-meta">Based on <strong>' + (track.polls_in_average||0) + ' polls</strong> from ' + dateRange + '. Pollsters: ' + pollsterStr + '.</p>';
+
+  if (tableRows) {
+    html += '<span class="toggle-btn" id="btn-approval" onclick="toggleTable(\'btn-approval\',\'wrap-approval\')">▾ Show polls used</span>';
+    html += '<div class="polls-table-wrap" id="wrap-approval"><table class="polls-table">';
+    html += '<thead><tr><th>Pollster</th><th>End Date</th><th>Sample</th><th>Approve</th><th>Disapprove</th><th>Weight</th></tr></thead>';
+    html += '<tbody>' + tableRows + '</tbody></table></div>';
+  }
+
+  html += '</div></section>';
+
+  // Store chart data for deferred render
+  window._chartApproval = { labels: histLabels, approve: approveArr, disapprove: disapproveArr, show: history.length > 0 };
+  return html;
+}
+
+function genericHTML(track) {
+  var c = track.current || {};
+  var demLead = (c.dem_lead !== undefined) ? c.dem_lead : null;
+  var leadLabel = demLead !== null
+    ? (demLead >= 0 ? 'DEM ' + signedNum(demLead) : 'REP +' + Math.abs(demLead).toFixed(1))
+    : '—';
+  var leadClass = (demLead !== null && demLead >= 0) ? 'cn-lead-dem' : 'cn-lead-rep';
+
+  var dates = (track.polls_used || []).map(function(p){return p.end_date;}).filter(Boolean).sort();
+  var dateRange = dates.length > 1
+    ? fmtDate(dates[0]) + ' – ' + fmtDate(dates[dates.length-1])
+    : (dates.length === 1 ? fmtDate(dates[0]) : 'N/A');
+  var pollsters = [];
+  (track.polls_used || []).forEach(function(p){ if(p.pollster && pollsters.indexOf(p.pollster)===-1) pollsters.push(p.pollster); });
+  var pollsterStr = pollsters.join(', ') || 'N/A';
+
+  var tableRows = (track.polls_used || [])
+    .slice().sort(function(a,b){ return (b.end_date||'').localeCompare(a.end_date||''); })
+    .map(function(p){
+      return '<tr><td>' + (p.pollster||'—') + '</td><td>' + fmtDate(p.end_date) + '</td><td>'
+        + (p.sample_size ? Number(p.sample_size).toLocaleString() : '—') + '</td>'
+        + '<td style="color:#2563eb;font-weight:700">' + (p.dem!==undefined ? Number(p.dem).toFixed(1)+'%' : '—') + '</td>'
+        + '<td style="color:#dc2626;font-weight:700">' + (p.rep!==undefined ? Number(p.rep).toFixed(1)+'%' : '—') + '</td>'
+        + '<td>' + (p.weight!==undefined ? Number(p.weight).toFixed(3) : '—') + '</td></tr>';
+    }).join('');
+
+  var history = (track.history || []).filter(function(h){ return h.dem!==null && h.rep!==null; });
+  var histLabels = history.map(function(h){ return fmtDate(h.date); });
+  var demArr = history.map(function(h){ return h.dem; });
+  var repArr = history.map(function(h){ return h.rep; });
+
+  var html = '<section class="section section--alt"><div class="container">';
+  html += '<div class="track-header"><div>';
+  html += '<h2>' + (track.label||'2026 Generic Congressional Ballot') + '</h2>';
+  html += '<div class="track-subtitle">' + (track.subtitle||'') + '</div>';
+  html += '</div><div class="track-last-updated">Updated ' + fmtDate(track.last_updated) + '</div></div>';
+
+  html += '<div class="current-numbers">';
+  html += '<div class="current-number-card"><div class="cn-label">Democrats</div><div class="cn-value cn-dem">' + (c.dem!==undefined ? Number(c.dem).toFixed(1)+'%' : '—') + '</div></div>';
+  html += '<div class="current-number-card"><div class="cn-label">Republicans</div><div class="cn-value cn-rep">' + (c.rep!==undefined ? Number(c.rep).toFixed(1)+'%' : '—') + '</div></div>';
+  html += '<div class="current-number-card"><div class="cn-label">Margin</div><div class="cn-value ' + leadClass + '">' + leadLabel + '</div></div>';
+  html += '</div>';
+
+  if (history.length > 0) {
+    html += '<div class="chart-container"><canvas id="chart-generic"></canvas></div>';
+  } else {
+    html += '<p style="color:#94a3b8;font-style:italic;margin:1.5rem 0;">Not enough historical data yet for trend chart.</p>';
+  }
+
+  html += '<p class="polls-meta">Based on <strong>' + (track.polls_in_average||0) + ' polls</strong> from ' + dateRange + '. Pollsters: ' + pollsterStr + '.</p>';
+
+  if (tableRows) {
+    html += '<span class="toggle-btn" id="btn-generic" onclick="toggleTable(\'btn-generic\',\'wrap-generic\')">▾ Show polls used</span>';
+    html += '<div class="polls-table-wrap" id="wrap-generic"><table class="polls-table">';
+    html += '<thead><tr><th>Pollster</th><th>End Date</th><th>Sample</th><th>Dem</th><th>Rep</th><th>Weight</th></tr></thead>';
+    html += '<tbody>' + tableRows + '</tbody></table></div>';
+  }
+
+  html += '</div></section>';
+
+  window._chartGeneric = { labels: histLabels, dem: demArr, rep: repArr, show: history.length > 0 };
+  return html;
+}
+
+function lpHTML(track) {
+  var pct = (track.lp_pct !== undefined) ? Number(track.lp_pct).toFixed(0) : '—';
+  var races = (track.example_races || []).filter(Boolean);
+  var raceItems = races.map(function(r){ return '<li>' + r + '</li>'; }).join('');
+
+  var html = '<section class="section"><div class="container">';
+  html += '<div class="track-header"><div>';
+  html += '<h2>' + (track.label||'Third-Party Inclusion Rate') + '</h2>';
+  html += '<div class="track-subtitle">' + (track.subtitle||'') + '</div>';
+  html += '</div><div class="track-last-updated">Updated ' + fmtDate(track.last_updated) + '</div></div>';
+
+  html += '<div class="stat-cards">';
+  html += '<div class="stat-card"><div class="stat-big">' + pct + '%</div><div class="stat-desc">of polls include a third-party or Libertarian candidate</div></div>';
+  html += '<div class="stat-card"><div class="stat-big">' + (track.lp_included!==undefined ? track.lp_included : '—') + '</div><div class="stat-desc">polls included LP or third-party options</div></div>';
+  html += '<div class="stat-card"><div class="stat-big">' + (track.total_polls!==undefined ? track.total_polls : '—') + '</div><div class="stat-desc">total governor / senate / house polls tracked</div></div>';
+  html += '</div>';
+
+  html += '<div class="callout-box">Pollfinity Research includes Libertarian, Green, and independent candidates in all our surveys. We track inclusion rates across the industry to hold pollsters accountable. When third-party candidates are excluded from polls, voters are denied accurate information — and candidates are denied the visibility needed to qualify for debates and ballot access thresholds.</div>';
+
+  if (races.length > 0) {
+    html += '<p style="font-size:.9rem;font-weight:700;color:#334155;margin-bottom:.5rem;">Recent races where LP was included:</p>';
+    html += '<ul class="lp-races-list">' + raceItems + '</ul>';
+  }
+
+  html += '</div></section>';
+  return html;
+}
+
+async function loadAverages() {
+  try {
+    var res = await fetch('averages.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var data = await res.json();
+    var tracks = data.tracks || {};
+
+    // Update hero badge
+    var genAt = data.generated_at ? data.generated_at.substring(0,10) : '';
+    document.getElementById('hero-updated').textContent = genAt ? 'Updated ' + fmtDate(genAt) : 'Updated recently';
+
+    // Build HTML blocks
+    var html = '';
+    if (tracks.trump_approval) html += approvalHTML(tracks.trump_approval);
+    if (tracks.generic_ballot) html += genericHTML(tracks.generic_ballot);
+    if (tracks.lp_inclusion)   html += lpHTML(tracks.lp_inclusion);
+
+    if (!html) {
+      html = '<section class="section"><div class="container"><p style="color:#94a3b8;">No tracking data available yet.</p></div></section>';
+    }
+
+    document.getElementById('averages-root').innerHTML = html;
+
+    // Render charts after DOM update
+    if (window._chartApproval && window._chartApproval.show) {
+      buildLineChart('chart-approval',
+        window._chartApproval.labels,
+        [
+          { label:'Approve', data: window._chartApproval.approve, borderColor:'#0d9488', backgroundColor:'rgba(13,148,136,.08)', tension:.35, pointRadius:3, borderWidth:2 },
+          { label:'Disapprove', data: window._chartApproval.disapprove, borderColor:'#dc2626', backgroundColor:'rgba(220,38,38,.06)', tension:.35, pointRadius:3, borderWidth:2 }
+        ], 20, 80
+      );
+    }
+    if (window._chartGeneric && window._chartGeneric.show) {
+      buildLineChart('chart-generic',
+        window._chartGeneric.labels,
+        [
+          { label:'Democrat', data: window._chartGeneric.dem, borderColor:'#2563eb', backgroundColor:'rgba(37,99,235,.07)', tension:.35, pointRadius:3, borderWidth:2 },
+          { label:'Republican', data: window._chartGeneric.rep, borderColor:'#dc2626', backgroundColor:'rgba(220,38,38,.06)', tension:.35, pointRadius:3, borderWidth:2 }
+        ], 20, 80
+      );
+    }
+
+  } catch(err) {
+    console.error('Averages load error:', err);
+    document.getElementById('averages-root').innerHTML =
+      '<section class="section"><div class="container"><div class="averages-error">' +
+      '<strong>Data temporarily unavailable</strong> — check back shortly.<br>' +
+      '<small style="margin-top:.5rem;display:block;">If the problem persists, contact <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>.</small>' +
+      '</div></div></section>';
+    document.getElementById('hero-updated').textContent = 'Data unavailable';
+  }
+}
+
+loadAverages();
+</script>
+</body>
+</html>

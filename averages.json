@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-03-27T01:19:53.596799Z",
+  "tracks": {
+    "trump_approval": {
+      "label": "Trump Job Approval",
+      "subtitle": "Weighted average of recent national polls",
+      "last_updated": "2026-03-22",
+      "polls_in_average": 6,
+      "current": {
+        "approve": 38.9,
+        "disapprove": 59.4,
+        "net": -20.5
+      },
+      "history": [
+        {
+          "date": "2026-03-20",
+          "approve": 39.0,
+          "disapprove": 59.3
+        },
+        {
+          "date": "2026-03-23",
+          "approve": 37.0,
+          "disapprove": 61.0
+        }
+      ],
+      "polls_used": [
+        {
+          "pollster": "J.L. Partners",
+          "end_date": "2026-03-20",
+          "sample_size": "1037",
+          "approve": 39.0,
+          "disapprove": 53.0,
+          "weight": 0.1986
+        },
+        {
+          "pollster": "American Research Group",
+          "end_date": "2026-03-20",
+          "sample_size": "1008",
+          "approve": 34.0,
+          "disapprove": 63.0,
+          "weight": 0.1958
+        },
+        {
+          "pollster": "American Research Group",
+          "end_date": "2026-03-20",
+          "sample_size": "1100",
+          "approve": 34.0,
+          "disapprove": 63.0,
+          "weight": 0.2045
+        },
+        {
+          "pollster": "YouGov",
+          "end_date": "2026-03-20",
+          "sample_size": "3335",
+          "approve": 40.0,
+          "disapprove": 60.0,
+          "weight": 1.187
+        },
+        {
+          "pollster": "Ipsos",
+          "end_date": "2026-03-19",
+          "sample_size": "1545",
+          "approve": 40.0,
+          "disapprove": 58.0,
+          "weight": 0.8079
+        },
+        {
+          "pollster": "IAPolls2022",
+          "end_date": "2026-03-22",
+          "sample_size": "524",
+          "approve": 37.0,
+          "disapprove": 61.0,
+          "weight": 0.1412
+        }
+      ]
+    },
+    "generic_ballot": {
+      "label": "2026 Generic Congressional Ballot",
+      "subtitle": "Which party's candidate would you vote for in your congressional district?",
+      "last_updated": "2026-03-23",
+      "polls_in_average": 4,
+      "current": {
+        "dem": 43.5,
+        "rep": 31.0,
+        "dem_lead": 12.5
+      },
+      "history": [
+        {
+          "date": "2026-03-20",
+          "dem": 36.5,
+          "rep": 33.5
+        },
+        {
+          "date": "2026-03-23",
+          "dem": 57.0,
+          "rep": 26.0
+        }
+      ],
+      "polls_used": [
+        {
+          "pollster": "Ipsos",
+          "end_date": "2026-03-19",
+          "sample_size": "1545",
+          "dem": 35.0,
+          "rep": 32.0,
+          "weight": 0.8079
+        },
+        {
+          "pollster": "Ipsos",
+          "end_date": "2026-03-19",
+          "sample_size": "1206",
+          "dem": 40.0,
+          "rep": 37.0,
+          "weight": 0.7138
+        },
+        {
+          "pollster": "Ipsos",
+          "end_date": "2026-03-19",
+          "sample_size": "1545",
+          "dem": 35.0,
+          "rep": 32.0,
+          "weight": 0.8079
+        },
+        {
+          "pollster": "Quinnipiac",
+          "end_date": "2026-03-23",
+          "sample_size": "2018",
+          "dem": 57.0,
+          "rep": 26.0,
+          "weight": 1.2075
+        }
+      ]
+    },
+    "lp_inclusion": {
+      "label": "Third-Party Inclusion Rate",
+      "subtitle": "How often do pollsters include Libertarian candidates?",
+      "last_updated": "2026-03-26",
+      "total_polls": 6,
+      "lp_included": 0,
+      "lp_pct": 0.0,
+      "example_races": []
+    }
+  }
+}
