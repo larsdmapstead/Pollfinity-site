@@ -86,6 +86,57 @@
   </div>
 </section>
 
+<!-- Averages Promo -->
+<section class="section">
+  <div class="container">
+    <div class="averages-promo">
+      <div class="averages-promo-text">
+        <span class="section-label">Live Data</span>
+        <h2>The Pollfinity Tracker</h2>
+        <div class="section-divider"></div>
+        <p>
+          Pollfinity maintains a continuously updated weighted average of national and state polls —
+          the only tracker that consistently includes third-party and Libertarian candidates alongside
+          major-party results.
+        </p>
+        <p>
+          Updated every morning from a live pipeline of polls from Quinnipiac, YouGov, Ipsos,
+          AP-NORC, Emerson, and others. Weighting accounts for pollster quality, recency, and
+          sample size. Full methodology published.
+        </p>
+        <a href="averages.html" class="btn btn-primary">View Live Averages →</a>
+      </div>
+      <div class="averages-promo-stats">
+        <div class="tracker-stat">
+          <div class="tracker-stat-label">Trump Approval</div>
+          <div class="tracker-stat-value" id="home-approve">—</div>
+          <div class="tracker-stat-sub">Weighted avg · Last 30 days</div>
+        </div>
+        <div class="tracker-stat">
+          <div class="tracker-stat-label">Generic Ballot</div>
+          <div class="tracker-stat-value" id="home-generic">—</div>
+          <div class="tracker-stat-sub">Dem vs. Rep · 2026 midterms</div>
+        </div>
+        <div class="tracker-stat tracker-stat--highlight">
+          <div class="tracker-stat-label">3rd Party Inclusion</div>
+          <div class="tracker-stat-value" id="home-lp">—</div>
+          <div class="tracker-stat-sub">of polls include LP/3rd party candidates</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+fetch('averages.json').then(r=>r.json()).then(d=>{
+  const ta = d.tracks?.trump_approval?.current;
+  const gb = d.tracks?.generic_ballot?.current;
+  const lp = d.tracks?.lp_inclusion;
+  if(ta) document.getElementById('home-approve').textContent = ta.approve.toFixed(1)+'% / '+ta.disapprove.toFixed(1)+'%';
+  if(gb) document.getElementById('home-generic').textContent = (gb.dem_lead>=0?'Dem +':'Rep +')+Math.abs(gb.dem_lead).toFixed(1);
+  if(lp) document.getElementById('home-lp').textContent = lp.lp_pct.toFixed(0)+'%';
+}).catch(()=>{});
+</script>
+
 <!-- About Brief -->
 <section class="section section--alt">
   <div class="container">
