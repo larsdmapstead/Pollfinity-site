@@ -1,41 +1,36 @@
 {
-  "generated_at": "2026-03-27T19:16:46.489408Z",
+  "generated_at": "2026-03-29T15:16:30.610652Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
-      "last_updated": "2026-03-26",
-      "polls_in_average": 19,
+      "last_updated": "2026-03-24",
+      "polls_in_average": 14,
       "current": {
-        "approve": 37.3,
-        "disapprove": 60.8,
-        "net": -23.5
+        "approve": 37.0,
+        "disapprove": 61.0,
+        "net": -24.0
       },
       "history": [
         {
-          "date": "2026-01-14",
+          "date": "2026-01-13",
           "approve": 30.0,
           "disapprove": 68.0
         },
         {
-          "date": "2026-02-10",
+          "date": "2026-02-09",
           "approve": 32.6,
           "disapprove": 60.3
         },
         {
-          "date": "2026-03-21",
-          "approve": 38.5,
-          "disapprove": 59.9
+          "date": "2026-03-23",
+          "approve": 36.8,
+          "disapprove": 61.2
         },
         {
-          "date": "2026-03-24",
-          "approve": 37.0,
-          "disapprove": 60.9
-        },
-        {
-          "date": "2026-03-27",
-          "approve": 34.0,
-          "disapprove": 72.0
+          "date": "2026-03-26",
+          "approve": 42.0,
+          "disapprove": 56.0
         }
       ],
       "polls_used": [
@@ -45,7 +40,7 @@
           "sample_size": "3003",
           "approve": 42.0,
           "disapprove": 56.0,
-          "weight": 0.4419
+          "weight": 0.3379
         },
         {
           "pollster": "AP-NORC",
@@ -70,46 +65,6 @@
           "approve": 41.0,
           "disapprove": 59.0,
           "weight": 0.1951
-        },
-        {
-          "pollster": "J.L. Partners",
-          "end_date": "2026-03-20",
-          "sample_size": "1037",
-          "approve": 39.0,
-          "disapprove": 53.0,
-          "weight": 0.1986
-        },
-        {
-          "pollster": "American Research Group",
-          "end_date": "2026-03-20",
-          "sample_size": "1008",
-          "approve": 34.0,
-          "disapprove": 63.0,
-          "weight": 0.1958
-        },
-        {
-          "pollster": "American Research Group",
-          "end_date": "2026-03-20",
-          "sample_size": "1100",
-          "approve": 34.0,
-          "disapprove": 63.0,
-          "weight": 0.2045
-        },
-        {
-          "pollster": "YouGov",
-          "end_date": "2026-03-20",
-          "sample_size": "3335",
-          "approve": 40.0,
-          "disapprove": 60.0,
-          "weight": 1.187
-        },
-        {
-          "pollster": "",
-          "end_date": "2026-03-26",
-          "sample_size": null,
-          "approve": 34.0,
-          "disapprove": 72.0,
-          "weight": 0.0765
         },
         {
           "pollster": "AP-NORC",
@@ -199,14 +154,19 @@
       "last_updated": "2026-03-24",
       "polls_in_average": 2,
       "current": {
-        "dem": 49.8,
+        "dem": 50.0,
         "rep": 40.0,
-        "dem_lead": 9.8
+        "dem_lead": 10.0
       },
       "history": [
         {
-          "date": "2026-03-24",
-          "dem": 49.8,
+          "date": "2026-03-23",
+          "dem": 51.0,
+          "rep": 40.0
+        },
+        {
+          "date": "2026-03-26",
+          "dem": 48.0,
           "rep": 40.0
         }
       ],
@@ -217,7 +177,7 @@
           "sample_size": "3003",
           "dem": 48.0,
           "rep": 40.0,
-          "weight": 0.4419
+          "weight": 0.3379
         },
         {
           "pollster": "Quinnipiac University",
@@ -232,8 +192,8 @@
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-03-27",
-      "total_polls": 1,
+      "last_updated": "2026-03-29",
+      "total_polls": 0,
       "lp_included": 0,
       "lp_pct": 0.0,
       "example_races": []
