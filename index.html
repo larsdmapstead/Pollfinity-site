@@ -73,8 +73,40 @@
     <h1>Independent Political Polling &amp; Election Poll Aggregator</h1>
     <p class="hero-tagline">Independent. Transparent. Data-driven.</p>
     <p class="hero-tagline">Pollfinity Research conducts original public opinion surveys on elections, policy, and civic issues across the United States.</p>
+    <!-- Live tracker numbers in hero -->
+    <div style="display:flex;gap:2rem;justify-content:center;flex-wrap:wrap;margin-top:2rem;">
+      <div style="text-align:center;">
+        <div style="font-size:1.1rem;color:#94a3b8;margin-bottom:4px;">Trump Approval</div>
+        <div id="hero-approve" style="font-size:2rem;font-weight:800;color:#f8fafc;">—</div>
+        <div style="font-size:0.75rem;color:#64748b;">Weighted avg · Last 30 days</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:1.1rem;color:#94a3b8;margin-bottom:4px;">Generic Ballot</div>
+        <div id="hero-generic" style="font-size:2rem;font-weight:800;color:#f8fafc;">—</div>
+        <div style="font-size:0.75rem;color:#64748b;">Dem vs. Rep · 2026 midterms</div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:1.1rem;color:#94a3b8;margin-bottom:4px;">3rd Party Inclusion</div>
+        <div id="hero-lp" style="font-size:2rem;font-weight:800;color:#22d3ee;">—</div>
+        <div style="font-size:0.75rem;color:#64748b;">of polls include LP/3rd party</div>
+      </div>
+    </div>
+    <div style="margin-top:1.5rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="averages.html" class="btn btn-primary">View Live Tracker →</a>
+      <a href="#join-panel" class="btn btn-secondary">Join Our Research Panel</a>
+    </div>
   </div>
 </section>
+<script>
+fetch('averages.json').then(r=>r.json()).then(d=>{
+  const ta = d.tracks?.trump_approval?.current;
+  const gb = d.tracks?.generic_ballot?.current;
+  const lp = d.tracks?.lp_inclusion;
+  if(ta) document.getElementById('hero-approve').textContent = ta.approve.toFixed(1)+'% / '+ta.disapprove.toFixed(1)+'%';
+  if(gb) document.getElementById('hero-generic').textContent = (gb.dem_lead>=0?'Dem +':'Rep +')+Math.abs(gb.dem_lead).toFixed(1);
+  if(lp) document.getElementById('hero-lp').textContent = (lp.lp_pct||0).toFixed(0)+'%';
+}).catch(()=>{});
+</script>
 
 <!-- Credential Bar -->
 <div class="credential-bar">
@@ -190,6 +222,80 @@ fetch('averages.json').then(r=>r.json()).then(d=>{
           <div class="stat-number">3<span class="stat-unit">rd</span></div>
           <div class="stat-label">Party Inclusion</div>
           <div class="stat-desc">Every Pollfinity poll includes third-party candidates where viable</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Join Our Research Panel -->
+<section class="section" id="join-panel">
+  <div class="container">
+    <div style="max-width:680px;margin:0 auto;text-align:center;">
+      <span class="section-label">Research Panel</span>
+      <h2>Join Our Polling Panel</h2>
+      <div class="section-divider" style="margin:1rem auto;"></div>
+      <p style="color:#94a3b8;margin-bottom:1.5rem;">
+        Help shape American political research. Pollfinity is building a first-party panel of
+        U.S. registered voters across all parties and regions. Complete a short profile survey once
+        and we’ll invite you to participate in future polls by email or SMS. No spam. No selling
+        your data. Just real research.
+      </p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem;">
+        <span style="color:#22d3ee;font-size:0.9rem;">&#10003; All parties welcome including third-party &amp; independent voters</span>
+        <span style="color:#22d3ee;font-size:0.9rem;">&#10003; Takes 3 minutes</span>
+        <span style="color:#22d3ee;font-size:0.9rem;">&#10003; Unsubscribe anytime</span>
+      </div>
+      <a href="mailto:polls@pollfinity.com?subject=Panel+Signup&body=I+want+to+join+the+Pollfinity+research+panel.+Please+add+me+to+future+surveys." class="btn btn-primary" style="font-size:1.1rem;padding:0.85rem 2rem;">Join the Panel &rarr;</a>
+      <p style="color:#475569;font-size:0.8rem;margin-top:1rem;">Or email <a href="mailto:polls@pollfinity.com" style="color:#60a5fa;">polls@pollfinity.com</a> with subject “Panel Signup”</p>
+    </div>
+  </div>
+</section>
+
+<!-- Commission a Poll -->
+<section class="section section--alt">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:3rem;align-items:center;">
+      <div>
+        <span class="section-label">Custom Research</span>
+        <h2>Commission a Poll</h2>
+        <div class="section-divider"></div>
+        <p style="color:#94a3b8;margin-bottom:1rem;">
+          Need a survey fielded for a specific race, issue, or geography? Pollfinity offers
+          custom polling for media organizations, campaigns, advocacy groups, and researchers.
+          We field nationally or in any U.S. state or congressional district.
+        </p>
+        <ul style="color:#94a3b8;margin:0 0 1.5rem 1.2rem;line-height:2;">
+          <li>National, state, and district-level surveys</li>
+          <li>Third-party &amp; independent candidates included by default</li>
+          <li>L2 voter file sampling — registered likely voters only</li>
+          <li>Full crosstabs, methodology documentation, and raw data</li>
+          <li>Results typically delivered within 7 days of fielding</li>
+        </ul>
+        <a href="mailto:polls@pollfinity.com?subject=Poll+Commission+Inquiry" class="btn btn-primary">Request a Quote &rarr;</a>
+      </div>
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:2rem;">
+        <div style="margin-bottom:1.5rem;">
+          <div style="font-size:0.8rem;color:#64748b;text-transform:uppercase;letter-spacing:0.05em;">Starting from</div>
+          <div style="font-size:2.5rem;font-weight:800;color:#f8fafc;">$2,500</div>
+          <div style="color:#94a3b8;font-size:0.9rem;">per survey &mdash; n=600 registered voters</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:0.75rem;">
+          <div style="display:flex;align-items:center;gap:0.75rem;color:#94a3b8;">
+            <span style="color:#22d3ee;font-size:1.1rem;">&#10003;</span> Same-day response to all inquiries
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;color:#94a3b8;">
+            <span style="color:#22d3ee;font-size:1.1rem;">&#10003;</span> National · State · District level
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;color:#94a3b8;">
+            <span style="color:#22d3ee;font-size:1.1rem;">&#10003;</span> Custom question design available
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;color:#94a3b8;">
+            <span style="color:#22d3ee;font-size:1.1rem;">&#10003;</span> Media embargo options
+          </div>
+        </div>
+        <div style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid #334155;">
+          <a href="mailto:polls@pollfinity.com?subject=Poll+Commission+Inquiry" style="color:#60a5fa;font-size:0.9rem;">polls@pollfinity.com</a>
         </div>
       </div>
     </div>
