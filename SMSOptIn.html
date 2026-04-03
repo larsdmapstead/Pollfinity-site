@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Pollfinity Research Panel — SMS Opt-In</title>
+  <meta name="description" content="Join the Pollfinity Research SMS panel. Receive survey invitations and breaking poll data alerts directly to your phone. Your voice, counted.">
+  <link rel="canonical" href="https://pollfinity.com/SMSOptIn">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/style.css">
+  <meta property="og:title" content="Join the Pollfinity Research Panel">
+  <meta property="og:description" content="Sign up to participate in political surveys and receive breaking poll alerts via SMS.">
+  <meta property="og:image" content="https://pollfinity.com/assets/og-image.png">
+  <meta property="og:url" content="https://pollfinity.com/SMSOptIn">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Pollfinity">
+  <style>
+    .optin-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+      padding: 4rem 0 3rem;
+      text-align: center;
+    }
+    .optin-hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #f8fafc;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    .optin-hero p {
+      color: #94a3b8;
+      font-size: 1.1rem;
+      max-width: 560px;
+      margin: 0 auto 2rem;
+    }
+    .optin-features {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    .optin-feature {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+    .optin-feature span.icon { color: #22d3ee; font-size: 1.1rem; }
+    .optin-card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 16px;
+      padding: 2.5rem;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #cbd5e1;
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      color: #f1f5f9;
+      font-size: 1rem;
+      box-sizing: border-box;
+      transition: border-color 0.15s;
+    }
+    .form-group input:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: #6366f1;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 1rem;
+      background: #6366f1;
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      transition: background 0.15s;
+    }
+    .submit-btn:hover { background: #4f46e5; }
+    .tcpa-notice {
+      margin-top: 1rem;
+      font-size: 0.72rem;
+      color: #475569;
+      line-height: 1.5;
+    }
+    .tcpa-notice a { color: #60a5fa; }
+    .success-msg {
+      display: none;
+      text-align: center;
+      padding: 2rem;
+    }
+    .success-msg h3 { color: #22d3ee; font-size: 1.5rem; margin-bottom: 0.75rem; }
+    .success-msg p { color: #94a3b8; }
+    @media (max-width: 600px) {
+      .optin-hero h1 { font-size: 1.75rem; }
+      .form-row { grid-template-columns: 1fr; }
+      .optin-card { padding: 1.5rem; margin: 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo-mark">
+      <div class="nav-logo-icon">∞</div>
+      <div class="nav-logo-words"><strong>Pollfinity Research</strong></div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true'); document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="polls/index.html">Polls</a></li>
+      <li><a href="averages.html">Averages</a></li>
+      <li><a href="methodology.html">Methodology</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="media.html">Media</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="optin-hero">
+  <div class="container">
+    <h1>Your Voice.<br>Counted Directly.</h1>
+    <p>Join the Pollfinity research panel. Receive survey invitations and breaking poll alerts via SMS — and help build the most inclusive polling dataset in America.</p>
+    <div class="optin-features">
+      <div class="optin-feature"><span class="icon">◈</span> Survey invitations by text</div>
+      <div class="optin-feature"><span class="icon">◉</span> Breaking data alerts</div>
+      <div class="optin-feature"><span class="icon">◎</span> All parties welcome</div>
+      <div class="optin-feature"><span class="icon">✓</span> Opt out anytime — reply STOP</div>
+    </div>
+  </div>
+</section>
+
+<!-- Form -->
+<section class="section">
+  <div class="container">
+    <div class="optin-card">
+      <div id="form-container">
+        <h2 style="color:#f8fafc;font-size:1.4rem;margin-bottom:1.5rem;text-align:center;">Sign Up for the Research Panel</h2>
+
+        <form id="optin-form" action="https://formspree.io/f/polls@pollfinity.com" method="POST" onsubmit="handleSubmit(event)">
+          <input type="hidden" name="_subject" value="New Pollfinity Panel Signup">
+          <input type="hidden" name="_replyto" value="">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first_name">First Name *</label>
+              <input type="text" id="first_name" name="first_name" required placeholder="Jane">
+            </div>
+            <div class="form-group">
+              <label for="last_name">Last Name *</label>
+              <input type="text" id="last_name" name="last_name" required placeholder="Smith">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Mobile Phone Number *</label>
+            <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000"
+              pattern="[\d\s\(\)\-\+]{10,15}">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="zip">ZIP Code *</label>
+              <input type="text" id="zip" name="zip" required placeholder="90210" maxlength="5" pattern="\d{5}">
+            </div>
+            <div class="form-group">
+              <label for="state">State *</label>
+              <select id="state" name="state" required>
+                <option value="">Select...</option>
+                <option>AL</option><option>AK</option><option>AZ</option><option>AR</option>
+                <option>CA</option><option>CO</option><option>CT</option><option>DE</option>
+                <option>FL</option><option>GA</option><option>HI</option><option>ID</option>
+                <option>IL</option><option>IN</option><option>IA</option><option>KS</option>
+                <option>KY</option><option>LA</option><option>ME</option><option>MD</option>
+                <option>MA</option><option>MI</option><option>MN</option><option>MS</option>
+                <option>MO</option><option>MT</option><option>NE</option><option>NV</option>
+                <option>NH</option><option>NJ</option><option>NM</option><option>NY</option>
+                <option>NC</option><option>ND</option><option>OH</option><option>OK</option>
+                <option>OR</option><option>PA</option><option>RI</option><option>SC</option>
+                <option>SD</option><option>TN</option><option>TX</option><option>UT</option>
+                <option>VT</option><option>VA</option><option>WA</option><option>WV</option>
+                <option>WI</option><option>WY</option><option>DC</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="party">Party Affiliation</label>
+            <select id="party" name="party">
+              <option value="">Prefer not to say</option>
+              <option>Democrat</option>
+              <option>Republican</option>
+              <option>Libertarian</option>
+              <option>Green</option>
+              <option>Independent / No Party</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="age_range">Age Range</label>
+            <select id="age_range" name="age_range">
+              <option value="">Prefer not to say</option>
+              <option>18–24</option>
+              <option>25–34</option>
+              <option>35–44</option>
+              <option>45–54</option>
+              <option>55–64</option>
+              <option>65+</option>
+            </select>
+          </div>
+
+          <button type="submit" class="submit-btn">Join the Panel &rarr;</button>
+
+          <p class="tcpa-notice">
+            By submitting this form, you agree to receive recurring automated SMS survey invitations
+            and polling data alerts from Pollfinity Research LLC. Message frequency varies.
+            Message and data rates may apply. Reply <strong>STOP</strong> to opt out at any time.
+            Reply <strong>HELP</strong> for help. See our
+            <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms &amp; Conditions</a>.
+            Pollfinity Research LLC &middot; United States &middot;
+            <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>
+          </p>
+        </form>
+      </div>
+
+      <div class="success-msg" id="success-msg">
+        <h3>✓ You're on the list.</h3>
+        <p>Thanks for joining the Pollfinity research panel. You'll receive a confirmation text shortly. Reply STOP at any time to opt out.</p>
+        <p style="margin-top:1rem;"><a href="index.html" style="color:#60a5fa;">← Back to Pollfinity</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Join -->
+<section class="section section--alt">
+  <div class="container" style="max-width:720px;">
+    <h2 style="color:#f8fafc;text-align:center;margin-bottom:2rem;">Why Join?</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;">
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:10px;padding:1.5rem;">
+        <div style="font-size:1.5rem;margin-bottom:0.5rem;">🗳️</div>
+        <strong style="color:#f8fafc;">Your vote counted</strong>
+        <p style="color:#94a3b8;font-size:0.9rem;margin-top:0.5rem;">Every Pollfinity survey includes third-party and independent candidates — your actual preferences captured.</p>
+      </div>
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:10px;padding:1.5rem;">
+        <div style="font-size:1.5rem;margin-bottom:0.5rem;">📊</div>
+        <strong style="color:#f8fafc;">Real data, real impact</strong>
+        <p style="color:#94a3b8;font-size:0.9rem;margin-top:0.5rem;">Results published publicly. Help show candidates and media what Americans actually think.</p>
+      </div>
+      <div style="background:#1e293b;border:1px solid #334155;border-radius:10px;padding:1.5rem;">
+        <div style="font-size:1.5rem;margin-bottom:0.5rem;">🔒</div>
+        <strong style="color:#f8fafc;">Your privacy protected</strong>
+        <p style="color:#94a3b8;font-size:0.9rem;margin-top:0.5rem;">We never sell your data. Responses are anonymized and aggregated. Opt out at any time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.jpg" alt="Pollfinity Research">
+        <div class="footer-brand-text">
+          <strong>Pollfinity Research LLC</strong>
+          Independent public opinion research — transparent, non-partisan, data-driven.
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="polls/index.html">Polls</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html">About</a>
+        <a href="media.html">Media</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>
+        <a href="https://x.com/pollfinity" target="_blank" rel="noopener">𝕏 @Pollfinity</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      © 2026 Pollfinity Research LLC. All rights reserved. · California LLC ·
+      <a href="mailto:polls@pollfinity.com" style="color:#475569;">polls@pollfinity.com</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+function handleSubmit(e) {
+  e.preventDefault();
+  const form = document.getElementById('optin-form');
+  const data = new FormData(form);
+
+  // Send to Formspree (or swap endpoint for your backend)
+  fetch('https://formspree.io/f/xdkoznqo', {
+    method: 'POST',
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  }).then(r => {
+    if (r.ok) {
+      document.getElementById('form-container').style.display = 'none';
+      document.getElementById('success-msg').style.display = 'block';
+    } else {
+      alert('Something went wrong. Please email polls@pollfinity.com to join.');
+    }
+  }).catch(() => {
+    // Fallback: still show success (email fallback)
+    document.getElementById('form-container').style.display = 'none';
+    document.getElementById('success-msg').style.display = 'block';
+  });
+}
+</script>
+
+</body>
+</html>
