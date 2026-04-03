@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pollfinity.com/sitemap.xml
