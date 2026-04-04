@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-04T08:00:01.268220Z",
+  "generated_at": "2026-04-04T19:20:14.914803Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
-      "last_updated": "2026-03-31",
-      "polls_in_average": 34,
+      "last_updated": "2026-04-02",
+      "polls_in_average": 37,
       "current": {
-        "approve": 36.0,
-        "disapprove": 60.7,
-        "net": -24.7
+        "approve": 36.7,
+        "disapprove": 60.1,
+        "net": -23.4
       },
       "history": [
         {
@@ -44,13 +44,18 @@
         },
         {
           "date": "2026-03-29",
-          "approve": 46.0,
+          "approve": 43.1,
           "disapprove": 54.0
         },
         {
           "date": "2026-04-01",
-          "approve": 33.6,
-          "disapprove": 61.4
+          "approve": 33.9,
+          "disapprove": 61.1
+        },
+        {
+          "date": "2026-04-04",
+          "approve": 40.0,
+          "disapprove": 58.0
         }
       ],
       "polls_used": [
@@ -231,6 +236,30 @@
           "weight": 0.2137
         },
         {
+          "pollster": "Morning Consult",
+          "end_date": "2026-03-29",
+          "sample_size": 2203,
+          "approve": 43.0,
+          "disapprove": 54.0,
+          "weight": 0.7236
+        },
+        {
+          "pollster": "ActiVote",
+          "end_date": "2026-03-31",
+          "sample_size": 598,
+          "approve": 42.0,
+          "disapprove": 55.0,
+          "weight": 0.1508
+        },
+        {
+          "pollster": "RMG Research",
+          "end_date": "2026-04-02",
+          "sample_size": 3000,
+          "approve": 40.0,
+          "disapprove": 58.0,
+          "weight": 0.4417
+        },
+        {
           "pollster": "AP-NORC",
           "end_date": "2026-03-23",
           "sample_size": "1150",
@@ -332,11 +361,11 @@
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
       "last_updated": "2026-03-30",
-      "polls_in_average": 13,
+      "polls_in_average": 16,
       "current": {
-        "dem": 45.1,
-        "rep": 38.9,
-        "dem_lead": 6.2
+        "dem": 45.2,
+        "rep": 40.4,
+        "dem_lead": 4.8
       },
       "history": [
         {
@@ -355,9 +384,14 @@
           "rep": 42.7
         },
         {
+          "date": "2026-03-29",
+          "dem": 45.0,
+          "rep": 42.0
+        },
+        {
           "date": "2026-04-01",
-          "dem": 42.2,
-          "rep": 36.2
+          "dem": 42.8,
+          "rep": 36.8
         }
       ],
       "polls_used": [
@@ -456,6 +490,30 @@
           "dem": 39.0,
           "rep": 33.0,
           "weight": 0.841
+        },
+        {
+          "pollster": "CNN/SSRS",
+          "end_date": "2026-03-30",
+          "sample_size": 951,
+          "dem": 48.0,
+          "rep": 42.0,
+          "weight": 0.1902
+        },
+        {
+          "pollster": "Morning Consult",
+          "end_date": "2026-03-29",
+          "sample_size": 26725,
+          "dem": 45.0,
+          "rep": 42.0,
+          "weight": 2.5202
+        },
+        {
+          "pollster": "Morning Consult",
+          "end_date": "2026-03-29",
+          "sample_size": "2026",
+          "dem": 45.0,
+          "rep": 42.0,
+          "weight": 0.6939
         },
         {
           "pollster": "YouGov",
