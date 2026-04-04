@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-03T20:07:30.622002Z",
+  "generated_at": "2026-04-04T08:00:01.268220Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
       "last_updated": "2026-03-31",
-      "polls_in_average": 35,
+      "polls_in_average": 34,
       "current": {
         "approve": 36.0,
         "disapprove": 60.7,
@@ -13,39 +13,44 @@
       },
       "history": [
         {
-          "date": "2026-01-12",
+          "date": "2026-01-13",
           "approve": 30.0,
           "disapprove": 68.0
         },
         {
-          "date": "2026-02-08",
+          "date": "2026-02-09",
           "approve": 32.6,
           "disapprove": 60.3
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "approve": 40.0,
           "disapprove": 58.0
         },
         {
-          "date": "2026-03-22",
+          "date": "2026-03-20",
           "approve": 46.0,
           "disapprove": 54.0
         },
         {
-          "date": "2026-03-25",
-          "approve": 36.7,
-          "disapprove": 60.7
+          "date": "2026-03-23",
+          "approve": 36.8,
+          "disapprove": 61.1
         },
         {
-          "date": "2026-03-28",
-          "approve": 43.8,
-          "disapprove": 55.2
+          "date": "2026-03-26",
+          "approve": 38.6,
+          "disapprove": 57.7
         },
         {
-          "date": "2026-03-31",
-          "approve": 33.3,
-          "disapprove": 61.5
+          "date": "2026-03-29",
+          "approve": 46.0,
+          "disapprove": 54.0
+        },
+        {
+          "date": "2026-04-01",
+          "approve": 33.6,
+          "disapprove": 61.4
         }
       ],
       "polls_used": [
@@ -127,7 +132,7 @@
           "sample_size": "2025",
           "approve": 22.0,
           "disapprove": 65.0,
-          "weight": 0.3629
+          "weight": 0.2775
         },
         {
           "pollster": "",
@@ -143,7 +148,7 @@
           "sample_size": null,
           "approve": 46.0,
           "disapprove": 54.0,
-          "weight": 0.036
+          "weight": 0.018
         },
         {
           "pollster": "YouGov",
@@ -159,7 +164,7 @@
           "sample_size": null,
           "approve": 46.0,
           "disapprove": 54.0,
-          "weight": 0.0585
+          "weight": 0.036
         },
         {
           "pollster": "",
@@ -224,14 +229,6 @@
           "approve": 35.0,
           "disapprove": 64.0,
           "weight": 0.2137
-        },
-        {
-          "pollster": "NapolitanNews",
-          "end_date": "2026-03-04",
-          "sample_size": "000",
-          "approve": 40.0,
-          "disapprove": 58.0,
-          "weight": 0.018
         },
         {
           "pollster": "AP-NORC",
@@ -343,27 +340,22 @@
       },
       "history": [
         {
-          "date": "2026-03-16",
+          "date": "2026-03-17",
           "dem": 45.0,
           "rep": 39.0
         },
         {
-          "date": "2026-03-22",
-          "dem": 47.0,
-          "rep": 42.0
+          "date": "2026-03-23",
+          "dem": 47.9,
+          "rep": 41.1
         },
         {
-          "date": "2026-03-25",
-          "dem": 48.0,
-          "rep": 40.8
+          "date": "2026-03-26",
+          "dem": 48.7,
+          "rep": 42.7
         },
         {
-          "date": "2026-03-28",
-          "dem": 48.9,
-          "rep": 43.7
-        },
-        {
-          "date": "2026-03-31",
+          "date": "2026-04-01",
           "dem": 42.2,
           "rep": 36.2
         }
@@ -478,7 +470,7 @@
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-04-03",
+      "last_updated": "2026-04-04",
       "total_polls": 20,
       "lp_included": 0,
       "lp_pct": 0.0,
