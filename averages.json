@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-05T08:00:02.012492Z",
+  "generated_at": "2026-04-05T16:01:02.205292Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
       "last_updated": "2026-04-02",
-      "polls_in_average": 37,
+      "polls_in_average": 38,
       "current": {
         "approve": 36.7,
-        "disapprove": 60.1,
-        "net": -23.4
+        "disapprove": 60.0,
+        "net": -23.3
       },
       "history": [
         {
@@ -29,8 +29,8 @@
         },
         {
           "date": "2026-03-21",
-          "approve": 46.0,
-          "disapprove": 54.0
+          "approve": 43.0,
+          "disapprove": 56.0
         },
         {
           "date": "2026-03-24",
@@ -253,6 +253,14 @@
           "approve": 40.0,
           "disapprove": 58.0,
           "weight": 0.4417
+        },
+        {
+          "pollster": "RMG",
+          "end_date": "2026-03-19",
+          "sample_size": null,
+          "approve": 40.0,
+          "disapprove": 58.0,
+          "weight": 0.018
         },
         {
           "pollster": "AP-NORC",
@@ -519,7 +527,7 @@
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
       "last_updated": "2026-04-05",
-      "total_polls": 20,
+      "total_polls": 25,
       "lp_included": 0,
       "lp_pct": 0.0,
       "example_races": []
