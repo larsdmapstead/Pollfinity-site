@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T16:01:02.205292Z",
+  "generated_at": "2026-04-06T08:00:01.898895Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
@@ -7,50 +7,55 @@
       "last_updated": "2026-04-02",
       "polls_in_average": 38,
       "current": {
-        "approve": 36.7,
-        "disapprove": 60.0,
-        "net": -23.3
+        "approve": 36.5,
+        "disapprove": 60.2,
+        "net": -23.7
       },
       "history": [
         {
-          "date": "2026-01-14",
+          "date": "2026-01-12",
           "approve": 30.0,
           "disapprove": 68.0
         },
         {
-          "date": "2026-02-10",
+          "date": "2026-02-08",
           "approve": 32.6,
           "disapprove": 60.3
         },
         {
-          "date": "2026-03-06",
+          "date": "2026-03-04",
           "approve": 40.0,
           "disapprove": 58.0
         },
         {
-          "date": "2026-03-21",
-          "approve": 43.0,
-          "disapprove": 56.0
+          "date": "2026-03-19",
+          "approve": 40.0,
+          "disapprove": 58.0
         },
         {
-          "date": "2026-03-24",
-          "approve": 37.0,
-          "disapprove": 60.6
+          "date": "2026-03-22",
+          "approve": 46.0,
+          "disapprove": 54.0
         },
         {
-          "date": "2026-03-27",
-          "approve": 37.9,
-          "disapprove": 58.9
+          "date": "2026-03-25",
+          "approve": 36.7,
+          "disapprove": 60.7
         },
         {
-          "date": "2026-03-30",
-          "approve": 36.3,
-          "disapprove": 59.6
+          "date": "2026-03-28",
+          "approve": 43.7,
+          "disapprove": 55.3
         },
         {
-          "date": "2026-04-02",
-          "approve": 34.6,
-          "disapprove": 59.7
+          "date": "2026-03-31",
+          "approve": 35.0,
+          "disapprove": 60.2
+        },
+        {
+          "date": "2026-04-03",
+          "approve": 40.0,
+          "disapprove": 58.0
         }
       ],
       "polls_used": [
@@ -236,7 +241,7 @@
           "sample_size": 2203,
           "approve": 43.0,
           "disapprove": 54.0,
-          "weight": 0.7236
+          "weight": 0.4453
         },
         {
           "pollster": "ActiVote",
@@ -252,7 +257,7 @@
           "sample_size": 3000,
           "approve": 40.0,
           "disapprove": 58.0,
-          "weight": 0.4417
+          "weight": 0.3377
         },
         {
           "pollster": "RMG",
@@ -367,29 +372,34 @@
       "polls_in_average": 16,
       "current": {
         "dem": 45.2,
-        "rep": 40.4,
-        "dem_lead": 4.8
+        "rep": 40.1,
+        "dem_lead": 5.1
       },
       "history": [
         {
-          "date": "2026-03-18",
+          "date": "2026-03-16",
           "dem": 45.0,
           "rep": 39.0
         },
         {
-          "date": "2026-03-24",
-          "dem": 47.9,
-          "rep": 40.9
+          "date": "2026-03-22",
+          "dem": 47.0,
+          "rep": 42.0
         },
         {
-          "date": "2026-03-27",
+          "date": "2026-03-25",
+          "dem": 48.0,
+          "rep": 40.8
+        },
+        {
+          "date": "2026-03-28",
           "dem": 48.9,
           "rep": 43.7
         },
         {
-          "date": "2026-03-30",
-          "dem": 44.1,
-          "rep": 40.0
+          "date": "2026-03-31",
+          "dem": 43.9,
+          "rep": 39.4
         }
       ],
       "polls_used": [
@@ -471,7 +481,7 @@
           "sample_size": null,
           "dem": 47.0,
           "rep": 42.0,
-          "weight": 0.09
+          "weight": 0.045
         },
         {
           "pollster": "YouGov",
@@ -503,7 +513,7 @@
           "sample_size": 26725,
           "dem": 45.0,
           "rep": 42.0,
-          "weight": 2.5202
+          "weight": 1.5509
         },
         {
           "pollster": "Morning Consult",
@@ -511,7 +521,7 @@
           "sample_size": "2026",
           "dem": 45.0,
           "rep": 42.0,
-          "weight": 0.6939
+          "weight": 0.427
         },
         {
           "pollster": "YouGov",
@@ -526,7 +536,7 @@
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-04-05",
+      "last_updated": "2026-04-06",
       "total_polls": 25,
       "lp_included": 0,
       "lp_pct": 0.0,
