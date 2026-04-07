@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T16:01:08.946780Z",
+  "generated_at": "2026-04-07T08:00:01.852094Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
@@ -7,53 +7,53 @@
       "last_updated": "2026-04-02",
       "polls_in_average": 38,
       "current": {
-        "approve": 36.5,
-        "disapprove": 60.2,
-        "net": -23.7
+        "approve": 36.7,
+        "disapprove": 59.8,
+        "net": -23.1
       },
       "history": [
         {
-          "date": "2026-01-12",
+          "date": "2026-01-13",
           "approve": 30.0,
           "disapprove": 68.0
         },
         {
-          "date": "2026-02-08",
+          "date": "2026-02-09",
           "approve": 32.6,
           "disapprove": 60.3
         },
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "approve": 40.0,
           "disapprove": 58.0
         },
         {
-          "date": "2026-03-19",
-          "approve": 40.0,
-          "disapprove": 58.0
+          "date": "2026-03-20",
+          "approve": 43.0,
+          "disapprove": 56.0
         },
         {
-          "date": "2026-03-22",
-          "approve": 46.0,
+          "date": "2026-03-23",
+          "approve": 36.8,
+          "disapprove": 61.1
+        },
+        {
+          "date": "2026-03-26",
+          "approve": 38.6,
+          "disapprove": 57.7
+        },
+        {
+          "date": "2026-03-29",
+          "approve": 43.2,
           "disapprove": 54.0
         },
         {
-          "date": "2026-03-25",
-          "approve": 36.7,
-          "disapprove": 60.7
+          "date": "2026-04-01",
+          "approve": 33.6,
+          "disapprove": 61.1
         },
         {
-          "date": "2026-03-28",
-          "approve": 43.7,
-          "disapprove": 55.3
-        },
-        {
-          "date": "2026-03-31",
-          "approve": 35.0,
-          "disapprove": 60.2
-        },
-        {
-          "date": "2026-04-03",
+          "date": "2026-04-04",
           "approve": 40.0,
           "disapprove": 58.0
         }
@@ -73,7 +73,7 @@
           "sample_size": "1150",
           "approve": 38.0,
           "disapprove": 60.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "Quinnipiac University",
@@ -81,7 +81,7 @@
           "sample_size": "1191",
           "approve": 38.0,
           "disapprove": 56.0,
-          "weight": 0.4365
+          "weight": 0.2183
         },
         {
           "pollster": "Beach Research/Shaw & Co. Research",
@@ -89,7 +89,7 @@
           "sample_size": "1001",
           "approve": 41.0,
           "disapprove": 59.0,
-          "weight": 0.1201
+          "weight": 0.06
         },
         {
           "pollster": "Quantus Insights",
@@ -145,7 +145,7 @@
           "sample_size": "679",
           "approve": 35.0,
           "disapprove": 58.0,
-          "weight": 0.1607
+          "weight": 0.0989
         },
         {
           "pollster": "",
@@ -161,7 +161,7 @@
           "sample_size": null,
           "approve": 35.0,
           "disapprove": 58.0,
-          "weight": 0.195
+          "weight": 0.12
         },
         {
           "pollster": "JL Partners",
@@ -177,7 +177,7 @@
           "sample_size": "201",
           "approve": 35.0,
           "disapprove": 64.0,
-          "weight": 0.0874
+          "weight": 0.0538
         },
         {
           "pollster": "SSRS",
@@ -185,7 +185,7 @@
           "sample_size": "2025",
           "approve": 20.0,
           "disapprove": 80.0,
-          "weight": 0.2775
+          "weight": 0.1708
         },
         {
           "pollster": "CNN/SSRS",
@@ -193,7 +193,7 @@
           "sample_size": "201",
           "approve": 35.0,
           "disapprove": 64.0,
-          "weight": 0.0874
+          "weight": 0.0538
         },
         {
           "pollster": "SSRS",
@@ -201,7 +201,7 @@
           "sample_size": null,
           "approve": 35.0,
           "disapprove": 64.0,
-          "weight": 0.0585
+          "weight": 0.036
         },
         {
           "pollster": "J.L. Partners",
@@ -217,7 +217,7 @@
           "sample_size": 1505,
           "approve": 39.0,
           "disapprove": 58.0,
-          "weight": 0.7974
+          "weight": 0.4907
         },
         {
           "pollster": "YouGov",
@@ -225,7 +225,7 @@
           "sample_size": 1679,
           "approve": 35.0,
           "disapprove": 58.0,
-          "weight": 0.8422
+          "weight": 0.5183
         },
         {
           "pollster": "CNN/SSRS",
@@ -233,7 +233,7 @@
           "sample_size": 1201,
           "approve": 35.0,
           "disapprove": 64.0,
-          "weight": 0.2137
+          "weight": 0.1315
         },
         {
           "pollster": "Morning Consult",
@@ -273,7 +273,7 @@
           "sample_size": "1150",
           "approve": 38.0,
           "disapprove": 60.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -281,7 +281,7 @@
           "sample_size": "1150",
           "approve": 38.0,
           "disapprove": 61.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -289,7 +289,7 @@
           "sample_size": "1150",
           "approve": 34.0,
           "disapprove": 64.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -297,7 +297,7 @@
           "sample_size": "1150",
           "approve": 35.0,
           "disapprove": 63.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -305,7 +305,7 @@
           "sample_size": "1150",
           "approve": 38.0,
           "disapprove": 60.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -313,7 +313,7 @@
           "sample_size": "1150",
           "approve": 38.0,
           "disapprove": 61.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -321,7 +321,7 @@
           "sample_size": "1150",
           "approve": 38.0,
           "disapprove": 61.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -329,7 +329,7 @@
           "sample_size": "1150",
           "approve": 34.0,
           "disapprove": 64.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -337,7 +337,7 @@
           "sample_size": "1150",
           "approve": 35.0,
           "disapprove": 63.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -345,7 +345,7 @@
           "sample_size": "1150",
           "approve": 36.0,
           "disapprove": 62.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "Economist / YouGov",
@@ -353,7 +353,7 @@
           "sample_size": "N/A",
           "approve": 36.0,
           "disapprove": 55.0,
-          "weight": 0.12
+          "weight": 0.06
         },
         {
           "pollster": "The Economist / YouGov",
@@ -361,7 +361,7 @@
           "sample_size": "unknown",
           "approve": 35.0,
           "disapprove": 58.0,
-          "weight": 0.195
+          "weight": 0.12
         }
       ]
     },
@@ -371,35 +371,35 @@
       "last_updated": "2026-03-30",
       "polls_in_average": 16,
       "current": {
-        "dem": 45.2,
-        "rep": 40.1,
-        "dem_lead": 5.1
+        "dem": 45.3,
+        "rep": 40.5,
+        "dem_lead": 4.8
       },
       "history": [
         {
-          "date": "2026-03-16",
+          "date": "2026-03-17",
           "dem": 45.0,
           "rep": 39.0
         },
         {
-          "date": "2026-03-22",
-          "dem": 47.0,
+          "date": "2026-03-23",
+          "dem": 47.9,
+          "rep": 41.1
+        },
+        {
+          "date": "2026-03-26",
+          "dem": 48.7,
+          "rep": 42.7
+        },
+        {
+          "date": "2026-03-29",
+          "dem": 45.0,
           "rep": 42.0
         },
         {
-          "date": "2026-03-25",
-          "dem": 48.0,
-          "rep": 40.8
-        },
-        {
-          "date": "2026-03-28",
-          "dem": 48.9,
-          "rep": 43.7
-        },
-        {
-          "date": "2026-03-31",
-          "dem": 43.9,
-          "rep": 39.4
+          "date": "2026-04-01",
+          "dem": 42.8,
+          "rep": 36.8
         }
       ],
       "polls_used": [
@@ -417,7 +417,7 @@
           "sample_size": "1191",
           "dem": 51.0,
           "rep": 40.0,
-          "weight": 0.4365
+          "weight": 0.2183
         },
         {
           "pollster": "Quantus Insights",
@@ -465,7 +465,7 @@
           "sample_size": null,
           "dem": 45.0,
           "rep": 39.0,
-          "weight": 0.195
+          "weight": 0.12
         },
         {
           "pollster": "Sienna",
@@ -489,7 +489,7 @@
           "sample_size": 1502,
           "dem": 45.0,
           "rep": 39.0,
-          "weight": 0.7966
+          "weight": 0.4902
         },
         {
           "pollster": "YouGov",
@@ -497,7 +497,7 @@
           "sample_size": 1674,
           "dem": 39.0,
           "rep": 33.0,
-          "weight": 0.841
+          "weight": 0.5175
         },
         {
           "pollster": "CNN/SSRS",
@@ -505,7 +505,7 @@
           "sample_size": 951,
           "dem": 48.0,
           "rep": 42.0,
-          "weight": 0.1902
+          "weight": 0.117
         },
         {
           "pollster": "Morning Consult",
@@ -529,14 +529,14 @@
           "sample_size": "1150",
           "dem": 45.0,
           "rep": 42.0,
-          "weight": 0.429
+          "weight": 0.2145
         }
       ]
     },
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-04-06",
+      "last_updated": "2026-04-07",
       "total_polls": 25,
       "lp_included": 0,
       "lp_pct": 0.0,
@@ -562,7 +562,7 @@
           "sample_size": "1150",
           "pos": 59.0,
           "neg": 13.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -571,7 +571,7 @@
           "sample_size": "1150",
           "pos": 62.0,
           "neg": 12.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -580,7 +580,7 @@
           "sample_size": "1150",
           "pos": 59.0,
           "neg": 13.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -589,7 +589,7 @@
           "sample_size": "1150",
           "pos": 39.0,
           "neg": 26.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -598,7 +598,7 @@
           "sample_size": "1150",
           "pos": 39.0,
           "neg": 28.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -607,7 +607,7 @@
           "sample_size": "1150",
           "pos": 62.0,
           "neg": 26.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -616,7 +616,7 @@
           "sample_size": "1150",
           "pos": 48.0,
           "neg": 30.0,
-          "weight": 0.429
+          "weight": 0.2145
         }
       ]
     },
@@ -640,7 +640,7 @@
           "sample_size": "1150",
           "pos": 38.0,
           "neg": 61.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -649,7 +649,7 @@
           "sample_size": "1150",
           "pos": 38.0,
           "neg": 61.0,
-          "weight": 0.429
+          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -658,7 +658,7 @@
           "sample_size": "1150",
           "pos": 38.0,
           "neg": 61.0,
-          "weight": 0.429
+          "weight": 0.2145
         }
       ]
     }
