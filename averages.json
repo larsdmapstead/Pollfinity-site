@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-10T08:00:01.499749Z",
+  "generated_at": "2026-04-10T16:01:28.441955Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
       "last_updated": "2026-04-07",
-      "polls_in_average": 44,
+      "polls_in_average": 40,
       "current": {
-        "approve": 37.9,
-        "disapprove": 57.5,
-        "net": -19.6
+        "approve": 38.0,
+        "disapprove": 57.2,
+        "net": -19.2
       },
       "history": [
         {
@@ -34,8 +34,8 @@
         },
         {
           "date": "2026-03-23",
-          "approve": 36.8,
-          "disapprove": 61.1
+          "approve": 37.0,
+          "disapprove": 60.6
         },
         {
           "date": "2026-03-26",
@@ -311,38 +311,6 @@
           "approve": 38.0,
           "disapprove": 55.0,
           "weight": 0.8599
-        },
-        {
-          "pollster": "AP-NORC",
-          "end_date": "2026-03-23",
-          "sample_size": "1150",
-          "approve": 38.0,
-          "disapprove": 60.0,
-          "weight": 0.2145
-        },
-        {
-          "pollster": "AP-NORC",
-          "end_date": "2026-03-23",
-          "sample_size": "1150",
-          "approve": 38.0,
-          "disapprove": 61.0,
-          "weight": 0.2145
-        },
-        {
-          "pollster": "AP-NORC",
-          "end_date": "2026-03-23",
-          "sample_size": "1150",
-          "approve": 34.0,
-          "disapprove": 64.0,
-          "weight": 0.2145
-        },
-        {
-          "pollster": "AP-NORC",
-          "end_date": "2026-03-23",
-          "sample_size": "1150",
-          "approve": 35.0,
-          "disapprove": 63.0,
-          "weight": 0.2145
         },
         {
           "pollster": "AP-NORC",
@@ -641,33 +609,15 @@
       "label": "U.S. Military Action in Iran",
       "subtitle": "Has U.S. military action against Iran gone too far?",
       "last_updated": "2026-03-23",
-      "polls_in_average": 7,
+      "polls_in_average": 5,
       "current": {
-        "pos": 52.6,
-        "neg": 21.1,
-        "net": 31.5,
+        "pos": 49.4,
+        "neg": 24.6,
+        "net": 24.8,
         "pos_label": "Gone Too Far",
         "neg_label": "About Right"
       },
       "polls_used": [
-        {
-          "pollster": "AP-NORC",
-          "subject": "U.S. Military Action Against Iran \u2014 Gone Too Far?",
-          "end_date": "2026-03-23",
-          "sample_size": "1150",
-          "pos": 59.0,
-          "neg": 13.0,
-          "weight": 0.2145
-        },
-        {
-          "pollster": "AP-NORC",
-          "subject": "Favor/Oppose U.S. Ground Troops in Iran",
-          "end_date": "2026-03-23",
-          "sample_size": "1150",
-          "pos": 62.0,
-          "neg": 12.0,
-          "weight": 0.2145
-        },
         {
           "pollster": "AP-NORC",
           "subject": "Recent U.S. Military Action Against Iran - Extent",
@@ -719,7 +669,7 @@
       "label": "Trump Economy Approval",
       "subtitle": "Approve or disapprove of Trump's handling of the economy",
       "last_updated": "2026-03-23",
-      "polls_in_average": 3,
+      "polls_in_average": 2,
       "current": {
         "pos": 38.0,
         "neg": 61.0,
@@ -728,15 +678,6 @@
         "neg_label": "Disapprove"
       },
       "polls_used": [
-        {
-          "pollster": "AP-NORC",
-          "subject": "Trump Economy Approval",
-          "end_date": "2026-03-23",
-          "sample_size": "1150",
-          "pos": 38.0,
-          "neg": 61.0,
-          "weight": 0.2145
-        },
         {
           "pollster": "AP-NORC",
           "subject": "Trump Approval - The Economy",
