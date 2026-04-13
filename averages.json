@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T01:00:01.605528Z",
+  "generated_at": "2026-04-13T16:21:32.852155Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
@@ -7,55 +7,55 @@
       "last_updated": "2026-04-09",
       "polls_in_average": 36,
       "current": {
-        "approve": 38.5,
-        "disapprove": 56.6,
-        "net": -18.1
+        "approve": 38.3,
+        "disapprove": 56.7,
+        "net": -18.4
       },
       "history": [
         {
-          "date": "2026-03-04",
+          "date": "2026-03-05",
           "approve": 40.0,
           "disapprove": 58.0
         },
         {
-          "date": "2026-03-19",
-          "approve": 40.0,
-          "disapprove": 58.0
+          "date": "2026-03-20",
+          "approve": 43.0,
+          "disapprove": 56.0
         },
         {
-          "date": "2026-03-22",
-          "approve": 46.0,
+          "date": "2026-03-23",
+          "approve": 38.1,
+          "disapprove": 57.8
+        },
+        {
+          "date": "2026-03-26",
+          "approve": 38.6,
+          "disapprove": 57.7
+        },
+        {
+          "date": "2026-03-29",
+          "approve": 43.2,
           "disapprove": 54.0
         },
         {
-          "date": "2026-03-25",
-          "approve": 37.2,
-          "disapprove": 58.2
+          "date": "2026-04-01",
+          "approve": 33.9,
+          "disapprove": 61.1
         },
         {
-          "date": "2026-03-28",
-          "approve": 43.7,
-          "disapprove": 55.3
-        },
-        {
-          "date": "2026-03-31",
-          "approve": 35.6,
-          "disapprove": 59.8
-        },
-        {
-          "date": "2026-04-03",
+          "date": "2026-04-04",
           "approve": 39.6,
           "disapprove": 55.9
         },
         {
-          "date": "2026-04-06",
-          "approve": 39.4,
-          "disapprove": 55.7
+          "date": "2026-04-07",
+          "approve": 39.1,
+          "disapprove": 55.3
         },
         {
-          "date": "2026-04-09",
-          "approve": 39.8,
-          "disapprove": 54.7
+          "date": "2026-04-10",
+          "approve": 43.0,
+          "disapprove": 53.3
         }
       ],
       "polls_used": [
@@ -241,7 +241,7 @@
           "sample_size": 2203,
           "approve": 43.0,
           "disapprove": 54.0,
-          "weight": 0.4453
+          "weight": 0.2226
         },
         {
           "pollster": "ActiVote",
@@ -313,7 +313,7 @@
           "sample_size": 4000,
           "approve": 45.0,
           "disapprove": 54.0,
-          "weight": 0.51
+          "weight": 0.39
         },
         {
           "pollster": "J.L. Partners",
@@ -355,48 +355,48 @@
       "last_updated": "2026-04-09",
       "polls_in_average": 21,
       "current": {
-        "dem": 44.3,
-        "rep": 40.4,
-        "dem_lead": 3.9
+        "dem": 44.1,
+        "rep": 40.1,
+        "dem_lead": 4.0
       },
       "history": [
         {
-          "date": "2026-03-16",
+          "date": "2026-03-17",
           "dem": 45.0,
           "rep": 39.0
         },
         {
-          "date": "2026-03-22",
-          "dem": 47.0,
+          "date": "2026-03-23",
+          "dem": 47.9,
+          "rep": 41.1
+        },
+        {
+          "date": "2026-03-26",
+          "dem": 48.7,
+          "rep": 42.7
+        },
+        {
+          "date": "2026-03-29",
+          "dem": 45.0,
           "rep": 42.0
         },
         {
-          "date": "2026-03-25",
-          "dem": 48.0,
-          "rep": 40.8
+          "date": "2026-04-01",
+          "dem": 42.8,
+          "rep": 36.8
         },
         {
-          "date": "2026-03-28",
-          "dem": 48.9,
-          "rep": 43.7
-        },
-        {
-          "date": "2026-03-31",
-          "dem": 44.1,
-          "rep": 40.0
-        },
-        {
-          "date": "2026-04-03",
+          "date": "2026-04-04",
           "dem": 49.0,
           "rep": 43.0
         },
         {
-          "date": "2026-04-06",
+          "date": "2026-04-07",
           "dem": 42.1,
           "rep": 39.8
         },
         {
-          "date": "2026-04-09",
+          "date": "2026-04-10",
           "dem": 49.0,
           "rep": 44.0
         }
@@ -512,7 +512,7 @@
           "sample_size": 26725,
           "dem": 45.0,
           "rep": 42.0,
-          "weight": 1.5509
+          "weight": 0.7754
         },
         {
           "pollster": "Morning Consult",
@@ -520,7 +520,7 @@
           "sample_size": "2026",
           "dem": 45.0,
           "rep": 42.0,
-          "weight": 0.427
+          "weight": 0.2135
         },
         {
           "pollster": "Cygnal",
@@ -560,7 +560,7 @@
           "sample_size": 2000,
           "dem": 49.0,
           "rep": 44.0,
-          "weight": 0.3606
+          "weight": 0.2758
         },
         {
           "pollster": "YouGov",
@@ -575,7 +575,7 @@
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-04-12",
+      "last_updated": "2026-04-13",
       "total_polls": 23,
       "lp_included": 0,
       "lp_pct": 0.0,
