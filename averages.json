@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-14T16:21:34.018122Z",
+  "generated_at": "2026-04-15T00:06:49.976275Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
       "last_updated": "2026-04-09",
-      "polls_in_average": 36,
+      "polls_in_average": 61,
       "current": {
-        "approve": 38.6,
-        "disapprove": 56.3,
-        "net": -17.7
+        "approve": 37.5,
+        "disapprove": 57.2,
+        "net": -19.7
       },
       "history": [
         {
@@ -24,8 +24,8 @@
         },
         {
           "date": "2026-03-24",
-          "approve": 38.9,
-          "disapprove": 56.8
+          "approve": 35.2,
+          "disapprove": 59.4
         },
         {
           "date": "2026-03-27",
@@ -341,6 +341,206 @@
           "approve": 38.0,
           "disapprove": 55.0,
           "weight": 0.12
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 60.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 60.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 34.0,
+          "disapprove": 64.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 35.0,
+          "disapprove": 63.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 36.0,
+          "disapprove": 62.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 20.0,
+          "disapprove": 48.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 34.0,
+          "disapprove": 64.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 35.0,
+          "disapprove": 63.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 36.0,
+          "disapprove": 62.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 20.0,
+          "disapprove": 48.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 34.0,
+          "disapprove": 64.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 35.0,
+          "disapprove": 63.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 36.0,
+          "disapprove": 62.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 20.0,
+          "disapprove": 48.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 38.0,
+          "disapprove": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 34.0,
+          "disapprove": 64.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 35.0,
+          "disapprove": 63.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "approve": 36.0,
+          "disapprove": 62.0,
+          "weight": 0.0643
         }
       ]
     },
@@ -570,6 +770,297 @@
       "lp_included": 0,
       "lp_pct": 0.0,
       "example_races": []
+    },
+    "iran_military": {
+      "label": "U.S. Military Action in Iran",
+      "subtitle": "Has U.S. military action against Iran gone too far?",
+      "last_updated": "2026-03-23",
+      "polls_in_average": 19,
+      "current": {
+        "pos": 49.0,
+        "neg": 24.2,
+        "net": 24.8,
+        "pos_label": "Gone Too Far",
+        "neg_label": "About Right"
+      },
+      "polls_used": [
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "U.S. Military Action Against Iran \u2014 Gone Too Far?",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 59.0,
+          "neg": 13.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Favor Conducting Airstrikes Against Military Targets Inside Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Favor Conducting Targeted Airstrikes to Kill Iranian Leaders",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 28.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Favor Deploying U.S. Troops on Ground to Fight Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 62.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Support for Conducting Airstrikes Against Iranian Military Targets",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Support for Conducting Targeted Airstrikes to Kill Iranian Leaders",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 28.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Support for Deploying U.S. Troops on Ground to Fight Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 62.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "War in Iran - Conducting Airstrikes Against Military Targets",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "War in Iran - Conducting Targeted Airstrikes to Kill Iranian Leaders",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 28.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "War in Iran - Deploying U.S. Troops on Ground",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 62.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "War in Iran - Sending Government Funds to Aid Israel's Military",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 48.0,
+          "neg": 30.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "subject": "Recent U.S. Military Action Against Iran Assessment",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 59.0,
+          "neg": 13.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "subject": "Support for Conducting Airstrikes Against Military Targets Inside Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 26.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "subject": "Support for Conducting Targeted Airstrikes to Kill Iranian Leaders",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 28.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "subject": "Support for Deploying U.S. Troops on Ground to Fight Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 62.0,
+          "neg": 26.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "subject": "U.S. Military Action Against Iran \u2014 Gone Too Far?",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 59.0,
+          "neg": 13.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Position on Conducting Airstrikes Against Military Targets Inside Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Position on Conducting Targeted Airstrikes to Kill Iranian Leaders",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 39.0,
+          "neg": 28.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Position on Deploying U.S. Troops on Ground to Fight Iran",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 62.0,
+          "neg": 26.0,
+          "weight": 0.0643
+        }
+      ]
+    },
+    "trump_economy": {
+      "label": "Trump Economy Approval",
+      "subtitle": "Approve or disapprove of Trump's handling of the economy",
+      "last_updated": "2026-03-23",
+      "polls_in_average": 10,
+      "current": {
+        "pos": 38.0,
+        "neg": 61.0,
+        "net": -23.0,
+        "pos_label": "Approve",
+        "neg_label": "Disapprove"
+      },
+      "polls_used": [
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Handling the Economy",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Handling Trade Negotiations",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval of Economy",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval of Trade Negotiations",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval - Economy",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval - Trade Negotiations",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval on The Economy",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval on Trade Negotiations",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.2145
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval \u2014 The Economy",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        },
+        {
+          "pollster": "Associated Press-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval \u2014 Trade Negotiations with Other Countries",
+          "end_date": "2026-03-23",
+          "sample_size": "1150",
+          "pos": 38.0,
+          "neg": 61.0,
+          "weight": 0.0643
+        }
+      ]
     }
   }
 }
