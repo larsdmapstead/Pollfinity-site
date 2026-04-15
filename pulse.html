@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Pulse Dashboard | Pollfinity</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .pulse-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .pulse-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+    .pulse-header { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; margin-bottom: 1rem; display: flex; justify-content: space-between; }
+    .pulse-live-indicator { color: #10b981; display: flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; }
+    .pulse-live-indicator::before { content: ''; width: 8px; height: 8px; background: #10b981; border-radius: 50%; display: inline-block; animation: pulse 2s infinite; }
+    
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+      70% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    .pulse-value { font-size: 2.5rem; font-weight: 800; color: #0f172a; line-height: 1; margin-bottom: 0.5rem; }
+    .pulse-sub { font-size: 0.85rem; color: #64748b; }
+    
+    .civic-feed { background: #1a1a2e; color: #fff; border-radius: 8px; padding: 1.5rem; margin-top: 2rem; }
+    .civic-feed h3 { color: #fff; font-family: 'Inter', sans-serif; font-size: 1.1rem; margin-bottom: 1rem; border-bottom: 1px solid #334155; padding-bottom: 0.75rem; }
+    .feed-item { display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid #334155; font-size: 0.9rem; }
+    .feed-item:last-child { border-bottom: none; }
+    .feed-time { color: #94a3b8; font-family: monospace; }
+    .feed-title { color: #e2e8f0; font-weight: 500; }
+    .feed-badge { background: rgba(34,211,238,.1); color: #22d3ee; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo-mark">
+      <div class="nav-logo-icon">∞</div>
+      <div class="nav-logo-words"><strong>Pollfinity Research</strong></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="polls/index.html">Polls</a></li>
+      <li><a href="averages.html">Averages</a></li>
+      <li><a href="methodology.html">Methodology</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">LIVE DATA TERMINAL</p>
+    <h1>Pollfinity Pulse</h1>
+    <p class="subhead">High-frequency tracking across issues, economy, and military sentiment.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    
+    <div class="pulse-grid">
+      <!-- Issue Track 1 -->
+      <div class="pulse-card">
+        <div class="pulse-header">
+          Trump Economy Sentiment
+          <span class="pulse-live-indicator">LIVE</span>
+        </div>
+        <div class="pulse-value" id="pulse-economy">—</div>
+        <div class="pulse-sub" id="pulse-economy-sub">Net Positive/Negative</div>
+      </div>
+
+      <!-- Issue Track 2 -->
+      <div class="pulse-card">
+        <div class="pulse-header">
+          Iran / Military Sentiment
+          <span class="pulse-live-indicator">LIVE</span>
+        </div>
+        <div class="pulse-value" id="pulse-military">—</div>
+        <div class="pulse-sub" id="pulse-military-sub">Net Support</div>
+      </div>
+
+      <!-- Tracker 3 -->
+      <div class="pulse-card">
+        <div class="pulse-header">
+          LP Inclusion Index
+        </div>
+        <div class="pulse-value" id="pulse-lp">—</div>
+        <div class="pulse-sub">Coverage across top pollsters</div>
+      </div>
+    </div>
+
+    <!-- Civic API Mockup -->
+    <div class="civic-feed">
+      <h3>Civic API & Live Result Stream (Integration Preview)</h3>
+      <div class="feed-item">
+        <span class="feed-time">10:24 AM</span>
+        <span class="feed-title">FL State House D-34 Special Election</span>
+        <span class="feed-badge">Results</span>
+      </div>
+      <div class="feed-item">
+        <span class="feed-time">09:15 AM</span>
+        <span class="feed-title">New voter file delta available: PA, OH, MI</span>
+        <span class="feed-badge">Demographics</span>
+      </div>
+      <div class="feed-item">
+        <span class="feed-time">08:00 AM</span>
+        <span class="feed-title">CivicAPI End-of-Day Sync Complete</span>
+        <span class="feed-badge">System</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+// Load deep averages
+fetch('averages.json').then(r=>r.json()).then(d=>{
+  const trk = d.tracks || {};
+  
+  // Economy
+  if(trk.trump_economy && trk.trump_economy.current) {
+    const c = trk.trump_economy.current;
+    document.getElementById('pulse-economy').textContent = (c.net >= 0 ? '+' : '') + c.net.toFixed(1);
+    document.getElementById('pulse-economy-sub').textContent = `${c.pos.toFixed(1)}% ${c.pos_label} / ${c.neg.toFixed(1)}% ${c.neg_label}`;
+    document.getElementById('pulse-economy').style.color = c.net >= 0 ? '#10b981' : '#ef4444';
+  }
+
+  // Military
+  if(trk.iran_military && trk.iran_military.current) {
+    const c = trk.iran_military.current;
+    document.getElementById('pulse-military').textContent = (c.net >= 0 ? '+' : '') + c.net.toFixed(1);
+    document.getElementById('pulse-military-sub').textContent = `${c.pos.toFixed(1)}% ${c.pos_label} / ${c.neg.toFixed(1)}% ${c.neg_label}`;
+    document.getElementById('pulse-military').style.color = c.net >= 0 ? '#10b981' : '#ef4444';
+  }
+
+  // LP
+  if(trk.lp_inclusion) {
+    document.getElementById('pulse-lp').textContent = trk.lp_inclusion.lp_pct.toFixed(0) + '%';
+  }
+}).catch(()=>{});
+</script>
+
+</body>
+</html>

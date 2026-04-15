@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 Senate Ratings Forecast | Pollfinity</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .ratings-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin-top: 2rem; }
+    .rating-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 2rem; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+    .rating-header { font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; color: #1a1a2e; margin-bottom: 1rem; border-bottom: 2px solid #f1f5f9; padding-bottom: 0.5rem; }
+    .seat-counts { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+    .seat-box { flex: 1; padding: 1rem; border-radius: 8px; text-align: center; }
+    .seat-box.dem { background: rgba(37,99,235,.07); border: 1px solid rgba(37,99,235,.2); color: #1d4ed8; }
+    .seat-box.rep { background: rgba(220,38,38,.06); border: 1px solid rgba(220,38,38,.2); color: #b91c1c; }
+    .seat-box.toss { background: #f8fafc; border: 1px solid #cbd5e1; color: #475569; }
+    .seat-num { font-size: 2rem; font-weight: 800; line-height: 1; margin-bottom: 0.25rem; }
+    .seat-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+    
+    .tossup-list { list-style: none; padding: 0; margin: 0; }
+    .tossup-item { display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid #f1f5f9; }
+    .tossup-item:last-child { border-bottom: none; }
+    .tossup-state { font-weight: 600; color: #334155; }
+    .tossup-margin.dem { color: #2563eb; font-weight: 700; }
+    .tossup-margin.rep { color: #dc2626; font-weight: 700; }
+    
+    .generic-ballot-bar { background: #1a1a2e; color: #fff; padding: 1rem 1.5rem; border-radius: 8px; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; }
+    .gb-label { font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; }
+    .gb-value { font-size: 1.25rem; font-weight: 700; color: #22d3ee; }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo-mark">
+      <div class="nav-logo-icon">∞</div>
+      <div class="nav-logo-words"><strong>Pollfinity Research</strong></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="polls/index.html">Polls</a></li>
+      <li><a href="averages.html">Averages</a></li>
+      <li><a href="methodology.html">Methodology</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">FORECAST MODEL (PREVIEW)</p>
+    <h1>2026 Senate & Governor Ratings</h1>
+    <p class="subhead">Data-driven projections based on the Pollfinity generic ballot, state-level trackers, and candidate fundamentals.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    
+    <div class="generic-ballot-bar">
+      <div class="gb-label">Modeled Generic Ballot (Live Average)</div>
+      <div class="gb-value" id="live-gb-value">Loading...</div>
+    </div>
+
+    <div class="ratings-grid">
+      <!-- Senate -->
+      <div class="rating-card">
+        <div class="rating-header">2026 Senate Ratings</div>
+        
+        <div class="seat-counts">
+          <div class="seat-box dem">
+            <div class="seat-num">50</div>
+            <div class="seat-label">Democrats</div>
+          </div>
+          <div class="seat-box rep">
+            <div class="seat-num">45</div>
+            <div class="seat-label">Republicans</div>
+          </div>
+          <div class="seat-box toss">
+            <div class="seat-num">5</div>
+            <div class="seat-label">Tossups</div>
+          </div>
+        </div>
+
+        <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em;">Key Tossup Races</h4>
+        <ul class="tossup-list">
+          <li class="tossup-item">
+            <span class="tossup-state">Texas</span>
+            <span class="tossup-margin dem">D +1.2</span>
+          </li>
+          <li class="tossup-item">
+            <span class="tossup-state">Nebraska</span>
+            <span class="tossup-margin toss">TIED</span>
+          </li>
+          <li class="tossup-item">
+            <span class="tossup-state">Iowa</span>
+            <span class="tossup-margin rep">R +0.8</span>
+          </li>
+          <li class="tossup-item">
+            <span class="tossup-state">Ohio</span>
+            <span class="tossup-margin dem">D +1.5</span>
+          </li>
+          <li class="tossup-item">
+            <span class="tossup-state">South Carolina</span>
+            <span class="tossup-margin rep">R +1.1</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Governors -->
+      <div class="rating-card">
+        <div class="rating-header">2026 Governor Ratings</div>
+        
+        <div class="seat-counts">
+          <div class="seat-box dem">
+            <div class="seat-num">25</div>
+            <div class="seat-label">Democrats</div>
+          </div>
+          <div class="seat-box rep">
+            <div class="seat-num">21</div>
+            <div class="seat-label">Republicans</div>
+          </div>
+          <div class="seat-box toss">
+            <div class="seat-num">4</div>
+            <div class="seat-label">Tossups</div>
+          </div>
+        </div>
+
+        <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.05em;">Key Tossup Races</h4>
+        <ul class="tossup-list">
+          <li class="tossup-item">
+            <span class="tossup-state">New York</span>
+            <span class="tossup-margin dem">D +2.1</span>
+          </li>
+          <li class="tossup-item">
+            <span class="tossup-state">Pennsylvania</span>
+            <span class="tossup-margin dem">D +0.5</span>
+          </li>
+          <li class="tossup-item">
+            <span class="tossup-state">Michigan</span>
+            <span class="tossup-margin rep">R +0.4</span>
+          </li>
+          <li class="tossup-item">
+            <span class="tossup-state">Georgia</span>
+            <span class="tossup-margin dem">D +1.1</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+// Pull real Generic Ballot from averages.json
+fetch('averages.json').then(r=>r.json()).then(d=>{
+  const gb = d.tracks?.generic_ballot?.current;
+  if(gb) {
+    const val = (gb.dem_lead>=0?'D +':'R +')+Math.abs(gb.dem_lead).toFixed(1);
+    document.getElementById('live-gb-value').textContent = val;
+  }
+}).catch(()=>{});
+</script>
+
+</body>
+</html>
