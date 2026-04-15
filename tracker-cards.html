@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracker Cards | Pollfinity</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico"><link rel="stylesheet" href="assets/style.css">
+  <style>
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}.card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:1.5rem;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+    .tiny{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#64748b}.big{font-size:2.6rem;font-weight:800;line-height:1;color:#0f172a;margin:.5rem 0}.sub{font-size:.9rem;color:#64748b}
+    .pos{color:#10b981}.neg{color:#ef4444}.blue{color:#2563eb}.red{color:#dc2626}
+    .footer{margin-top:1rem;padding-top:1rem;border-top:1px solid #f1f5f9;font-size:.82rem;color:#64748b}
+  </style>
+</head>
+<body>
+<nav class="site-nav"><div class="container"><a href="index.html" class="nav-logo-mark"><div class="nav-logo-icon">∞</div><div class="nav-logo-words"><strong>Pollfinity Research</strong></div></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="polls/index.html">Polls</a></li><li><a href="averages.html">Averages</a></li><li><a href="methodology.html">Methodology</a></li><li><a href="about.html">About</a></li></ul></div></nav>
+<section class="page-hero"><div class="container"><p class="eyebrow">POST ASSETS (PREVIEW)</p><h1>Tracker Cards</h1><p class="subhead">Simple, screenshot-ready stat cards for approvals, issue splits, and ballot movement.</p></div></section>
+<section class="section"><div class="container"><div class="cards">
+  <div class="card"><div class="tiny">Trump Approval</div><div id="ta" class="big">—</div><div id="ta-sub" class="sub">Loading live average</div><div class="footer">Made to crop cleanly for X and Telegram.</div></div>
+  <div class="card"><div class="tiny">Generic Ballot</div><div id="gb" class="big">—</div><div id="gb-sub" class="sub">Loading live average</div><div class="footer">One number, one directional story.</div></div>
+  <div class="card"><div class="tiny">Economy Sentiment</div><div id="eco" class="big">—</div><div id="eco-sub" class="sub">Loading live average</div><div class="footer">Useful when issue polling starts to move.</div></div>
+</div></div></section>
+<script>
+fetch('averages.json').then(r=>r.json()).then(d=>{
+ const t=d.tracks||{};
+ if(t.trump_approval?.current){const c=t.trump_approval.current; const el=document.getElementById('ta'); el.textContent=(c.net>=0?'+':'')+c.net.toFixed(1); el.className='big '+(c.net>=0?'pos':'neg'); document.getElementById('ta-sub').textContent=`${c.approve.toFixed(1)}% approve / ${c.disapprove.toFixed(1)}% disapprove`;}
+ if(t.generic_ballot?.current){const c=t.generic_ballot.current; const lead=(c.dem_lead>=0?'Dem +':'Rep +')+Math.abs(c.dem_lead).toFixed(1); const el=document.getElementById('gb'); el.textContent=lead; el.className='big '+(c.dem_lead>=0?'blue':'red'); document.getElementById('gb-sub').textContent=`${c.dem.toFixed(1)}% Dem / ${c.rep.toFixed(1)}% Rep`;}
+ if(t.trump_economy?.current){const c=t.trump_economy.current; const el=document.getElementById('eco'); el.textContent=(c.net>=0?'+':'')+c.net.toFixed(1); el.className='big '+(c.net>=0?'pos':'neg'); document.getElementById('eco-sub').textContent=`${c.pos.toFixed(1)}% ${c.pos_label} / ${c.neg.toFixed(1)}% ${c.neg_label}`;}
+}).catch(()=>{});
+</script>
+</body>
+</html>

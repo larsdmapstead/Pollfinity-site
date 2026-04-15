@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 House Ratings | Pollfinity</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .shell { display:grid; grid-template-columns: 1.4fr .9fr; gap:2rem; }
+    .card { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:1.5rem; box-shadow:0 1px 4px rgba(0,0,0,.05); }
+    .seat-row { display:flex; gap:1rem; margin:1.25rem 0 1.5rem; }
+    .seat { flex:1; border-radius:10px; padding:1rem; text-align:center; }
+    .seat.dem { background:rgba(37,99,235,.08); border:1px solid rgba(37,99,235,.2); color:#1d4ed8; }
+    .seat.rep { background:rgba(220,38,38,.06); border:1px solid rgba(220,38,38,.2); color:#b91c1c; }
+    .seat.toss { background:#f8fafc; border:1px solid #cbd5e1; color:#475569; }
+    .num { font-size:2.2rem; font-weight:800; line-height:1; }
+    .lbl { font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; margin-top:.35rem; }
+    .district-list { list-style:none; padding:0; margin:0; }
+    .district-list li { display:flex; justify-content:space-between; gap:1rem; padding:.75rem 0; border-bottom:1px solid #f1f5f9; }
+    .district-list li:last-child { border-bottom:none; }
+    .rating-chip { font-size:.72rem; font-weight:700; text-transform:uppercase; letter-spacing:.05em; border-radius:999px; padding:.2rem .55rem; }
+    .chip-dem { background:#dbeafe; color:#1d4ed8; }
+    .chip-rep { background:#fee2e2; color:#b91c1c; }
+    .chip-toss { background:#e2e8f0; color:#475569; }
+    .bar { height:12px; border-radius:999px; overflow:hidden; background:#e2e8f0; margin-top:1rem; display:flex; }
+    .bar .d { background:#2563eb; }
+    .bar .t { background:#94a3b8; }
+    .bar .r { background:#dc2626; }
+    @media(max-width:900px){ .shell{grid-template-columns:1fr;} }
+  </style>
+</head>
+<body>
+<nav class="site-nav"><div class="container"><a href="index.html" class="nav-logo-mark"><div class="nav-logo-icon">∞</div><div class="nav-logo-words"><strong>Pollfinity Research</strong></div></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="polls/index.html">Polls</a></li><li><a href="averages.html">Averages</a></li><li><a href="methodology.html">Methodology</a></li><li><a href="about.html">About</a></li></ul></div></nav>
+<section class="page-hero"><div class="container"><p class="eyebrow">HOUSE MODEL (PREVIEW)</p><h1>2026 House Ratings</h1><p class="subhead">Modeled House outlook built from the generic ballot, district baseline, and current environment.</p></div></section>
+<section class="section"><div class="container"><div class="shell">
+  <div class="card">
+    <div style="display:flex;justify-content:space-between;gap:1rem;align-items:end;flex-wrap:wrap;"><div><span class="section-label">Projected Control</span><h2 style="margin:0;">House Snapshot</h2></div><div style="color:#64748b;font-size:.9rem;">Preview model, not linked publicly</div></div>
+    <div class="seat-row">
+      <div class="seat dem"><div class="num">222</div><div class="lbl">Democrats</div></div>
+      <div class="seat toss"><div class="num">17</div><div class="lbl">Tossups</div></div>
+      <div class="seat rep"><div class="num">196</div><div class="lbl">Republicans</div></div>
+    </div>
+    <div class="bar"><div class="d" style="width:51.0%"></div><div class="t" style="width:3.9%"></div><div class="r" style="width:45.1%"></div></div>
+    <p style="margin-top:1rem;color:#475569;">This layout is designed for screenshotting into X posts, with a clear count, one clean bar, and a short list of races people will argue about.</p>
+  </div>
+  <div class="card">
+    <span class="section-label">Top Battlegrounds</span><h2 style="margin-bottom:.75rem;">Watch List</h2>
+    <ul class="district-list">
+      <li><span>CA-13</span><span><span class="rating-chip chip-toss">Tossup</span></span></li>
+      <li><span>NY-17</span><span><span class="rating-chip chip-dem">Lean D</span></span></li>
+      <li><span>PA-08</span><span><span class="rating-chip chip-toss">Tossup</span></span></li>
+      <li><span>MI-07</span><span><span class="rating-chip chip-rep">Lean R</span></span></li>
+      <li><span>AZ-01</span><span><span class="rating-chip chip-toss">Tossup</span></span></li>
+      <li><span>OH-09</span><span><span class="rating-chip chip-dem">Lean D</span></span></li>
+    </ul>
+  </div>
+</div></div></section>
+</body>
+</html>
