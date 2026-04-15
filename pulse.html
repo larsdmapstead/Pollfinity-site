@@ -3,11 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Data Pulse Dashboard | Pollfinity</title>
-  <meta name="robots" content="noindex, nofollow">
+  <title>Pollfinity Pulse, Live Results Stream and Issue Tracking | Pollfinity</title>
+  <meta name="description" content="Pollfinity Pulse tracks issue sentiment, economy views, military opinion, LP inclusion, and the Pollfinity Live Results Stream.">
+  <link rel="canonical" href="https://pollfinity.com/pulse.html">
+  <meta property="og:title" content="Pollfinity Pulse, Live Results Stream and Issue Tracking | Pollfinity">
+  <meta property="og:description" content="Live Pollfinity issue tracking, sentiment metrics, and results stream pages.">
+  <meta property="og:image" content="https://pollfinity.com/assets/og-image.png">
+  <meta property="og:url" content="https://pollfinity.com/pulse.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Pollfinity">
+  <meta name="twitter:title" content="Pollfinity Pulse, Live Results Stream and Issue Tracking | Pollfinity">
+  <meta name="twitter:image" content="https://pollfinity.com/assets/og-image.png">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="assets/style.css">
   <style>
+    .brand-stamp { display:flex; align-items:center; gap:.75rem; margin-bottom:1.5rem; padding:.85rem 1rem; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; }
+    .brand-stamp img { width:42px; height:42px; border-radius:8px; object-fit:cover; }
+    .brand-stamp .site { font-size:.78rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:#64748b; }
+    .brand-stamp .name { font-size:1rem; font-weight:800; color:#1a1a2e; }
     .pulse-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
     .pulse-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
     .pulse-header { font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; margin-bottom: 1rem; display: flex; justify-content: space-between; }
@@ -44,6 +59,7 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="polls/index.html">Polls</a></li>
       <li><a href="averages.html">Averages</a></li>
+      <li><a href="data-center.html">Data Center</a></li>
       <li><a href="methodology.html">Methodology</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
@@ -52,7 +68,7 @@
 
 <section class="page-hero">
   <div class="container">
-    <p class="eyebrow">LIVE DATA TERMINAL</p>
+    <p class="eyebrow">LIVE DATA</p>
     <h1>Pollfinity Pulse</h1>
     <p class="subhead">High-frequency tracking across issues, economy, and military sentiment.</p>
   </div>
@@ -60,6 +76,13 @@
 
 <section class="section">
   <div class="container">
+    <div class="brand-stamp">
+      <img src="assets/logo.jpg" alt="Pollfinity logo">
+      <div>
+        <div class="site">pollfinity.com</div>
+        <div class="name">Pollfinity Pulse</div>
+      </div>
+    </div>
     
     <div class="pulse-grid">
       <!-- Issue Track 1 -->
@@ -142,6 +165,8 @@ fetch('averages.json').then(r=>r.json()).then(d=>{
   }
 }).catch(()=>{});
 </script>
+
+<footer class="site-footer"><div class="container"><div class="footer-inner"><div class="footer-brand"><img src="assets/logo.jpg" alt="Pollfinity Research"><div class="footer-brand-text"><strong>Pollfinity Research LLC</strong>Independent public opinion research, transparent, non-partisan, data-driven.</div></div><div class="footer-links"><a href="averages.html">Averages</a><a href="tracker-cards.html">Tracker Cards</a><a href="ratings-2026.html">Senate Ratings</a><a href="data-center.html">Data Center</a></div></div><div class="footer-copy">&copy; 2026 Pollfinity Research LLC. All rights reserved.</div></div></footer>
 
 </body>
 </html>
