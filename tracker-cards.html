@@ -18,22 +18,22 @@
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico"><link rel="stylesheet" href="assets/style.css">
   <style>
     .brand-stamp { display:flex; align-items:center; gap:.75rem; margin-bottom:1.5rem; padding:.85rem 1rem; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; }
-    .brand-stamp img { width:42px; height:42px; border-radius:8px; object-fit:cover; }
+    .brand-stamp img { width:64px; height:32px; border-radius:4px; object-fit:contain; background:#fff; padding:2px; }
     .brand-stamp .site { font-size:.78rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:#64748b; }
     .brand-stamp .name { font-size:1rem; font-weight:800; color:#1a1a2e; }
     .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}.card{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:1.5rem;box-shadow:0 1px 4px rgba(0,0,0,.05)}
     .tiny{font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#64748b}.big{font-size:2.6rem;font-weight:800;line-height:1;color:#0f172a;margin:.5rem 0}.sub{font-size:.9rem;color:#64748b}
     .pos{color:#10b981}.neg{color:#ef4444}.blue{color:#2563eb}.red{color:#dc2626}
-    .footer{margin-top:1rem;padding-top:1rem;border-top:1px solid #f1f5f9;font-size:.82rem;color:#64748b}
+    .footer{display:none}
   </style>
 </head>
 <body>
 <nav class="site-nav"><div class="container"><a href="index.html" class="nav-logo-mark"><div class="nav-logo-icon">∞</div><div class="nav-logo-words"><strong>Pollfinity Research</strong></div></a><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="polls/index.html">Polls</a></li><li><a href="averages.html">Averages</a></li><li><a href="data-center.html">Data Center</a></li><li><a href="methodology.html">Methodology</a></li><li><a href="about.html">About</a></li></ul></div></nav>
 <section class="page-hero"><div class="container"><p class="eyebrow">POST ASSETS</p><h1>Tracker Cards</h1><p class="subhead">Simple, screenshot-ready stat cards for approvals, issue splits, and ballot movement.</p></div></section>
 <section class="section"><div class="container"><div class="brand-stamp"><img src="assets/logo.jpg" alt="Pollfinity logo"><div><div class="site">pollfinity.com</div><div class="name">Pollfinity Tracker Cards</div></div></div><div class="cards">
-  <div class="card"><div class="tiny">Trump Approval</div><div id="ta" class="big">—</div><div id="ta-sub" class="sub">Loading live average</div><div class="footer">Made to crop cleanly for X and Telegram.</div></div>
-  <div class="card"><div class="tiny">Generic Ballot</div><div id="gb" class="big">—</div><div id="gb-sub" class="sub">Loading live average</div><div class="footer">One number, one directional story.</div></div>
-  <div class="card"><div class="tiny">Economy Sentiment</div><div id="eco" class="big">—</div><div id="eco-sub" class="sub">Loading live average</div><div class="footer">Useful when issue polling starts to move.</div></div>
+  <div class="card"><div class="tiny">Trump Approval</div><div id="ta" class="big">—</div><div id="ta-sub" class="sub">Loading live average</div></div>
+  <div class="card"><div class="tiny">Generic Ballot</div><div id="gb" class="big">—</div><div id="gb-sub" class="sub">Loading live average</div></div>
+  <div class="card"><div class="tiny">Economy Sentiment</div><div id="eco" class="big">—</div><div id="eco-sub" class="sub">Loading live average</div></div>
 </div></div></section>
 <script>
 fetch('averages.json').then(r=>r.json()).then(d=>{
