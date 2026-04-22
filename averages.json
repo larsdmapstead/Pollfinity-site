@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-22T16:21:18.552242Z",
+  "generated_at": "2026-04-22T19:08:03.322369Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
-      "last_updated": "2026-04-20",
-      "polls_in_average": 78,
+      "last_updated": "2026-04-21",
+      "polls_in_average": 86,
       "current": {
-        "approve": 37.9,
-        "disapprove": 57.6,
-        "net": -19.7
+        "approve": 36.1,
+        "disapprove": 60.7,
+        "net": -24.6
       },
       "history": [
         {
@@ -19,8 +19,8 @@
         },
         {
           "date": "2026-03-20",
-          "approve": 43.0,
-          "disapprove": 56.0
+          "approve": 38.2,
+          "disapprove": 61.2
         },
         {
           "date": "2026-03-23",
@@ -64,8 +64,8 @@
         },
         {
           "date": "2026-04-16",
-          "approve": 45.0,
-          "disapprove": 53.0
+          "approve": 44.4,
+          "disapprove": 53.9
         },
         {
           "date": "2026-04-19",
@@ -74,8 +74,8 @@
         },
         {
           "date": "2026-04-22",
-          "approve": 38.0,
-          "disapprove": 57.2
+          "approve": 34.6,
+          "disapprove": 63.0
         }
       ],
       "polls_used": [
@@ -464,6 +464,30 @@
           "weight": 1.2699
         },
         {
+          "pollster": "AP-NORC",
+          "end_date": "2026-04-20",
+          "sample_size": 2596,
+          "approve": 33.0,
+          "disapprove": 67.0,
+          "weight": 1.3695
+        },
+        {
+          "pollster": "",
+          "end_date": "2026-04-21",
+          "sample_size": "2018",
+          "approve": 30.0,
+          "disapprove": 70.0,
+          "weight": 0.3622
+        },
+        {
+          "pollster": "Marquette",
+          "end_date": "2026-04-16",
+          "sample_size": null,
+          "approve": 41.0,
+          "disapprove": 59.0,
+          "weight": 0.0585
+        },
+        {
           "pollster": "Economist / YouGov",
           "end_date": "2026-03-23",
           "sample_size": "N/A",
@@ -702,17 +726,57 @@
           "approve": 36.0,
           "disapprove": 54.0,
           "weight": 1.1105
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-04-20",
+          "sample_size": "2596",
+          "approve": 33.0,
+          "disapprove": 67.0,
+          "weight": 1.3695
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-04-20",
+          "sample_size": "2596",
+          "approve": 30.0,
+          "disapprove": 70.0,
+          "weight": 1.3695
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-04-20",
+          "sample_size": "2596",
+          "approve": 40.0,
+          "disapprove": 59.0,
+          "weight": 1.3695
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-04-20",
+          "sample_size": "2596",
+          "approve": 32.0,
+          "disapprove": 67.0,
+          "weight": 1.3695
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "end_date": "2026-04-20",
+          "sample_size": "2596",
+          "approve": 23.0,
+          "disapprove": 76.0,
+          "weight": 1.3695
         }
       ]
     },
     "generic_ballot": {
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
-      "last_updated": "2026-04-20",
-      "polls_in_average": 31,
+      "last_updated": "2026-04-21",
+      "polls_in_average": 34,
       "current": {
-        "dem": 42.7,
-        "rep": 38.8,
+        "dem": 42.8,
+        "rep": 38.9,
         "dem_lead": 3.9
       },
       "history": [
@@ -763,7 +827,7 @@
         },
         {
           "date": "2026-04-16",
-          "dem": 47.0,
+          "dem": 48.4,
           "rep": 43.0
         },
         {
@@ -773,8 +837,8 @@
         },
         {
           "date": "2026-04-22",
-          "dem": 40.7,
-          "rep": 36.7
+          "dem": 40.9,
+          "rep": 37.0
         }
       ],
       "polls_used": [
@@ -1019,6 +1083,30 @@
           "weight": 1.8145
         },
         {
+          "pollster": "",
+          "end_date": "2026-04-20",
+          "sample_size": "557",
+          "dem": 41.0,
+          "rep": 38.0,
+          "weight": 0.1903
+        },
+        {
+          "pollster": "Net Choice",
+          "end_date": "2026-04-21",
+          "sample_size": "880",
+          "dem": 50.0,
+          "rep": 45.0,
+          "weight": 0.2392
+        },
+        {
+          "pollster": "Marquette",
+          "end_date": "2026-04-16",
+          "sample_size": null,
+          "dem": 53.0,
+          "rep": 43.0,
+          "weight": 0.0585
+        },
+        {
           "pollster": "YouGov",
           "end_date": "2026-03-23",
           "sample_size": "1150",
@@ -1032,7 +1120,7 @@
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
       "last_updated": "2026-04-22",
-      "total_polls": 22,
+      "total_polls": 26,
       "lp_included": 0,
       "lp_pct": 0.0,
       "example_races": []
@@ -1226,12 +1314,12 @@
     "trump_economy": {
       "label": "Trump Economy Approval",
       "subtitle": "Approve or disapprove of Trump's handling of the economy",
-      "last_updated": "2026-03-23",
-      "polls_in_average": 10,
+      "last_updated": "2026-04-20",
+      "polls_in_average": 11,
       "current": {
-        "pos": 38.0,
-        "neg": 61.0,
-        "net": -23.0,
+        "pos": 33.3,
+        "neg": 66.3,
+        "net": -33.0,
         "pos_label": "Approve",
         "neg_label": "Disapprove"
       },
@@ -1325,6 +1413,15 @@
           "pos": 38.0,
           "neg": 61.0,
           "weight": 0.0643
+        },
+        {
+          "pollster": "AP-NORC Center for Public Affairs Research",
+          "subject": "Trump Approval - Economy",
+          "end_date": "2026-04-20",
+          "sample_size": "2596",
+          "pos": 30.0,
+          "neg": 70.0,
+          "weight": 1.3695
         }
       ]
     }
