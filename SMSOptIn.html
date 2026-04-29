@@ -187,8 +187,8 @@
           </div>
 
           <div class="form-group">
-            <label for="phone">Mobile Phone Number *</label>
-            <input type="tel" id="phone" name="phone" required placeholder="(555) 000-0000"
+            <label for="phone">Mobile Phone Number <span style="color:#94a3b8;font-weight:400;">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000"
               pattern="[\d\s\(\)\-\+]{10,15}">
           </div>
 
@@ -249,14 +249,26 @@
             </select>
           </div>
 
+          <div class="form-group" style="margin-top:1.25rem;">
+            <label style="display:flex;align-items:flex-start;gap:0.6rem;cursor:pointer;text-transform:none;letter-spacing:normal;font-size:0.8rem;color:#94a3b8;font-weight:400;">
+              <input type="checkbox" id="sms_consent" name="sms_consent" value="yes" required
+                style="margin-top:3px;flex-shrink:0;accent-color:#6366f1;width:16px;height:16px;">
+              <span>
+                By checking this box, I consent to receive recurring automated SMS survey invitations
+                and polling data alerts (e.g. survey invitations, breaking poll results) from
+                <strong style="color:#cbd5e1;">Pollfinity Research LLC</strong> at the number provided.
+                Donations will not be solicited. Consent is not a condition of any purchase or participation.
+                Msg &amp; data rates may apply. Msg frequency varies.
+                Opt-in data and consent will not be shared with any third parties.
+                Reply <strong>STOP</strong> to opt out at any time. Reply <strong>HELP</strong> for help.
+                <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms &amp; Conditions</a>
+              </span>
+            </label>
+          </div>
+
           <button type="submit" class="submit-btn">Join the Panel &rarr;</button>
 
           <p class="tcpa-notice">
-            By submitting this form, you agree to receive recurring automated SMS survey invitations
-            and polling data alerts from Pollfinity Research LLC. Message frequency varies.
-            Message and data rates may apply. Reply <strong>STOP</strong> to opt out at any time.
-            Reply <strong>HELP</strong> for help. See our
-            <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms &amp; Conditions</a>.
             Pollfinity Research LLC &middot; United States &middot;
             <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>
           </p>
