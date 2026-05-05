@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T01:00:01.921230Z",
+  "generated_at": "2026-05-05T16:21:14.875848Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
@@ -7,85 +7,80 @@
       "last_updated": "2026-04-27",
       "polls_in_average": 41,
       "current": {
-        "approve": 36.1,
-        "disapprove": 60.8,
-        "net": -24.7
+        "approve": 36.7,
+        "disapprove": 60.2,
+        "net": -23.5
       },
       "history": [
         {
-          "date": "2026-03-05",
+          "date": "2026-03-06",
           "approve": 40.0,
           "disapprove": 58.0
         },
         {
-          "date": "2026-03-20",
+          "date": "2026-03-21",
           "approve": 38.2,
           "disapprove": 61.2
         },
         {
-          "date": "2026-03-23",
-          "approve": 38.1,
-          "disapprove": 57.8
+          "date": "2026-03-24",
+          "approve": 38.9,
+          "disapprove": 56.8
         },
         {
-          "date": "2026-03-26",
-          "approve": 38.6,
-          "disapprove": 57.7
+          "date": "2026-03-27",
+          "approve": 37.9,
+          "disapprove": 58.9
         },
         {
-          "date": "2026-03-29",
-          "approve": 43.2,
-          "disapprove": 54.0
+          "date": "2026-03-30",
+          "approve": 36.3,
+          "disapprove": 59.6
         },
         {
-          "date": "2026-04-01",
-          "approve": 33.9,
-          "disapprove": 61.1
+          "date": "2026-04-02",
+          "approve": 35.1,
+          "disapprove": 58.3
         },
         {
-          "date": "2026-04-04",
-          "approve": 39.6,
-          "disapprove": 55.9
-        },
-        {
-          "date": "2026-04-07",
+          "date": "2026-04-08",
           "approve": 39.1,
-          "disapprove": 55.3
+          "disapprove": 55.1
         },
         {
-          "date": "2026-04-10",
-          "approve": 41.6,
-          "disapprove": 56.6
+          "date": "2026-04-11",
+          "approve": 41.8,
+          "disapprove": 57.0
         },
         {
-          "date": "2026-04-13",
+          "date": "2026-04-14",
           "approve": 38.4,
           "disapprove": 58.4
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-17",
           "approve": 44.4,
           "disapprove": 53.9
         },
         {
-          "date": "2026-04-19",
-          "approve": 39.0,
-          "disapprove": 56.9
+          "date": "2026-04-20",
+          "approve": 35.2,
+          "disapprove": 62.1
         },
         {
-          "date": "2026-04-22",
-          "approve": 34.7,
-          "disapprove": 62.9
+          "date": "2026-04-23",
+          "approve": 39.1,
+          "disapprove": 59.5
         },
         {
-          "date": "2026-04-25",
-          "approve": 42.5,
-          "disapprove": 55.5
+          "date": "2026-04-26",
+          "approve": 35.0,
+          "disapprove": 64.0
         },
         {
-          "date": "2026-04-28",
-          "approve": 33.3,
-          "disapprove": 62.7
+          "date": "2026-04-29",
+          "approve": 18.0,
+          "disapprove": 51.0
         }
       ],
       "polls_used": [
@@ -207,7 +202,7 @@
           "sample_size": 2203,
           "approve": 44.0,
           "disapprove": 53.0,
-          "weight": 0.4453
+          "weight": 0.2226
         },
         {
           "pollster": "Ipsos",
@@ -215,7 +210,7 @@
           "sample_size": 4557,
           "approve": 36.0,
           "disapprove": 62.0,
-          "weight": 0.8539
+          "weight": 0.4269
         },
         {
           "pollster": "American Research Group",
@@ -223,7 +218,7 @@
           "sample_size": 1010,
           "approve": 32.0,
           "disapprove": 64.0,
-          "weight": 0.1206
+          "weight": 0.0603
         },
         {
           "pollster": "American Research Group",
@@ -231,7 +226,7 @@
           "sample_size": 1100,
           "approve": 32.0,
           "disapprove": 63.0,
-          "weight": 0.1259
+          "weight": 0.0629
         },
         {
           "pollster": "Angus Reid Global",
@@ -239,7 +234,7 @@
           "sample_size": 1490,
           "approve": 35.0,
           "disapprove": 59.0,
-          "weight": 0.1465
+          "weight": 0.0732
         },
         {
           "pollster": "YouGov",
@@ -247,7 +242,7 @@
           "sample_size": 1553,
           "approve": 41.0,
           "disapprove": 56.0,
-          "weight": 0.4985
+          "weight": 0.2492
         },
         {
           "pollster": "YouGov",
@@ -255,7 +250,7 @@
           "sample_size": 1707,
           "approve": 38.0,
           "disapprove": 54.0,
-          "weight": 0.5226
+          "weight": 0.2613
         },
         {
           "pollster": "Echelon Insights",
@@ -263,7 +258,7 @@
           "sample_size": 1012,
           "approve": 41.0,
           "disapprove": 57.0,
-          "weight": 0.1207
+          "weight": 0.0604
         },
         {
           "pollster": "YouGov",
@@ -279,7 +274,7 @@
           "sample_size": 2596,
           "approve": 33.0,
           "disapprove": 67.0,
-          "weight": 0.6445
+          "weight": 0.3222
         },
         {
           "pollster": "",
@@ -311,7 +306,7 @@
           "sample_size": 1001,
           "approve": 42.0,
           "disapprove": 58.0,
-          "weight": 0.1201
+          "weight": 0.06
         },
         {
           "pollster": "RMG Research",
@@ -351,7 +346,7 @@
           "sample_size": "1707",
           "approve": 36.0,
           "disapprove": 54.0,
-          "weight": 0.5226
+          "weight": 0.2613
         },
         {
           "pollster": "AP-NORC Center for Public Affairs Research",
@@ -359,7 +354,7 @@
           "sample_size": "2596",
           "approve": 33.0,
           "disapprove": 67.0,
-          "weight": 0.6445
+          "weight": 0.3222
         },
         {
           "pollster": "AP-NORC Center for Public Affairs Research",
@@ -367,7 +362,7 @@
           "sample_size": "2596",
           "approve": 30.0,
           "disapprove": 70.0,
-          "weight": 0.6445
+          "weight": 0.3222
         },
         {
           "pollster": "AP-NORC Center for Public Affairs Research",
@@ -375,7 +370,7 @@
           "sample_size": "2596",
           "approve": 40.0,
           "disapprove": 59.0,
-          "weight": 0.6445
+          "weight": 0.3222
         },
         {
           "pollster": "AP-NORC Center for Public Affairs Research",
@@ -383,7 +378,7 @@
           "sample_size": "2596",
           "approve": 32.0,
           "disapprove": 67.0,
-          "weight": 0.6445
+          "weight": 0.3222
         },
         {
           "pollster": "AP-NORC Center for Public Affairs Research",
@@ -391,7 +386,7 @@
           "sample_size": "2596",
           "approve": 23.0,
           "disapprove": 76.0,
-          "weight": 0.6445
+          "weight": 0.3222
         },
         {
           "pollster": "Economist / YouGov",
@@ -399,7 +394,7 @@
           "sample_size": "unknown",
           "approve": 18.0,
           "disapprove": 51.0,
-          "weight": 0.195
+          "weight": 0.12
         },
         {
           "pollster": "Pew Research Center",
@@ -425,75 +420,65 @@
       "last_updated": "2026-04-23",
       "polls_in_average": 23,
       "current": {
-        "dem": 42.4,
-        "rep": 38.6,
-        "dem_lead": 3.8
+        "dem": 43.0,
+        "rep": 39.3,
+        "dem_lead": 3.7
       },
       "history": [
         {
-          "date": "2026-03-17",
+          "date": "2026-03-18",
           "dem": 45.0,
           "rep": 39.0
         },
         {
-          "date": "2026-03-23",
+          "date": "2026-03-24",
           "dem": 47.9,
-          "rep": 41.1
+          "rep": 40.9
         },
         {
-          "date": "2026-03-26",
-          "dem": 48.7,
-          "rep": 42.7
+          "date": "2026-03-27",
+          "dem": 48.9,
+          "rep": 43.7
         },
         {
-          "date": "2026-03-29",
-          "dem": 45.0,
-          "rep": 42.0
+          "date": "2026-03-30",
+          "dem": 44.1,
+          "rep": 40.0
         },
         {
-          "date": "2026-04-01",
-          "dem": 42.8,
-          "rep": 36.8
-        },
-        {
-          "date": "2026-04-04",
+          "date": "2026-04-05",
           "dem": 49.0,
           "rep": 43.0
         },
         {
-          "date": "2026-04-07",
+          "date": "2026-04-08",
           "dem": 42.1,
           "rep": 39.8
         },
         {
-          "date": "2026-04-10",
+          "date": "2026-04-11",
           "dem": 46.8,
           "rep": 42.6
         },
         {
-          "date": "2026-04-13",
+          "date": "2026-04-14",
           "dem": 41.4,
           "rep": 37.4
         },
         {
-          "date": "2026-04-16",
+          "date": "2026-04-17",
           "dem": 48.4,
           "rep": 43.0
         },
         {
-          "date": "2026-04-19",
-          "dem": 45.5,
-          "rep": 42.3
+          "date": "2026-04-20",
+          "dem": 42.4,
+          "rep": 38.6
         },
         {
-          "date": "2026-04-22",
-          "dem": 41.2,
-          "rep": 37.2
-        },
-        {
-          "date": "2026-04-25",
-          "dem": 47.0,
-          "rep": 42.0
+          "date": "2026-04-23",
+          "dem": 48.0,
+          "rep": 43.0
         }
       ],
       "polls_used": [
@@ -567,7 +552,7 @@
           "sample_size": 2203,
           "dem": 45.0,
           "rep": 42.0,
-          "weight": 0.4453
+          "weight": 0.2226
         },
         {
           "pollster": "Morning Consult",
@@ -583,7 +568,7 @@
           "sample_size": 1549,
           "dem": 45.0,
           "rep": 40.0,
-          "weight": 0.4978
+          "weight": 0.2489
         },
         {
           "pollster": "YouGov",
@@ -591,7 +576,7 @@
           "sample_size": 1703,
           "dem": 39.0,
           "rep": 33.0,
-          "weight": 0.522
+          "weight": 0.261
         },
         {
           "pollster": "Ipsos",
@@ -599,7 +584,7 @@
           "sample_size": 3577,
           "dem": 41.0,
           "rep": 38.0,
-          "weight": 0.7565
+          "weight": 0.3783
         },
         {
           "pollster": "Echelon Insights",
@@ -607,7 +592,7 @@
           "sample_size": 1012,
           "dem": 50.0,
           "rep": 44.0,
-          "weight": 0.1207
+          "weight": 0.0604
         },
         {
           "pollster": "Ipsos",
@@ -615,7 +600,7 @@
           "sample_size": 3577,
           "dem": 41.0,
           "rep": 38.0,
-          "weight": 0.7565
+          "weight": 0.3783
         },
         {
           "pollster": "Ipsos",
@@ -623,7 +608,7 @@
           "sample_size": 4557,
           "dem": 35.0,
           "rep": 31.0,
-          "weight": 0.8539
+          "weight": 0.4269
         },
         {
           "pollster": "",
@@ -631,7 +616,7 @@
           "sample_size": "557",
           "dem": 41.0,
           "rep": 38.0,
-          "weight": 0.0896
+          "weight": 0.0448
         },
         {
           "pollster": "Net Choice",
@@ -671,7 +656,7 @@
           "sample_size": 1001,
           "dem": 52.0,
           "rep": 47.0,
-          "weight": 0.1201
+          "weight": 0.06
         },
         {
           "pollster": "Quantus Insights",
@@ -686,7 +671,7 @@
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-05-04",
+      "last_updated": "2026-05-05",
       "total_polls": 8,
       "lp_included": 0,
       "lp_pct": 0.0,
