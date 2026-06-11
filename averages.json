@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-11T16:21:41.231057Z",
+  "generated_at": "2026-06-11T21:01:58.309297Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
-      "last_updated": "2026-06-01",
-      "polls_in_average": 4,
+      "last_updated": "2026-06-08",
+      "polls_in_average": 6,
       "current": {
-        "approve": 28.1,
-        "disapprove": 30.0,
-        "net": -1.9
+        "approve": 35.8,
+        "disapprove": 50.9,
+        "net": -15.1
       },
       "history": [
         {
@@ -99,8 +99,13 @@
         },
         {
           "date": "2026-06-02",
-          "approve": 20.0,
-          "disapprove": 23.0
+          "approve": 30.1,
+          "disapprove": 42.6
+        },
+        {
+          "date": "2026-06-08",
+          "approve": 39.0,
+          "disapprove": 59.0
         }
       ],
       "polls_used": [
@@ -121,6 +126,14 @@
           "weight": 0.06
         },
         {
+          "pollster": "YouGov / The Economist",
+          "end_date": "2026-06-01",
+          "sample_size": 1453,
+          "approve": 39.0,
+          "disapprove": 60.0,
+          "weight": 0.4822
+        },
+        {
           "pollster": "Economist / YouGov",
           "end_date": "2026-06-01",
           "sample_size": "1150",
@@ -135,6 +148,14 @@
           "approve": 34.0,
           "disapprove": 59.0,
           "weight": 0.06
+        },
+        {
+          "pollster": "YouGov / The Economist",
+          "end_date": "2026-06-08",
+          "sample_size": 1438,
+          "approve": 39.0,
+          "disapprove": 59.0,
+          "weight": 1.0193
         }
       ]
     },
@@ -142,11 +163,11 @@
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
       "last_updated": "2026-06-30",
-      "polls_in_average": 1,
+      "polls_in_average": 3,
       "current": {
-        "dem": 55.4,
-        "rep": 44.6,
-        "dem_lead": 10.8
+        "dem": 47.0,
+        "rep": 41.9,
+        "dem_lead": 5.1
       },
       "history": [
         {
@@ -208,9 +229,35 @@
           "date": "2026-04-24",
           "dem": 47.0,
           "rep": 42.0
+        },
+        {
+          "date": "2026-06-02",
+          "dem": 46.0,
+          "rep": 42.0
+        },
+        {
+          "date": "2026-06-08",
+          "dem": 45.0,
+          "rep": 41.0
         }
       ],
       "polls_used": [
+        {
+          "pollster": "YouGov / The Economist",
+          "end_date": "2026-06-01",
+          "sample_size": 1452,
+          "dem": 46.0,
+          "rep": 42.0,
+          "weight": 0.482
+        },
+        {
+          "pollster": "YouGov / The Economist",
+          "end_date": "2026-06-08",
+          "sample_size": 1437,
+          "dem": 45.0,
+          "rep": 41.0,
+          "weight": 1.0189
+        },
         {
           "pollster": "Emerson",
           "end_date": "2026-06-30",
