@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T21:01:58.309297Z",
+  "generated_at": "2026-06-11T21:03:34.481815Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
@@ -162,12 +162,12 @@
     "generic_ballot": {
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
-      "last_updated": "2026-06-30",
-      "polls_in_average": 3,
+      "last_updated": "2026-06-08",
+      "polls_in_average": 2,
       "current": {
-        "dem": 47.0,
-        "rep": 41.9,
-        "dem_lead": 5.1
+        "dem": 45.3,
+        "rep": 41.3,
+        "dem_lead": 4.0
       },
       "history": [
         {
@@ -257,14 +257,6 @@
           "dem": 45.0,
           "rep": 41.0,
           "weight": 1.0189
-        },
-        {
-          "pollster": "Emerson",
-          "end_date": "2026-06-30",
-          "sample_size": null,
-          "dem": 55.4,
-          "rep": 44.6,
-          "weight": 0.3
         }
       ]
     },
@@ -272,7 +264,7 @@
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
       "last_updated": "2026-06-11",
-      "total_polls": 1,
+      "total_polls": 0,
       "lp_included": 0,
       "lp_pct": 0.0,
       "example_races": []
