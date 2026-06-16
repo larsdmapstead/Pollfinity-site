@@ -171,7 +171,7 @@
       <div id="form-container">
         <h2 style="color:#f8fafc;font-size:1.4rem;margin-bottom:1.5rem;text-align:center;">Sign Up for the Research Panel</h2>
 
-        <form id="optin-form" action="https://formspree.io/f/polls@pollfinity.com" method="POST" onsubmit="handleSubmit(event)">
+        <form id="optin-form" action="/api/optin" method="POST" onsubmit="handleSubmit(event)">
           <input type="hidden" name="_subject" value="New Pollfinity Panel Signup">
           <input type="hidden" name="_replyto" value="">
 
@@ -343,7 +343,7 @@ function handleSubmit(e) {
   const data = new FormData(form);
 
   // Send to Formspree (or swap endpoint for your backend)
-  fetch('https://formspree.io/f/xdkoznqo', {
+  fetch('/api/optin', {
     method: 'POST',
     body: data,
     headers: { 'Accept': 'application/json' }
