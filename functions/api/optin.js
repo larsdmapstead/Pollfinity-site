@@ -44,6 +44,11 @@ export async function onRequestPost(context) {
     const CSV_KEY = 'optins.csv';
     const HEADER  = '"timestamp","first_name","last_name","phone","email","zip","state","party","age_range"\n';
 
+    // Verify R2 binding is configured
+    if (!env.POLLFINITY_OPTINS) {
+      throw new Error('R2 binding POLLFINITY_OPTINS not configured — add it in Cloudflare dashboard');
+    }
+
     // Read existing CSV (or start fresh)
     let existing = '';
     const obj = await env.POLLFINITY_OPTINS.get(CSV_KEY);
@@ -65,6 +70,7 @@ export async function onRequestPost(context) {
     });
 
   } catch (err) {
+    console.error('Optin error:', err.message);
     return new Response(JSON.stringify({ error: 'Server error', detail: err.message }), {
       status: 500,
       headers: { 'Content-Type': 'application/json', ...corsHeaders },
