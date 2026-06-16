@@ -171,7 +171,11 @@
       <div id="form-container">
         <h2 style="color:#f8fafc;font-size:1.4rem;margin-bottom:1.5rem;text-align:center;">Sign Up for the Research Panel</h2>
 
-        <form id="optin-form" action="/api/optin" method="POST" onsubmit="handleSubmit(event)">
+        <form id="optin-form" action="https://api.web3forms.com/submit" method="POST" onsubmit="handleSubmit(event)">
+          <input type="hidden" name="access_key" value="WEB3FORMS_KEY_HERE">
+          <input type="hidden" name="subject" value="New Pollfinity Panel Opt-In">
+          <input type="hidden" name="from_name" value="Pollfinity Research">
+          <input type="hidden" name="redirect" value="false">
           <input type="hidden" name="_subject" value="New Pollfinity Panel Signup">
           <input type="hidden" name="_replyto" value="">
 
@@ -343,21 +347,19 @@ function handleSubmit(e) {
   const data = new FormData(form);
 
   // Send to Formspree (or swap endpoint for your backend)
-  fetch('/api/optin', {
+  fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     body: data,
     headers: { 'Accept': 'application/json' }
-  }).then(r => {
-    if (r.ok) {
+  }).then(r => r.json()).then(result => {
+    if (result.success) {
       document.getElementById('form-container').style.display = 'none';
       document.getElementById('success-msg').style.display = 'block';
     } else {
       alert('Something went wrong. Please email polls@pollfinity.com to join.');
     }
   }).catch(() => {
-    // Fallback: still show success (email fallback)
-    document.getElementById('form-container').style.display = 'none';
-    document.getElementById('success-msg').style.display = 'block';
+    alert('Something went wrong. Please email polls@pollfinity.com to join.');
   });
 }
 </script>
