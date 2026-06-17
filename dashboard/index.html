@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 Election Dashboard · Pollfinity Intelligence</title>
+  <meta name="description" content="Pollfinity Intelligence Dashboard: composite forecasts combining poll averages, prediction market odds, and Pollfinity original research for the 2026 midterms.">
+  <link rel="canonical" href="https://pollfinity.com/dashboard/">
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+  <!-- Open Graph -->
+  <meta property="og:title" content="2026 Election Dashboard · Pollfinity Intelligence">
+  <meta property="og:description" content="Composite forecasts combining poll averages, prediction market odds, and Pollfinity original research for the 2026 midterms.">
+  <meta property="og:image" content="https://pollfinity.com/assets/og-image.png">
+  <meta property="og:url" content="https://pollfinity.com/dashboard/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pollfinity Research">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Pollfinity">
+  <meta name="twitter:title" content="2026 Election Dashboard · Pollfinity Intelligence">
+  <meta name="twitter:description" content="Composite forecasts combining poll averages, prediction market odds, and Pollfinity original research for the 2026 midterms.">
+  <meta name="twitter:image" content="https://pollfinity.com/assets/og-image.png">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <style>
+/* Dashboard-specific styles */
+.control-banner {
+  background: #f8f9fb;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 2.5rem 0;
+}
+.control-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.control-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.75rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.control-card-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 0.75rem;
+}
+.control-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 0.25rem;
+}
+.control-bar-wrap {
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  margin: 1rem 0 0.75rem;
+}
+.control-bar-dem { background: #2563eb; }
+.control-bar-rep { background: #dc2626; }
+.control-readout {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.control-readout-dem { color: #2563eb; }
+.control-readout-rep { color: #dc2626; }
+.control-source {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+/* Tabs */
+.dash-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 2rem;
+}
+.dash-tab {
+  padding: 0.75rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #64748b;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  transition: color 0.15s;
+  font-family: 'Inter', sans-serif;
+}
+.dash-tab:hover { color: #1a1a2e; }
+.dash-tab.active {
+  color: #4f46e5;
+  border-bottom-color: #4f46e5;
+}
+
+/* Race grid */
+.race-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.25rem;
+}
+
+/* Race card */
+.race-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid #ca8a04;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+.race-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+.race-card--dem { border-left-color: #2563eb; }
+.race-card--rep { border-left-color: #dc2626; }
+.race-card--toss { border-left-color: #ca8a04; }
+
+.race-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.875rem 1.25rem;
+  background: #f8f9fb;
+  border-bottom: 1px solid #e2e8f0;
+  gap: 0.5rem;
+}
+.race-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #374151;
+}
+.race-composite {
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: 4px;
+  color: #fff;
+  white-space: nowrap;
+}
+.race-composite--dem { background: #2563eb; }
+.race-composite--rep { background: #dc2626; }
+.race-composite--even { background: #ca8a04; }
+
+.race-card-body { padding: 1rem 1.25rem 1.25rem; }
+.race-matchup {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 0.875rem;
+}
+
+.race-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1rem;
+}
+.race-stat { display: flex; flex-direction: column; gap: 0.1rem; }
+.race-stat-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9ca3af;
+}
+.race-stat-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+/* Pollfinity original badge */
+.original-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-top: 0.75rem;
+}
+
+/* Tab panels */
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Section label above grid */
+.race-section-header {
+  margin-bottom: 1.5rem;
+}
+.race-section-header h2 {
+  font-size: 1.35rem;
+  color: #1a1a2e;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0.25rem;
+}
+.race-count {
+  font-size: 0.78rem;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+/* Legend */
+.race-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #475569;
+}
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.legend-dot--dem { background: #2563eb; }
+.legend-dot--rep { background: #dc2626; }
+.legend-dot--toss { background: #ca8a04; }
+
+/* Disclaimer note */
+.dash-note {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #e2e8f0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .control-cards { grid-template-columns: 1fr; }
+  .race-grid { grid-template-columns: 1fr; }
+  .dash-tab { padding: 0.65rem 1rem; font-size: 0.8rem; }
+}
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="site-nav">
+  <div class="container">
+    <a href="../index.html" class="nav-logo-mark">
+      <div class="nav-logo-icon">&#8734;</div>
+      <div class="nav-logo-words"><strong>Pollfinity Research</strong></div>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true'); document.querySelector('.nav-links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../polls/index.html">Polls</a></li>
+      <li><a href="../averages.html">Averages</a></li>
+      <li><a href="../data-center.html">Data Center</a></li>
+      <li><a href="../methodology.html">Methodology</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../media.html">Media</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">POLLFINITY INTELLIGENCE &middot; 2026 MIDTERMS</p>
+    <h1>2026 Election Dashboard</h1>
+    <p class="subhead">Composite forecasts combining poll averages, prediction market odds, and Pollfinity original research.</p>
+    <p style="font-size:0.78rem;color:#94a3b8;margin-top:0.75rem;">Last updated: June 17, 2026 &middot; Auto-refresh coming soon</p>
+  </div>
+</section>
+
+<!-- Control Probability Banner -->
+<section class="control-banner">
+  <div class="container">
+    <div class="control-cards">
+
+      <!-- Senate Control -->
+      <div class="control-card">
+        <div class="control-card-label">Senate Control Probability</div>
+        <div class="control-card-title">Republicans 57% &middot; Democrats 43%</div>
+        <div class="control-bar-wrap">
+          <div class="control-bar-rep" style="width:57%;"></div>
+          <div class="control-bar-dem" style="width:43%;"></div>
+        </div>
+        <div class="control-readout">
+          <span class="control-readout-rep">&#9632; Republicans 57%</span>
+          <span class="control-readout-dem">Democrats 43% &#9632;</span>
+        </div>
+      </div>
+
+      <!-- House Control -->
+      <div class="control-card">
+        <div class="control-card-label">House Control Probability</div>
+        <div class="control-card-title">Democrats 75% &middot; Republicans 25%</div>
+        <div class="control-bar-wrap">
+          <div class="control-bar-dem" style="width:75%;"></div>
+          <div class="control-bar-rep" style="width:25%;"></div>
+        </div>
+        <div class="control-readout">
+          <span class="control-readout-dem">&#9632; Democrats 75%</span>
+          <span class="control-readout-rep">Republicans 25% &#9632;</span>
+        </div>
+      </div>
+
+    </div>
+    <p class="control-source">Source: Kalshi prediction markets &middot; June 17, 2026</p>
+  </div>
+</section>
+
+<!-- Dashboard Section -->
+<section class="section">
+  <div class="container">
+
+    <!-- Tabs -->
+    <div class="dash-tabs" role="tablist">
+      <button class="dash-tab active" role="tab" aria-selected="true" data-panel="panel-senate">SENATE</button>
+      <button class="dash-tab" role="tab" aria-selected="false" data-panel="panel-house">HOUSE</button>
+      <button class="dash-tab" role="tab" aria-selected="false" data-panel="panel-govs">GOVERNORS</button>
+    </div>
+
+    <!-- Legend -->
+    <div class="race-legend">
+      <div class="legend-item"><div class="legend-dot legend-dot--dem"></div> Lean / Likely Dem</div>
+      <div class="legend-item"><div class="legend-dot legend-dot--rep"></div> Lean / Likely Rep</div>
+      <div class="legend-item"><div class="legend-dot legend-dot--toss"></div> Toss-Up</div>
+    </div>
+
+    <!-- SENATE PANEL -->
+    <div id="panel-senate" class="tab-panel active" role="tabpanel">
+      <div class="race-section-header">
+        <h2>Competitive Senate Races</h2>
+        <span class="race-count">13 races tracked &middot; composite model</span>
+      </div>
+      <div class="race-grid">
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">NC Senate</span>
+            <span class="race-composite race-composite--dem">Dem +3 &middot; 58% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +3</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 58% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">ME Senate</span>
+            <span class="race-composite race-composite--rep">Rep +1 &middot; 52% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">Erin Herbst (D) vs. Susan Collins (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +1</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 52% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">↓ Moving D</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">MI Senate</span>
+            <span class="race-composite race-composite--dem">Dem +2 &middot; 54% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +2</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 54% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">OH Senate</span>
+            <span class="race-composite race-composite--even">Toss-Up &middot; 50%</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Jon Husted (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">Even</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">50/50 Even (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">AK Senate</span>
+            <span class="race-composite race-composite--rep">Rep +4 &middot; 60% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Dan Sullivan (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +4</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 60% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">GA Senate</span>
+            <span class="race-composite race-composite--dem">Dem +4 &middot; 62% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">Jon Ossoff (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +4</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 62% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">NH Senate</span>
+            <span class="race-composite race-composite--dem">Dem +5 &middot; 65% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +5</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 65% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--rep">
+          <div class="race-card-header">
+            <span class="race-label">IA Senate</span>
+            <span class="race-composite race-composite--rep">Rep +6 &middot; 68% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +6</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 68% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean R</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">MN Senate</span>
+            <span class="race-composite race-composite--dem">Dem +8 &middot; 72% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">Tina Smith (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +8</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 72% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--rep">
+          <div class="race-card-header">
+            <span class="race-label">TX Senate</span>
+            <span class="race-composite race-composite--rep">Rep +10 &middot; 75% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +10</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 75% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean R</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">VA Senate</span>
+            <span class="race-composite race-composite--dem">Dem +6 &middot; 68% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">Mark Warner (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +6</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 68% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--rep">
+          <div class="race-card-header">
+            <span class="race-label">FL Special</span>
+            <span class="race-composite race-composite--rep">Rep +8 &middot; 74% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +8</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 74% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean R</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--rep">
+          <div class="race-card-header">
+            <span class="race-label">ME Special</span>
+            <span class="race-composite race-composite--rep">Rep +4 &middot; 60% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +4</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 60% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean R</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOUSE PANEL -->
+    <div id="panel-house" class="tab-panel" role="tabpanel">
+      <div class="race-section-header">
+        <h2>Competitive House Races</h2>
+        <span class="race-count">10 key races tracked &middot; composite model</span>
+      </div>
+      <div class="race-grid">
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">NY-17 House</span>
+            <span class="race-composite race-composite--dem">Dem +3 &middot; 58% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Mike Lawler (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +3</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 58% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">↑ Moving D</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">NJ-07 House</span>
+            <span class="race-composite race-composite--even">Toss-Up &middot; 50%</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Tom Kean Jr. (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">Even</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">50/50 Even (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">IA-01 House</span>
+            <span class="race-composite race-composite--rep">Rep +1 &middot; 52% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Mariannette Miller-Meeks (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +1</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 52% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">IA-03 House</span>
+            <span class="race-composite race-composite--dem">Dem +1 &middot; 51% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Zach Nunn (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +1</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 51% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">↑ Moving D</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">AZ-06 House</span>
+            <span class="race-composite race-composite--even">Toss-Up &middot; 50%</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Juan Ciscomani (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">Even</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">50/50 Even (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">CO-08 House</span>
+            <span class="race-composite race-composite--dem">Dem +2 &middot; 54% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Gabe Evans (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +2</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 54% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">↑ Moving D</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">MI-07 House</span>
+            <span class="race-composite race-composite--rep">Rep +1 &middot; 51% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Tom Barrett (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +1</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 51% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">PA-07 House</span>
+            <span class="race-composite race-composite--dem">Dem +3 &middot; 57% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Ryan Mackenzie (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +3</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 57% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">WI-03 House</span>
+            <span class="race-composite race-composite--dem">Dem +4 &middot; 61% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Derrick Van Orden (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +4</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 61% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">↑ Moving D</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">VA-02 House</span>
+            <span class="race-composite race-composite--dem">Dem +2 &middot; 55% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Jen Kiggans (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +2</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 55% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GOVERNORS PANEL -->
+    <div id="panel-govs" class="tab-panel" role="tabpanel">
+      <div class="race-section-header">
+        <h2>Competitive Governor Races</h2>
+        <span class="race-count">10 races tracked &middot; composite model</span>
+      </div>
+      <div class="race-grid">
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">MI Governor</span>
+            <span class="race-composite race-composite--dem">Dem +3 &middot; 57% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +3</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 57% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">WI Governor</span>
+            <span class="race-composite race-composite--dem">Dem +2 &middot; 54% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +2</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 54% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">GA Governor</span>
+            <span class="race-composite race-composite--dem">Dem +3 &middot; 58% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +3</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 58% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">↑ Moving D</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up → Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">AZ Governor</span>
+            <span class="race-composite race-composite--dem">Dem +5 &middot; 63% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">Katie Hobbs (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +5</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 63% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--rep">
+          <div class="race-card-header">
+            <span class="race-label">NV Governor</span>
+            <span class="race-composite race-composite--rep">Rep +4 &middot; 61% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. Joe Lombardo (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +4</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 61% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean R</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--dem">
+          <div class="race-card-header">
+            <span class="race-label">NH Governor</span>
+            <span class="race-composite race-composite--dem">Dem +3 &middot; 57% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +3</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 57% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">↑ Moving D</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean D</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">PA Governor</span>
+            <span class="race-composite race-composite--dem">Dem +2 &middot; 55% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">D +2</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Dem 55% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--rep">
+          <div class="race-card-header">
+            <span class="race-label">FL Governor</span>
+            <span class="race-composite race-composite--rep">Rep +8 &middot; 73% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +8</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 73% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean R</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--rep">
+          <div class="race-card-header">
+            <span class="race-label">OH Governor</span>
+            <span class="race-composite race-composite--rep">Rep +5 &middot; 64% win</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">R +5</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">Rep 64% (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Lean R</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="race-card race-card--toss">
+          <div class="race-card-header">
+            <span class="race-label">NC Governor</span>
+            <span class="race-composite race-composite--even">Toss-Up &middot; 50%</span>
+          </div>
+          <div class="race-card-body">
+            <div class="race-matchup">TBD (D) vs. TBD (R)</div>
+            <div class="race-stats">
+              <div class="race-stat"><span class="race-stat-label">Poll Avg</span><span class="race-stat-value">Even</span></div>
+              <div class="race-stat"><span class="race-stat-label">Market</span><span class="race-stat-value">51% Dem (Kalshi)</span></div>
+              <div class="race-stat"><span class="race-stat-label">Trend</span><span class="race-stat-value">→ Stable</span></div>
+              <div class="race-stat"><span class="race-stat-label">Rating</span><span class="race-stat-value">Toss-Up</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Methodology note -->
+    <div class="dash-note">
+      <strong>Methodology:</strong> Pollfinity Composite blends recency-weighted poll averages, Kalshi prediction market odds, and Pollfinity original research where available. This is a forecast model, not a guarantee of outcome. Ratings reflect conditions as of June 17, 2026 and will be updated as new data becomes available. Market probabilities sourced from Kalshi. Poll averages are Pollfinity recency-weighted composites. &#8734; Pollfinity Research LLC &middot; <a href="../methodology.html" style="color:#4f46e5;">Full methodology &rarr;</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="../assets/logo.jpg" alt="Pollfinity Research">
+        <div class="footer-brand-text">
+          <strong>Pollfinity Research LLC</strong>
+          Independent public opinion research &mdash; transparent, non-partisan, data-driven.
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="../polls/index.html">Polls</a>
+        <a href="../methodology.html">Methodology</a>
+        <a href="../about.html">About</a>
+        <a href="../media.html">Media</a>
+        <a href="../privacy.html">Privacy Policy</a>
+        <a href="../terms.html">Terms &amp; Conditions</a>
+        <a href="mailto:polls@pollfinity.com">polls@pollfinity.com</a>
+        <a href="https://x.com/pollfinity" target="_blank" rel="noopener">&#120143; @Pollfinity</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      &copy; 2026 Pollfinity Research LLC. All rights reserved. &middot; California LLC &middot;
+      <a href="mailto:polls@pollfinity.com" style="color:#475569;">polls@pollfinity.com</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.dash-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.dash-tab').forEach(t => {
+      t.classList.remove('active');
+      t.setAttribute('aria-selected', 'false');
+    });
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    tab.setAttribute('aria-selected', 'true');
+    document.getElementById(tab.dataset.panel).classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>
