@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T12:30:02.039905+00:00",
+  "generated_at": "2026-06-18T13:00:01.852441+00:00",
   "days_to_election": 138,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 13,
+  "kalshi_markets_fetched": 12,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -75,7 +75,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 55.0,
-        "rep_pct": 42.0,
+        "rep_pct": 44.0,
         "event_ticker": "SENATEME-26"
       }
     },
@@ -177,8 +177,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 66.8,
-      "composite_rep_pct": 33.2,
+      "composite_dem_pct": 67.1,
+      "composite_rep_pct": 32.9,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -187,7 +187,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 82.0,
+          "dem_prob": 83.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -199,10 +199,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 19.7,
+      "divergence_pts": 20.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 82.0,
+        "dem_pct": 83.0,
         "rep_pct": 16.0,
         "event_ticker": "SENATEGA-26"
       }
@@ -751,35 +751,31 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 61.7,
-      "composite_rep_pct": 38.3,
+      "composite_dem_pct": 55.8,
+      "composite_rep_pct": 44.2,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
           "dem_margin": 2.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 73.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 53.5,
           "pvi": 0,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 16.4,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 73.0,
-        "rep_pct": 21.0,
-        "event_ticker": "GOVPARTYWI-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_GA": {
       "label": "GA Governor",
@@ -812,7 +808,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 47.0,
-        "rep_pct": 52.0,
+        "rep_pct": 53.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -932,7 +928,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 90.9,
+          "dem_prob": 91.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -944,10 +940,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 34.6,
+      "divergence_pts": 34.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.9,
+        "dem_pct": 91.0,
         "rep_pct": 2.5,
         "event_ticker": "GOVPARTYPA-26"
       }
