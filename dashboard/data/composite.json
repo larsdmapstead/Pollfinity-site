@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T02:56:25.827402+00:00",
+  "generated_at": "2026-06-18T03:00:01.288815+00:00",
   "days_to_election": 139,
   "weights": {
     "polls": 0.5,
@@ -696,31 +696,35 @@
       "type": "governor",
       "matchup": "Primary Aug. 4 (D) vs. John James (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 58.7,
-      "composite_rep_pct": 41.3,
+      "composite_dem_pct": 66.4,
+      "composite_rep_pct": 33.6,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
           "dem_margin": 3.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 81.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 56.8,
           "pvi": 1,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 21.7,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 81.0,
+        "rep_pct": 13.0,
+        "event_ticker": "GOVPARTYMI-26"
+      }
     },
     "governor_WI": {
       "label": "WI Governor",
@@ -968,35 +972,31 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 38.5,
-      "composite_rep_pct": 61.5,
+      "composite_dem_pct": 34.4,
+      "composite_rep_pct": 65.6,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
           "dem_margin": -5.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 46.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 33.7,
           "pvi": -6,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 11.3,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 46.0,
-        "rep_pct": 53.0,
-        "event_ticker": "GOVPARTYOH-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_NC": {
       "label": "NC Governor",
