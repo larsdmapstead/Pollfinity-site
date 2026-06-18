@@ -262,6 +262,48 @@
   .race-grid { grid-template-columns: 1fr; }
   .dash-tab { padding: 0.65rem 1rem; font-size: 0.8rem; }
 }
+
+.composite-inputs {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #e2e8f0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+.comp-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.comp-input-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9ca3af;
+}
+.comp-input-value {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #374151;
+}
+.comp-input-value.dem { color: #2563eb; }
+.comp-input-value.rep { color: #dc2626; }
+.comp-input-value.na  { color: #9ca3af; font-weight: 400; font-style: italic; }
+.divergence-note {
+  grid-column: 1 / -1;
+  font-size: 0.72rem;
+  color: #d97706;
+  font-weight: 600;
+  padding-top: 0.25rem;
+}
+.composite-footer {
+  margin-top: 0.5rem;
+  font-size: 0.65rem;
+  color: #9ca3af;
+  text-align: right;
+}
   </style>
 </head>
 <body>
@@ -294,7 +336,7 @@
     <p class="eyebrow">POLLFINITY INTELLIGENCE &middot; 2026 MIDTERMS</p>
     <h1>2026 Election Dashboard</h1>
     <p class="subhead">Composite forecasts combining poll averages, prediction market odds, and Pollfinity original research.</p>
-    <p style="font-size:0.78rem;color:#94a3b8;margin-top:0.75rem;">Last updated: June 17, 2026 &middot; Auto-refresh coming soon</p>
+    <p style="font-size:0.78rem;color:#94a3b8;margin-top:0.75rem;"><span id="last-updated">Last updated: June 17, 2026</span> &middot; Auto-refresh coming soon</p>
   </div>
 </section>
 
@@ -915,6 +957,109 @@
     </div>
   </div>
 </footer>
+
+<script>
+async function loadComposite() {
+  try {
+    const resp = await fetch('data/composite.json?t=' + Date.now());
+    if (!resp.ok) return;
+    const data = await resp.json();
+
+    // Update last-updated timestamp
+    const tsEl = document.getElementById('last-updated');
+    if (tsEl && data.generated_at) {
+      const d = new Date(data.generated_at);
+      tsEl.textContent = 'Last updated: ' + d.toLocaleString('en-US', {
+        month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit',
+        timeZone: 'America/Los_Angeles', timeZoneName: 'short'
+      });
+    }
+
+    // Update each race card
+    for (const [raceKey, race] of Object.entries(data.races)) {
+      // Find card by label text match
+      const cards = document.querySelectorAll('.race-card');
+      for (const card of cards) {
+        const labelEl = card.querySelector('.race-label');
+        if (!labelEl) continue;
+        if (labelEl.textContent.trim() !== race.label) continue;
+
+        // Update composite badge
+        const badge = card.querySelector('.race-composite');
+        if (badge) {
+          const dem = race.composite_dem_pct;
+          const rep = race.composite_rep_pct;
+          if (dem >= rep) {
+            badge.textContent = `Dem ${dem}% \u00b7 D leads`;
+            badge.className = 'race-composite race-composite--dem';
+          } else {
+            badge.textContent = `Rep ${rep}% \u00b7 R leads`;
+            badge.className = 'race-composite race-composite--rep';
+          }
+        }
+
+        // Update card border color
+        const dem = race.composite_dem_pct;
+        if (dem > 55) {
+          card.className = card.className.replace(/race-card--(dem|rep|toss)/g, '') + ' race-card--dem';
+        } else if (dem < 45) {
+          card.className = card.className.replace(/race-card--(dem|rep|toss)/g, '') + ' race-card--rep';
+        } else {
+          card.className = card.className.replace(/race-card--(dem|rep|toss)/g, '') + ' race-card--toss';
+        }
+
+        // Build inputs breakdown
+        const inputs = race.inputs;
+        const pollProb = inputs.polls.dem_prob;
+        const pollMargin = inputs.polls.dem_margin;
+        const marketProb = inputs.markets.dem_prob;
+        const fundProb = inputs.fundamentals.dem_prob;
+        const div = race.divergence_pts;
+
+        const pollLabel = pollMargin !== null
+          ? (pollMargin >= 0 ? `D +${Math.abs(pollMargin).toFixed(1)}` : `R +${Math.abs(pollMargin).toFixed(1)}`)
+          : '\u2014';
+        const pollClass = pollProb >= 50 ? 'dem' : 'rep';
+        const marketLabel = marketProb !== null ? `${marketProb}% Dem` : 'No data';
+        const marketClass = marketProb !== null ? (marketProb >= 50 ? 'dem' : 'rep') : 'na';
+        const fundClass = fundProb >= 50 ? 'dem' : 'rep';
+
+        const divNote = (div !== null && div > 8)
+          ? `<div class="divergence-note">\u26a1 Market-poll gap: ${div}pts \u2014 ${race.divergence_direction === 'market_bullish_dem' ? 'market more bullish on Dem than polls' : 'market more bearish on Dem than polls'}</div>`
+          : '';
+
+        const breakdown = `
+          <div class="composite-inputs">
+            <div class="comp-input">
+              <span class="comp-input-label">Poll Avg</span>
+              <span class="comp-input-value ${pollClass}">${pollLabel} \u2192 ${pollProb}%</span>
+            </div>
+            <div class="comp-input">
+              <span class="comp-input-label">Kalshi Market</span>
+              <span class="comp-input-value ${marketClass}">${marketLabel}</span>
+            </div>
+            <div class="comp-input">
+              <span class="comp-input-label">Fundamentals</span>
+              <span class="comp-input-value ${fundClass}">${fundProb}% Dem</span>
+            </div>
+            ${divNote}
+            <div class="composite-footer">Pollfinity Composite \u00b7 Polls ${Math.round(inputs.polls.weight_applied*100)}% / Markets ${Math.round(inputs.markets.weight_applied*100)}% / Fund ${Math.round(inputs.fundamentals.weight_applied*100)}%</div>
+          </div>`;
+
+        // Remove existing breakdown if present, then append
+        const existing = card.querySelector('.composite-inputs');
+        if (existing) existing.remove();
+        card.querySelector('.race-card-body').insertAdjacentHTML('beforeend', breakdown);
+        break;
+      }
+    }
+  } catch(e) {
+    console.warn('composite.json not loaded:', e.message);
+  }
+}
+
+loadComposite();
+</script>
 
 <script>
 document.querySelectorAll('.dash-tab').forEach(tab => {
