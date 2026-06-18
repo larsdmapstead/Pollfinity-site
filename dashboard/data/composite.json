@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T03:00:01.288815+00:00",
+  "generated_at": "2026-06-18T03:03:14.411211+00:00",
   "days_to_election": 139,
   "weights": {
     "polls": 0.5,
@@ -7,69 +7,77 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 8,
+  "kalshi_markets_fetched": 12,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 54.5,
-      "composite_rep_pct": 45.5,
+      "composite_dem_pct": 64.5,
+      "composite_rep_pct": 35.5,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
           "dem_margin": 3.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 85.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 40.3,
           "pvi": -4,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 25.7,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 85.0,
+        "rep_pct": 13.0,
+        "event_ticker": "SENATENC-26"
+      }
     },
     "senate_ME": {
       "label": "ME Senate",
       "type": "senate",
       "matchup": "Graham Platner (D) vs. Susan Collins (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 50.3,
-      "composite_rep_pct": 49.7,
+      "composite_dem_pct": 53.4,
+      "composite_rep_pct": 46.6,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
           "dem_margin": -1.0,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 56.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 4,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.25
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 9.0,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 56.0,
+        "rep_pct": 42.0,
+        "event_ticker": "SENATEME-26"
+      }
     },
     "senate_MI": {
       "label": "MI Senate",
@@ -169,31 +177,35 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 59.2,
-      "composite_rep_pct": 40.8,
+      "composite_dem_pct": 66.8,
+      "composite_rep_pct": 33.2,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
           "dem_margin": 4.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 82.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 50.2,
           "pvi": -3,
           "incumbency": "D",
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 19.7,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 82.0,
+        "rep_pct": 18.0,
+        "event_ticker": "SENATEGA-26"
+      }
     },
     "senate_NH": {
       "label": "NH Senate",
@@ -231,31 +243,35 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 32.0,
-      "composite_rep_pct": 68.0,
+      "composite_dem_pct": 34.3,
+      "composite_rep_pct": 65.7,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
           "dem_margin": -5.8,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 39.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 30.4,
           "pvi": -7,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.25
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 6.4,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 39.0,
+        "rep_pct": 59.0,
+        "event_ticker": "SENATEIA-26"
+      }
     },
     "senate_MN": {
       "label": "MN Senate",
@@ -293,31 +309,35 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 18.7,
-      "composite_rep_pct": 81.3,
+      "composite_dem_pct": 25.6,
+      "composite_rep_pct": 74.4,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
           "dem_margin": -9.5,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 41.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 10.6,
           "pvi": -13,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.25
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 19.5,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 41.0,
+        "rep_pct": 57.0,
+        "event_ticker": "SENATETX-26"
+      }
     },
     "senate_VA": {
       "label": "VA Senate",
@@ -801,43 +821,39 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 68.0,
-      "composite_rep_pct": 32.0,
+      "composite_dem_pct": 62.5,
+      "composite_rep_pct": 37.5,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
           "dem_margin": 4.8,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 79.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 56.8,
           "pvi": -1,
           "incumbency": "D",
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 14.6,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": null,
-        "rep_pct": 21.0,
-        "event_ticker": "GOVPARTYAZ-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_NV": {
       "label": "NV Governor",
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 46.6,
-      "composite_rep_pct": 53.4,
+      "composite_dem_pct": 47.0,
+      "composite_rep_pct": 53.0,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -846,7 +862,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 59.0,
+          "dem_prob": 60.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -858,11 +874,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 20.7,
+      "divergence_pts": 21.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 59.0,
-        "rep_pct": 35.0,
+        "dem_pct": 60.0,
+        "rep_pct": 36.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
@@ -972,31 +988,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 34.4,
-      "composite_rep_pct": 65.6,
+      "composite_dem_pct": 38.5,
+      "composite_rep_pct": 61.5,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
           "dem_margin": -5.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 46.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 33.7,
           "pvi": -6,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 11.3,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 46.0,
+        "rep_pct": 53.0,
+        "event_ticker": "GOVPARTYOH-26"
+      }
     },
     "governor_NC": {
       "label": "NC Governor",
