@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-18T06:30:01.379901+00:00",
-  "days_to_election": 139,
+  "generated_at": "2026-06-18T07:00:02.156474+00:00",
+  "days_to_election": 138,
   "weights": {
     "polls": 0.5,
     "markets": 0.35,
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 13,
+  "kalshi_markets_fetched": 14,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -922,31 +922,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 57.3,
-      "composite_rep_pct": 42.7,
+      "composite_dem_pct": 69.4,
+      "composite_rep_pct": 30.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 90.9,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.25
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 34.6,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 90.9,
+        "rep_pct": 2.5,
+        "event_ticker": "GOVPARTYPA-26"
+      }
     },
     "governor_FL": {
       "label": "FL Governor",
