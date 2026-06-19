@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T09:30:01.532474+00:00",
+  "generated_at": "2026-06-19T10:00:01.934956+00:00",
   "days_to_election": 137,
   "weights": {
     "polls": 0.5,
@@ -856,35 +856,31 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 46.3,
-      "composite_rep_pct": 53.7,
+      "composite_dem_pct": 39.7,
+      "composite_rep_pct": 60.3,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
           "dem_margin": -3.9,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 58.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -1,
           "incumbency": "R",
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 19.7,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 58.0,
-        "rep_pct": 36.0,
-        "event_ticker": "GOVPARTYNV-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_NH": {
       "label": "NH Governor",
@@ -992,31 +988,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 34.4,
-      "composite_rep_pct": 65.6,
+      "composite_dem_pct": 38.5,
+      "composite_rep_pct": 61.5,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
           "dem_margin": -5.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 46.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 33.7,
           "pvi": -6,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 11.3,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 46.0,
+        "rep_pct": 54.0,
+        "event_ticker": "GOVPARTYOH-26"
+      }
     },
     "governor_NC": {
       "label": "NC Governor",
