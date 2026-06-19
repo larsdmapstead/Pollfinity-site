@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T12:30:01.719684+00:00",
+  "generated_at": "2026-06-19T13:00:01.933853+00:00",
   "days_to_election": 137,
   "weights": {
     "polls": 0.5,
@@ -922,13 +922,48 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 57.3,
-      "composite_rep_pct": 42.7,
+      "composite_dem_pct": 69.4,
+      "composite_rep_pct": 30.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
+          "weight_applied": 0.4
+        },
+        "markets": {
+          "dem_prob": 90.9,
+          "available": true,
+          "source": "Kalshi",
+          "weight_applied": 0.35
+        },
+        "fundamentals": {
+          "dem_prob": 60.1,
+          "pvi": 2,
+          "incumbency": null,
+          "weight_applied": 0.25
+        }
+      },
+      "divergence_pts": 34.6,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 90.9,
+        "rep_pct": 2.4,
+        "event_ticker": "GOVPARTYPA-26"
+      }
+    },
+    "governor_FL": {
+      "label": "FL Governor",
+      "type": "governor",
+      "matchup": "TBD (D) vs. TBD (R)",
+      "rating": "Lean R",
+      "composite_dem_pct": 28.2,
+      "composite_rep_pct": 71.8,
+      "inputs": {
+        "polls": {
+          "dem_prob": 27.5,
+          "dem_margin": -7.5,
+          "sample_quality": "moderate",
           "weight_applied": 0.745
         },
         "markets": {
@@ -938,8 +973,8 @@
           "weight_applied": 0.0
         },
         "fundamentals": {
-          "dem_prob": 60.1,
-          "pvi": 2,
+          "dem_prob": 30.4,
+          "pvi": -7,
           "incumbency": null,
           "weight_applied": 0.255
         }
@@ -947,41 +982,6 @@
       "divergence_pts": null,
       "divergence_direction": null,
       "kalshi_raw": null
-    },
-    "governor_FL": {
-      "label": "FL Governor",
-      "type": "governor",
-      "matchup": "TBD (D) vs. TBD (R)",
-      "rating": "Lean R",
-      "composite_dem_pct": 26.2,
-      "composite_rep_pct": 73.8,
-      "inputs": {
-        "polls": {
-          "dem_prob": 27.5,
-          "dem_margin": -7.5,
-          "sample_quality": "moderate",
-          "weight_applied": 0.45
-        },
-        "markets": {
-          "dem_prob": 22.0,
-          "available": true,
-          "source": "Kalshi",
-          "weight_applied": 0.35
-        },
-        "fundamentals": {
-          "dem_prob": 30.4,
-          "pvi": -7,
-          "incumbency": null,
-          "weight_applied": 0.2
-        }
-      },
-      "divergence_pts": 5.5,
-      "divergence_direction": "market_bearish_dem",
-      "kalshi_raw": {
-        "dem_pct": 22.0,
-        "rep_pct": 76.0,
-        "event_ticker": "GOVPARTYFL-26"
-      }
     },
     "governor_OH": {
       "label": "OH Governor",
