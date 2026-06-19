@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T04:30:01.546140+00:00",
+  "generated_at": "2026-06-19T05:00:01.162763+00:00",
   "days_to_election": 138,
   "weights": {
     "polls": 0.5,
@@ -786,31 +786,35 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.1,
-      "composite_rep_pct": 44.9,
+      "composite_dem_pct": 52.1,
+      "composite_rep_pct": 47.9,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
           "dem_margin": 3.0,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 48.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -3,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 11.0,
+      "divergence_direction": "market_bearish_dem",
+      "kalshi_raw": {
+        "dem_pct": 48.0,
+        "rep_pct": 49.0,
+        "event_ticker": "GOVPARTYGA-26"
+      }
     },
     "governor_AZ": {
       "label": "AZ Governor",
