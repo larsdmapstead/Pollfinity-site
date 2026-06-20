@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T03:00:02.085085+00:00",
+  "generated_at": "2026-06-20T03:30:02.006148+00:00",
   "days_to_election": 137,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 14,
+  "kalshi_markets_fetched": 11,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -203,7 +203,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 83.0,
-        "rep_pct": 16.0,
+        "rep_pct": 15.0,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -786,35 +786,31 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 52.4,
-      "composite_rep_pct": 47.6,
+      "composite_dem_pct": 55.1,
+      "composite_rep_pct": 44.9,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
           "dem_margin": 3.0,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 49.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -3,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 10.0,
-      "divergence_direction": "market_bearish_dem",
-      "kalshi_raw": {
-        "dem_pct": 49.0,
-        "rep_pct": 50.0,
-        "event_ticker": "GOVPARTYGA-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_AZ": {
       "label": "AZ Governor",
@@ -922,35 +918,31 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 69.5,
-      "composite_rep_pct": 30.5,
+      "composite_dem_pct": 57.3,
+      "composite_rep_pct": 42.7,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
-          "weight_applied": 0.4
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 91.2,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.25
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 34.9,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 91.2,
-        "rep_pct": 2.5,
-        "event_ticker": "GOVPARTYPA-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_FL": {
       "label": "FL Governor",
