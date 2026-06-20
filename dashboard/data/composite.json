@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T03:30:02.006148+00:00",
+  "generated_at": "2026-06-20T04:00:01.761312+00:00",
   "days_to_election": 137,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 11,
+  "kalshi_markets_fetched": 13,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -49,8 +49,8 @@
       "type": "senate",
       "matchup": "Graham Platner (D) vs. Susan Collins (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 53.1,
-      "composite_rep_pct": 46.9,
+      "composite_dem_pct": 53.4,
+      "composite_rep_pct": 46.6,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
@@ -59,7 +59,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 55.0,
+          "dem_prob": 56.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -71,10 +71,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 8.0,
+      "divergence_pts": 9.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 55.0,
+        "dem_pct": 56.0,
         "rep_pct": 42.0,
         "event_ticker": "SENATEME-26"
       }
@@ -786,31 +786,35 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.1,
-      "composite_rep_pct": 44.9,
+      "composite_dem_pct": 52.8,
+      "composite_rep_pct": 47.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
           "dem_margin": 3.0,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 50.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -3,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 9.0,
+      "divergence_direction": "market_bearish_dem",
+      "kalshi_raw": {
+        "dem_pct": 50.0,
+        "rep_pct": 50.0,
+        "event_ticker": "GOVPARTYGA-26"
+      }
     },
     "governor_AZ": {
       "label": "AZ Governor",
@@ -878,7 +882,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 58.0,
-        "rep_pct": 36.0,
+        "rep_pct": 37.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
