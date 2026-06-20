@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T15:00:01.856553+00:00",
+  "generated_at": "2026-06-20T15:30:01.205324+00:00",
   "days_to_election": 136,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 13,
+  "kalshi_markets_fetched": 11,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -786,35 +786,31 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 52.8,
-      "composite_rep_pct": 47.2,
+      "composite_dem_pct": 55.1,
+      "composite_rep_pct": 44.9,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
           "dem_margin": 3.0,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 50.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -3,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 9.0,
-      "divergence_direction": "market_bearish_dem",
-      "kalshi_raw": {
-        "dem_pct": 50.0,
-        "rep_pct": 50.0,
-        "event_ticker": "GOVPARTYGA-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_AZ": {
       "label": "AZ Governor",
