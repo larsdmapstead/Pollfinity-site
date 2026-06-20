@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T11:00:02.156593+00:00",
+  "generated_at": "2026-06-20T11:30:02.015511+00:00",
   "days_to_election": 136,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 14,
+  "kalshi_markets_fetched": 13,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
