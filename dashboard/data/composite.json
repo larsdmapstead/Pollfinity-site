@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T05:30:01.788485+00:00",
+  "generated_at": "2026-06-21T06:00:01.544511+00:00",
   "days_to_election": 136,
   "weights": {
     "polls": 0.5,
@@ -751,35 +751,31 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 61.7,
-      "composite_rep_pct": 38.3,
+      "composite_dem_pct": 55.8,
+      "composite_rep_pct": 44.2,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
           "dem_margin": 2.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 73.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 53.5,
           "pvi": 0,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 16.4,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 73.0,
-        "rep_pct": 21.0,
-        "event_ticker": "GOVPARTYWI-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_GA": {
       "label": "GA Governor",
@@ -922,31 +918,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 57.3,
-      "composite_rep_pct": 42.7,
+      "composite_dem_pct": 69.4,
+      "composite_rep_pct": 30.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 91.1,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.25
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 34.8,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 91.1,
+        "rep_pct": 2.4,
+        "event_ticker": "GOVPARTYPA-26"
+      }
     },
     "governor_FL": {
       "label": "FL Governor",
