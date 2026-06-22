@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T17:30:01.387700+00:00",
+  "generated_at": "2026-06-22T18:00:01.654735+00:00",
   "days_to_election": 134,
   "weights": {
     "polls": 0.5,
@@ -7,15 +7,15 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 13,
+  "kalshi_markets_fetched": 12,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 64.8,
-      "composite_rep_pct": 35.2,
+      "composite_dem_pct": 64.5,
+      "composite_rep_pct": 35.5,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 86.0,
+          "dem_prob": 85.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,10 +36,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 26.7,
+      "divergence_pts": 25.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 86.0,
+        "dem_pct": 85.0,
         "rep_pct": 13.0,
         "event_ticker": "SENATENC-26"
       }
@@ -269,7 +269,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 39.0,
-        "rep_pct": 59.0,
+        "rep_pct": 60.0,
         "event_ticker": "SENATEIA-26"
       }
     },
@@ -751,8 +751,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 61.7,
-      "composite_rep_pct": 38.3,
+      "composite_dem_pct": 61.4,
+      "composite_rep_pct": 38.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -761,7 +761,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 73.0,
+          "dem_prob": 72.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -773,10 +773,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 16.4,
+      "divergence_pts": 15.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 73.0,
+        "dem_pct": 72.0,
         "rep_pct": 23.0,
         "event_ticker": "GOVPARTYWI-26"
       }
@@ -786,8 +786,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 53.1,
-      "composite_rep_pct": 46.9,
+      "composite_dem_pct": 52.8,
+      "composite_rep_pct": 47.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -796,7 +796,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 51.0,
+          "dem_prob": 50.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -808,11 +808,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 8.0,
+      "divergence_pts": 9.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 51.0,
-        "rep_pct": 50.0,
+        "dem_pct": 50.0,
+        "rep_pct": 51.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -821,35 +821,31 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 68.3,
-      "composite_rep_pct": 31.7,
+      "composite_dem_pct": 62.5,
+      "composite_rep_pct": 37.5,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
           "dem_margin": 4.8,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 80.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 56.8,
           "pvi": -1,
           "incumbency": "D",
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 15.6,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": null,
-        "rep_pct": 20.0,
-        "event_ticker": "GOVPARTYAZ-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_NV": {
       "label": "NV Governor",
