@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:30:01.455862+00:00",
+  "generated_at": "2026-06-22T06:00:01.258235+00:00",
   "days_to_election": 135,
   "weights": {
     "polls": 0.5,
@@ -751,31 +751,35 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.8,
-      "composite_rep_pct": 44.2,
+      "composite_dem_pct": 61.7,
+      "composite_rep_pct": 38.3,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
           "dem_margin": 2.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 73.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 53.5,
           "pvi": 0,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 16.4,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 73.0,
+        "rep_pct": 22.0,
+        "event_ticker": "GOVPARTYWI-26"
+      }
     },
     "governor_GA": {
       "label": "GA Governor",
@@ -817,35 +821,31 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 68.3,
-      "composite_rep_pct": 31.7,
+      "composite_dem_pct": 62.5,
+      "composite_rep_pct": 37.5,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
           "dem_margin": 4.8,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 80.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 56.8,
           "pvi": -1,
           "incumbency": "D",
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 15.6,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": null,
-        "rep_pct": 20.0,
-        "event_ticker": "GOVPARTYAZ-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_NV": {
       "label": "NV Governor",
@@ -953,35 +953,31 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 26.5,
-      "composite_rep_pct": 73.5,
+      "composite_dem_pct": 28.2,
+      "composite_rep_pct": 71.8,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
           "dem_margin": -7.5,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 23.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 30.4,
           "pvi": -7,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 4.5,
-      "divergence_direction": "market_bearish_dem",
-      "kalshi_raw": {
-        "dem_pct": 23.0,
-        "rep_pct": 76.0,
-        "event_ticker": "GOVPARTYFL-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_OH": {
       "label": "OH Governor",
