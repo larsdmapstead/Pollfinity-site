@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T01:30:01.985625+00:00",
+  "generated_at": "2026-06-22T02:00:01.762680+00:00",
   "days_to_election": 135,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 13,
+  "kalshi_markets_fetched": 14,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -856,31 +856,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 39.7,
-      "composite_rep_pct": 60.3,
+      "composite_dem_pct": 47.0,
+      "composite_rep_pct": 53.0,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
           "dem_margin": -3.9,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 60.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -1,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 21.7,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 60.0,
+        "rep_pct": 38.0,
+        "event_ticker": "GOVPARTYNV-26"
+      }
     },
     "governor_NH": {
       "label": "NH Governor",
