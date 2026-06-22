@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T03:30:01.470593+00:00",
+  "generated_at": "2026-06-22T04:00:01.703894+00:00",
   "days_to_election": 135,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 13,
+  "kalshi_markets_fetched": 14,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -786,8 +786,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 52.8,
-      "composite_rep_pct": 47.2,
+      "composite_dem_pct": 53.1,
+      "composite_rep_pct": 46.9,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -796,7 +796,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 50.0,
+          "dem_prob": 51.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -808,11 +808,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 9.0,
+      "divergence_pts": 8.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 50.0,
-        "rep_pct": 51.0,
+        "dem_pct": 51.0,
+        "rep_pct": 50.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -992,31 +992,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 34.4,
-      "composite_rep_pct": 65.6,
+      "composite_dem_pct": 38.5,
+      "composite_rep_pct": 61.5,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
           "dem_margin": -5.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 46.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 33.7,
           "pvi": -6,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 11.3,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 46.0,
+        "rep_pct": 54.0,
+        "event_ticker": "GOVPARTYOH-26"
+      }
     },
     "governor_NC": {
       "label": "NC Governor",
