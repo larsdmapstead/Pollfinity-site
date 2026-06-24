@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T20:30:01.588493+00:00",
+  "generated_at": "2026-06-24T21:00:01.438519+00:00",
   "days_to_election": 132,
   "weights": {
     "polls": 0.5,
@@ -751,12 +751,47 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.8,
-      "composite_rep_pct": 44.2,
+      "composite_dem_pct": 61.4,
+      "composite_rep_pct": 38.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
           "dem_margin": 2.2,
+          "sample_quality": "moderate",
+          "weight_applied": 0.45
+        },
+        "markets": {
+          "dem_prob": 72.0,
+          "available": true,
+          "source": "Kalshi",
+          "weight_applied": 0.35
+        },
+        "fundamentals": {
+          "dem_prob": 53.5,
+          "pvi": 0,
+          "incumbency": null,
+          "weight_applied": 0.2
+        }
+      },
+      "divergence_pts": 15.4,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 72.0,
+        "rep_pct": 22.0,
+        "event_ticker": "GOVPARTYWI-26"
+      }
+    },
+    "governor_GA": {
+      "label": "GA Governor",
+      "type": "governor",
+      "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
+      "rating": "Toss-Up",
+      "composite_dem_pct": 55.1,
+      "composite_rep_pct": 44.9,
+      "inputs": {
+        "polls": {
+          "dem_prob": 59.0,
+          "dem_margin": 3.0,
           "sample_quality": "moderate",
           "weight_applied": 0.745
         },
@@ -767,8 +802,8 @@
           "weight_applied": 0.0
         },
         "fundamentals": {
-          "dem_prob": 53.5,
-          "pvi": 0,
+          "dem_prob": 43.6,
+          "pvi": -3,
           "incumbency": null,
           "weight_applied": 0.255
         }
@@ -776,41 +811,6 @@
       "divergence_pts": null,
       "divergence_direction": null,
       "kalshi_raw": null
-    },
-    "governor_GA": {
-      "label": "GA Governor",
-      "type": "governor",
-      "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
-      "rating": "Toss-Up",
-      "composite_dem_pct": 51.7,
-      "composite_rep_pct": 48.3,
-      "inputs": {
-        "polls": {
-          "dem_prob": 59.0,
-          "dem_margin": 3.0,
-          "sample_quality": "moderate",
-          "weight_applied": 0.45
-        },
-        "markets": {
-          "dem_prob": 47.0,
-          "available": true,
-          "source": "Kalshi",
-          "weight_applied": 0.35
-        },
-        "fundamentals": {
-          "dem_prob": 43.6,
-          "pvi": -3,
-          "incumbency": null,
-          "weight_applied": 0.2
-        }
-      },
-      "divergence_pts": 12.0,
-      "divergence_direction": "market_bearish_dem",
-      "kalshi_raw": {
-        "dem_pct": 47.0,
-        "rep_pct": 54.0,
-        "event_ticker": "GOVPARTYGA-26"
-      }
     },
     "governor_AZ": {
       "label": "AZ Governor",
@@ -878,7 +878,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 60.0,
-        "rep_pct": 37.0,
+        "rep_pct": 38.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
