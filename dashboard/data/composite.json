@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T12:30:01.968217+00:00",
+  "generated_at": "2026-06-24T13:00:01.385105+00:00",
   "days_to_election": 132,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 12,
+  "kalshi_markets_fetched": 13,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -335,7 +335,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 41.0,
-        "rep_pct": 58.0,
+        "rep_pct": 59.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -786,31 +786,35 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.1,
-      "composite_rep_pct": 44.9,
+      "composite_dem_pct": 51.7,
+      "composite_rep_pct": 48.3,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
           "dem_margin": 3.0,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 47.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -3,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 12.0,
+      "divergence_direction": "market_bearish_dem",
+      "kalshi_raw": {
+        "dem_pct": 47.0,
+        "rep_pct": 53.0,
+        "event_ticker": "GOVPARTYGA-26"
+      }
     },
     "governor_AZ": {
       "label": "AZ Governor",
@@ -953,31 +957,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 28.2,
-      "composite_rep_pct": 71.8,
+      "composite_dem_pct": 26.5,
+      "composite_rep_pct": 73.5,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
           "dem_margin": -7.5,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 23.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 30.4,
           "pvi": -7,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.2
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 4.5,
+      "divergence_direction": "market_bearish_dem",
+      "kalshi_raw": {
+        "dem_pct": 23.0,
+        "rep_pct": 75.0,
+        "event_ticker": "GOVPARTYFL-26"
+      }
     },
     "governor_OH": {
       "label": "OH Governor",
