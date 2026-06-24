@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T01:00:01.493629+00:00",
+  "generated_at": "2026-06-24T01:30:01.880398+00:00",
   "days_to_election": 133,
   "weights": {
     "polls": 0.5,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 64.5,
-      "composite_rep_pct": 35.5,
+      "composite_dem_pct": 64.8,
+      "composite_rep_pct": 35.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 85.0,
+          "dem_prob": 86.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,10 +36,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 25.7,
+      "divergence_pts": 26.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 85.0,
+        "dem_pct": 86.0,
         "rep_pct": 13.0,
         "event_ticker": "SENATENC-26"
       }
@@ -953,47 +953,12 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 25.8,
-      "composite_rep_pct": 74.2,
+      "composite_dem_pct": 28.2,
+      "composite_rep_pct": 71.8,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
           "dem_margin": -7.5,
-          "sample_quality": "moderate",
-          "weight_applied": 0.45
-        },
-        "markets": {
-          "dem_prob": 21.0,
-          "available": true,
-          "source": "Kalshi",
-          "weight_applied": 0.35
-        },
-        "fundamentals": {
-          "dem_prob": 30.4,
-          "pvi": -7,
-          "incumbency": null,
-          "weight_applied": 0.2
-        }
-      },
-      "divergence_pts": 6.5,
-      "divergence_direction": "market_bearish_dem",
-      "kalshi_raw": {
-        "dem_pct": 21.0,
-        "rep_pct": 75.0,
-        "event_ticker": "GOVPARTYFL-26"
-      }
-    },
-    "governor_OH": {
-      "label": "OH Governor",
-      "type": "governor",
-      "matchup": "TBD (D) vs. Mike DeWine (R)",
-      "rating": "Lean R",
-      "composite_dem_pct": 34.4,
-      "composite_rep_pct": 65.6,
-      "inputs": {
-        "polls": {
-          "dem_prob": 34.7,
-          "dem_margin": -5.1,
           "sample_quality": "moderate",
           "weight_applied": 0.745
         },
@@ -1004,8 +969,8 @@
           "weight_applied": 0.0
         },
         "fundamentals": {
-          "dem_prob": 33.7,
-          "pvi": -6,
+          "dem_prob": 30.4,
+          "pvi": -7,
           "incumbency": null,
           "weight_applied": 0.255
         }
@@ -1013,6 +978,41 @@
       "divergence_pts": null,
       "divergence_direction": null,
       "kalshi_raw": null
+    },
+    "governor_OH": {
+      "label": "OH Governor",
+      "type": "governor",
+      "matchup": "TBD (D) vs. Mike DeWine (R)",
+      "rating": "Lean R",
+      "composite_dem_pct": 38.5,
+      "composite_rep_pct": 61.5,
+      "inputs": {
+        "polls": {
+          "dem_prob": 34.7,
+          "dem_margin": -5.1,
+          "sample_quality": "moderate",
+          "weight_applied": 0.45
+        },
+        "markets": {
+          "dem_prob": 46.0,
+          "available": true,
+          "source": "Kalshi",
+          "weight_applied": 0.35
+        },
+        "fundamentals": {
+          "dem_prob": 33.7,
+          "pvi": -6,
+          "incumbency": null,
+          "weight_applied": 0.2
+        }
+      },
+      "divergence_pts": 11.3,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 46.0,
+        "rep_pct": 54.0,
+        "event_ticker": "GOVPARTYOH-26"
+      }
     },
     "governor_NC": {
       "label": "NC Governor",
