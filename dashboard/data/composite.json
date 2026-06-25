@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T01:30:01.687498+00:00",
+  "generated_at": "2026-06-25T02:00:02.040933+00:00",
   "days_to_election": 132,
   "weights": {
     "polls": 0.5,
@@ -716,47 +716,12 @@
       "type": "governor",
       "matchup": "Primary Aug. 4 (D) vs. John James (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 66.4,
-      "composite_rep_pct": 33.6,
+      "composite_dem_pct": 58.7,
+      "composite_rep_pct": 41.3,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
           "dem_margin": 3.1,
-          "sample_quality": "moderate",
-          "weight_applied": 0.45
-        },
-        "markets": {
-          "dem_prob": 81.0,
-          "available": true,
-          "source": "Kalshi",
-          "weight_applied": 0.35
-        },
-        "fundamentals": {
-          "dem_prob": 56.8,
-          "pvi": 1,
-          "incumbency": null,
-          "weight_applied": 0.2
-        }
-      },
-      "divergence_pts": 21.7,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 81.0,
-        "rep_pct": 13.0,
-        "event_ticker": "GOVPARTYMI-26"
-      }
-    },
-    "governor_WI": {
-      "label": "WI Governor",
-      "type": "governor",
-      "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
-      "rating": "Toss-Up",
-      "composite_dem_pct": 55.8,
-      "composite_rep_pct": 44.2,
-      "inputs": {
-        "polls": {
-          "dem_prob": 56.6,
-          "dem_margin": 2.2,
           "sample_quality": "moderate",
           "weight_applied": 0.745
         },
@@ -767,8 +732,8 @@
           "weight_applied": 0.0
         },
         "fundamentals": {
-          "dem_prob": 53.5,
-          "pvi": 0,
+          "dem_prob": 56.8,
+          "pvi": 1,
           "incumbency": null,
           "weight_applied": 0.255
         }
@@ -776,6 +741,41 @@
       "divergence_pts": null,
       "divergence_direction": null,
       "kalshi_raw": null
+    },
+    "governor_WI": {
+      "label": "WI Governor",
+      "type": "governor",
+      "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
+      "rating": "Toss-Up",
+      "composite_dem_pct": 61.4,
+      "composite_rep_pct": 38.6,
+      "inputs": {
+        "polls": {
+          "dem_prob": 56.6,
+          "dem_margin": 2.2,
+          "sample_quality": "moderate",
+          "weight_applied": 0.45
+        },
+        "markets": {
+          "dem_prob": 72.0,
+          "available": true,
+          "source": "Kalshi",
+          "weight_applied": 0.35
+        },
+        "fundamentals": {
+          "dem_prob": 53.5,
+          "pvi": 0,
+          "incumbency": null,
+          "weight_applied": 0.2
+        }
+      },
+      "divergence_pts": 15.4,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 72.0,
+        "rep_pct": 23.0,
+        "event_ticker": "GOVPARTYWI-26"
+      }
     },
     "governor_GA": {
       "label": "GA Governor",
@@ -808,7 +808,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 46.0,
-        "rep_pct": 52.0,
+        "rep_pct": 53.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -852,35 +852,31 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 47.0,
-      "composite_rep_pct": 53.0,
+      "composite_dem_pct": 39.7,
+      "composite_rep_pct": 60.3,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
           "dem_margin": -3.9,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 60.0,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -1,
           "incumbency": "R",
-          "weight_applied": 0.2
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 21.7,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 60.0,
-        "rep_pct": 38.0,
-        "event_ticker": "GOVPARTYNV-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_NH": {
       "label": "NH Governor",
@@ -918,31 +914,35 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 57.3,
-      "composite_rep_pct": 42.7,
+      "composite_dem_pct": 69.4,
+      "composite_rep_pct": 30.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 90.9,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.25
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 34.6,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 90.9,
+        "rep_pct": 2.2,
+        "event_ticker": "GOVPARTYPA-26"
+      }
     },
     "governor_FL": {
       "label": "FL Governor",
@@ -1010,7 +1010,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 45.0,
-        "rep_pct": 54.0,
+        "rep_pct": 53.0,
         "event_ticker": "GOVPARTYOH-26"
       }
     },
