@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T06:00:01.227915+00:00",
+  "generated_at": "2026-06-25T06:30:02.082076+00:00",
   "days_to_election": 132,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 13,
+  "kalshi_markets_fetched": 12,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -751,12 +751,47 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.8,
-      "composite_rep_pct": 44.2,
+      "composite_dem_pct": 61.4,
+      "composite_rep_pct": 38.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
           "dem_margin": 2.2,
+          "sample_quality": "moderate",
+          "weight_applied": 0.45
+        },
+        "markets": {
+          "dem_prob": 72.0,
+          "available": true,
+          "source": "Kalshi",
+          "weight_applied": 0.35
+        },
+        "fundamentals": {
+          "dem_prob": 53.5,
+          "pvi": 0,
+          "incumbency": null,
+          "weight_applied": 0.2
+        }
+      },
+      "divergence_pts": 15.4,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 72.0,
+        "rep_pct": 23.0,
+        "event_ticker": "GOVPARTYWI-26"
+      }
+    },
+    "governor_GA": {
+      "label": "GA Governor",
+      "type": "governor",
+      "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
+      "rating": "Toss-Up",
+      "composite_dem_pct": 55.1,
+      "composite_rep_pct": 44.9,
+      "inputs": {
+        "polls": {
+          "dem_prob": 59.0,
+          "dem_margin": 3.0,
           "sample_quality": "moderate",
           "weight_applied": 0.745
         },
@@ -767,8 +802,8 @@
           "weight_applied": 0.0
         },
         "fundamentals": {
-          "dem_prob": 53.5,
-          "pvi": 0,
+          "dem_prob": 43.6,
+          "pvi": -3,
           "incumbency": null,
           "weight_applied": 0.255
         }
@@ -776,41 +811,6 @@
       "divergence_pts": null,
       "divergence_direction": null,
       "kalshi_raw": null
-    },
-    "governor_GA": {
-      "label": "GA Governor",
-      "type": "governor",
-      "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
-      "rating": "Toss-Up",
-      "composite_dem_pct": 51.4,
-      "composite_rep_pct": 48.6,
-      "inputs": {
-        "polls": {
-          "dem_prob": 59.0,
-          "dem_margin": 3.0,
-          "sample_quality": "moderate",
-          "weight_applied": 0.45
-        },
-        "markets": {
-          "dem_prob": 46.0,
-          "available": true,
-          "source": "Kalshi",
-          "weight_applied": 0.35
-        },
-        "fundamentals": {
-          "dem_prob": 43.6,
-          "pvi": -3,
-          "incumbency": null,
-          "weight_applied": 0.2
-        }
-      },
-      "divergence_pts": 13.0,
-      "divergence_direction": "market_bearish_dem",
-      "kalshi_raw": {
-        "dem_pct": 46.0,
-        "rep_pct": 53.0,
-        "event_ticker": "GOVPARTYGA-26"
-      }
     },
     "governor_AZ": {
       "label": "AZ Governor",
@@ -918,35 +918,31 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 69.4,
-      "composite_rep_pct": 30.6,
+      "composite_dem_pct": 57.3,
+      "composite_rep_pct": 42.7,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
-          "weight_applied": 0.4
+          "weight_applied": 0.745
         },
         "markets": {
-          "dem_prob": 90.9,
-          "available": true,
+          "dem_prob": null,
+          "available": false,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.0
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.25
+          "weight_applied": 0.255
         }
       },
-      "divergence_pts": 34.6,
-      "divergence_direction": "market_bullish_dem",
-      "kalshi_raw": {
-        "dem_pct": 90.9,
-        "rep_pct": 2.2,
-        "event_ticker": "GOVPARTYPA-26"
-      }
+      "divergence_pts": null,
+      "divergence_direction": null,
+      "kalshi_raw": null
     },
     "governor_FL": {
       "label": "FL Governor",
