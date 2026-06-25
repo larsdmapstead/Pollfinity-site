@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T22:30:01.918515+00:00",
+  "generated_at": "2026-06-25T23:00:01.324588+00:00",
   "days_to_election": 131,
   "weights": {
     "polls": 0.5,
@@ -716,8 +716,8 @@
       "type": "governor",
       "matchup": "Primary Aug. 4 (D) vs. John James (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 66.7,
-      "composite_rep_pct": 33.3,
+      "composite_dem_pct": 66.4,
+      "composite_rep_pct": 33.6,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -726,7 +726,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 82.0,
+          "dem_prob": 81.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -738,10 +738,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 22.7,
+      "divergence_pts": 21.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 82.0,
+        "dem_pct": 81.0,
         "rep_pct": 13.0,
         "event_ticker": "GOVPARTYMI-26"
       }
@@ -786,8 +786,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 51.7,
-      "composite_rep_pct": 48.3,
+      "composite_dem_pct": 51.4,
+      "composite_rep_pct": 48.6,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -796,7 +796,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 47.0,
+          "dem_prob": 46.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -808,10 +808,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 12.0,
+      "divergence_pts": 13.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 47.0,
+        "dem_pct": 46.0,
         "rep_pct": 53.0,
         "event_ticker": "GOVPARTYGA-26"
       }
@@ -1018,7 +1018,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 46.0,
-        "rep_pct": 52.0,
+        "rep_pct": 51.0,
         "event_ticker": "GOVPARTYOH-26"
       }
     },
