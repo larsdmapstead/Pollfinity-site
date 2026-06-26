@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T00:30:02.009386+00:00",
+  "generated_at": "2026-06-26T01:00:01.238837+00:00",
   "days_to_election": 131,
   "weights": {
     "polls": 0.5,
@@ -812,7 +812,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 46.0,
-        "rep_pct": 54.0,
+        "rep_pct": 53.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
