@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T01:30:01.294131+00:00",
+  "generated_at": "2026-06-26T02:00:01.445735+00:00",
   "days_to_election": 131,
   "weights": {
     "polls": 0.5,
@@ -75,7 +75,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 61.0,
-        "rep_pct": 40.0,
+        "rep_pct": 41.0,
         "event_ticker": "SENATEME-26"
       }
     },
@@ -335,7 +335,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 40.0,
-        "rep_pct": 60.0,
+        "rep_pct": 59.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -932,7 +932,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 91.0,
+          "dem_prob": 90.9,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -944,11 +944,11 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 34.7,
+      "divergence_pts": 34.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.0,
-        "rep_pct": 2.3,
+        "dem_pct": 90.9,
+        "rep_pct": 2.2,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
