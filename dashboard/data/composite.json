@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T00:30:01.222954+00:00",
+  "generated_at": "2026-06-27T01:00:01.730782+00:00",
   "days_to_election": 130,
   "weights": {
     "polls": 0.5,
@@ -932,7 +932,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 90.9,
+          "dem_prob": 91.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -944,10 +944,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 34.6,
+      "divergence_pts": 34.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.9,
+        "dem_pct": 91.0,
         "rep_pct": 2.2,
         "event_ticker": "GOVPARTYPA-26"
       }
