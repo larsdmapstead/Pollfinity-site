@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T14:30:01.202007+00:00",
+  "generated_at": "2026-06-29T15:00:01.488582+00:00",
   "days_to_election": 127,
   "weights": {
     "polls": 0.5,
@@ -992,8 +992,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 38.8,
-      "composite_rep_pct": 61.2,
+      "composite_dem_pct": 38.5,
+      "composite_rep_pct": 61.5,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
@@ -1002,7 +1002,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 47.0,
+          "dem_prob": 46.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -1014,10 +1014,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 12.3,
+      "divergence_pts": 11.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 47.0,
+        "dem_pct": 46.0,
         "rep_pct": 53.0,
         "event_ticker": "GOVPARTYOH-26"
       }
