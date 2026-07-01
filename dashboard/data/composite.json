@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T13:00:01.734674+00:00",
+  "generated_at": "2026-07-01T13:30:01.884579+00:00",
   "days_to_election": 125,
   "weights": {
     "polls": 0.5,
@@ -49,8 +49,8 @@
       "type": "senate",
       "matchup": "Graham Platner (D) vs. Susan Collins (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 52.7,
-      "composite_rep_pct": 47.3,
+      "composite_dem_pct": 53.1,
+      "composite_rep_pct": 46.9,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
@@ -59,7 +59,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 54.0,
+          "dem_prob": 55.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -71,10 +71,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 7.0,
+      "divergence_pts": 8.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 54.0,
+        "dem_pct": 55.0,
         "rep_pct": 45.0,
         "event_ticker": "SENATEME-26"
       }
@@ -309,8 +309,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 25.6,
-      "composite_rep_pct": 74.4,
+      "composite_dem_pct": 25.9,
+      "composite_rep_pct": 74.1,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -319,7 +319,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 41.0,
+          "dem_prob": 42.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -331,10 +331,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 19.5,
+      "divergence_pts": 20.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 41.0,
+        "dem_pct": 42.0,
         "rep_pct": 57.0,
         "event_ticker": "SENATETX-26"
       }
