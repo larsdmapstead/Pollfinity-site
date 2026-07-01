@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T14:30:02.065797+00:00",
+  "generated_at": "2026-07-01T15:00:01.687254+00:00",
   "days_to_election": 125,
   "weights": {
     "polls": 0.5,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 64.5,
-      "composite_rep_pct": 35.5,
+      "composite_dem_pct": 64.8,
+      "composite_rep_pct": 35.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 85.0,
+          "dem_prob": 86.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,10 +36,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 25.7,
+      "divergence_pts": 26.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 85.0,
+        "dem_pct": 86.0,
         "rep_pct": 13.0,
         "event_ticker": "SENATENC-26"
       }
@@ -309,8 +309,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 25.9,
-      "composite_rep_pct": 74.1,
+      "composite_dem_pct": 25.6,
+      "composite_rep_pct": 74.4,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -319,7 +319,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 42.0,
+          "dem_prob": 41.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -331,10 +331,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 20.5,
+      "divergence_pts": 19.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 42.0,
+        "dem_pct": 41.0,
         "rep_pct": 57.0,
         "event_ticker": "SENATETX-26"
       }
