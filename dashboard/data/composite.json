@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T19:00:01.835688+00:00",
+  "generated_at": "2026-07-02T19:30:01.947502+00:00",
   "days_to_election": 124,
   "weights": {
     "polls": 0.5,
@@ -957,8 +957,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 26.5,
-      "composite_rep_pct": 73.5,
+      "composite_dem_pct": 25.8,
+      "composite_rep_pct": 74.2,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -967,7 +967,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 23.0,
+          "dem_prob": 21.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -979,10 +979,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 4.5,
+      "divergence_pts": 6.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 23.0,
+        "dem_pct": 21.0,
         "rep_pct": 75.0,
         "event_ticker": "GOVPARTYFL-26"
       }
