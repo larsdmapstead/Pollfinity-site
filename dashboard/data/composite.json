@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T16:30:02.168815+00:00",
+  "generated_at": "2026-07-04T17:00:01.810542+00:00",
   "days_to_election": 122,
   "weights": {
     "polls": 0.5,
@@ -812,7 +812,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 47.0,
-        "rep_pct": 53.0,
+        "rep_pct": 52.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -922,8 +922,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 69.4,
-      "composite_rep_pct": 30.6,
+      "composite_dem_pct": 69.5,
+      "composite_rep_pct": 30.5,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -932,7 +932,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 91.1,
+          "dem_prob": 91.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -944,10 +944,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 34.8,
+      "divergence_pts": 34.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.1,
+        "dem_pct": 91.2,
         "rep_pct": 2.3,
         "event_ticker": "GOVPARTYPA-26"
       }
