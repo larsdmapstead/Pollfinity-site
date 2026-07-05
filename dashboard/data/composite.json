@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T17:00:01.159293+00:00",
+  "generated_at": "2026-07-05T17:30:01.528985+00:00",
   "days_to_election": 121,
   "weights": {
     "polls": 0.5,
@@ -983,7 +983,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 22.0,
-        "rep_pct": 75.0,
+        "rep_pct": 76.0,
         "event_ticker": "GOVPARTYFL-26"
       }
     },
