@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T21:30:01.488927+00:00",
+  "generated_at": "2026-07-05T22:00:01.500785+00:00",
   "days_to_election": 121,
   "weights": {
     "polls": 0.5,
@@ -203,7 +203,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 84.0,
-        "rep_pct": 16.0,
+        "rep_pct": 15.0,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -309,8 +309,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 25.6,
-      "composite_rep_pct": 74.4,
+      "composite_dem_pct": 25.2,
+      "composite_rep_pct": 74.8,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -319,7 +319,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 41.0,
+          "dem_prob": 40.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -331,10 +331,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 19.5,
+      "divergence_pts": 18.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 41.0,
+        "dem_pct": 40.0,
         "rep_pct": 58.0,
         "event_ticker": "SENATETX-26"
       }
