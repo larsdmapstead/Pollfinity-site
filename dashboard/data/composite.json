@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T12:00:01.413925+00:00",
+  "generated_at": "2026-07-06T12:30:01.625026+00:00",
   "days_to_election": 120,
   "weights": {
     "polls": 0.5,
@@ -882,7 +882,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 55.0,
-        "rep_pct": 30.0,
+        "rep_pct": 33.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
