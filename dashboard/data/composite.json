@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T04:00:01.502843+00:00",
+  "generated_at": "2026-07-06T04:30:02.086413+00:00",
   "days_to_election": 121,
   "weights": {
     "polls": 0.5,
@@ -49,8 +49,8 @@
       "type": "senate",
       "matchup": "Graham Platner (D) vs. Susan Collins (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 51.3,
-      "composite_rep_pct": 48.7,
+      "composite_dem_pct": 51.7,
+      "composite_rep_pct": 48.3,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
@@ -59,7 +59,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 50.0,
+          "dem_prob": 51.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -71,10 +71,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 3.0,
+      "divergence_pts": 4.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 50.0,
+        "dem_pct": 51.0,
         "rep_pct": 48.0,
         "event_ticker": "SENATEME-26"
       }
@@ -309,8 +309,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 24.9,
-      "composite_rep_pct": 75.1,
+      "composite_dem_pct": 25.2,
+      "composite_rep_pct": 74.8,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -319,7 +319,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 39.0,
+          "dem_prob": 40.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -331,10 +331,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 17.5,
+      "divergence_pts": 18.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 39.0,
+        "dem_pct": 40.0,
         "rep_pct": 58.0,
         "event_ticker": "SENATETX-26"
       }
@@ -856,8 +856,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 46.3,
-      "composite_rep_pct": 53.7,
+      "composite_dem_pct": 44.9,
+      "composite_rep_pct": 55.1,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -866,7 +866,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 58.0,
+          "dem_prob": 54.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -878,11 +878,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 19.7,
+      "divergence_pts": 15.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 58.0,
-        "rep_pct": 35.0,
+        "dem_pct": 54.0,
+        "rep_pct": 29.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
