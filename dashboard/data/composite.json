@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T06:30:01.800548+00:00",
-  "days_to_election": 112,
+  "generated_at": "2026-07-15T07:00:01.358456+00:00",
+  "days_to_election": 111,
   "weights": {
     "polls": 0.5,
     "markets": 0.35,
@@ -49,8 +49,8 @@
       "type": "senate",
       "matchup": "Graham Platner (D) vs. Susan Collins (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 56.6,
-      "composite_rep_pct": 43.4,
+      "composite_dem_pct": 56.2,
+      "composite_rep_pct": 43.8,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
@@ -59,7 +59,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 65.0,
+          "dem_prob": 64.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -71,10 +71,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 18.0,
+      "divergence_pts": 17.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 65.0,
+        "dem_pct": 64.0,
         "rep_pct": 34.0,
         "event_ticker": "SENATEME-26"
       }
