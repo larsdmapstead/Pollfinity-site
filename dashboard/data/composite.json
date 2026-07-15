@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T15:30:01.949454+00:00",
+  "generated_at": "2026-07-15T16:00:01.770768+00:00",
   "days_to_election": 111,
   "weights": {
     "polls": 0.5,
@@ -7,7 +7,7 @@
     "fundamentals": 0.15
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 14,
+  "kalshi_markets_fetched": 15,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -146,31 +146,35 @@
       "type": "senate",
       "matchup": "Mary Peltola (D) vs. Dan Sullivan (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 32.2,
-      "composite_rep_pct": 67.8,
+      "composite_dem_pct": 39.2,
+      "composite_rep_pct": 60.8,
       "inputs": {
         "polls": {
           "dem_prob": 37.4,
           "dem_margin": -4.2,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 57.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.35
         },
         "fundamentals": {
           "dem_prob": 17.2,
           "pvi": -9,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.25
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 19.6,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": null,
+        "rep_pct": 43.0,
+        "event_ticker": "SENATEAK-26"
+      }
     },
     "senate_GA": {
       "label": "GA Senate",
