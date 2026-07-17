@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T14:00:01.678388+00:00",
+  "generated_at": "2026-07-17T14:30:02.038833+00:00",
   "days_to_election": 109,
   "weights": {
     "polls": 0.5,
@@ -755,8 +755,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 58.6,
-      "composite_rep_pct": 41.4,
+      "composite_dem_pct": 58.2,
+      "composite_rep_pct": 41.8,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -765,7 +765,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 64.0,
+          "dem_prob": 63.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -777,10 +777,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 7.4,
+      "divergence_pts": 6.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 64.0,
+        "dem_pct": 63.0,
         "rep_pct": 33.0,
         "event_ticker": "GOVPARTYWI-26"
       }
@@ -790,8 +790,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 53.8,
-      "composite_rep_pct": 46.2,
+      "composite_dem_pct": 54.5,
+      "composite_rep_pct": 45.5,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -800,7 +800,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 53.0,
+          "dem_prob": 55.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -812,11 +812,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 6.0,
+      "divergence_pts": 4.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 53.0,
-        "rep_pct": 45.0,
+        "dem_pct": 55.0,
+        "rep_pct": 43.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
