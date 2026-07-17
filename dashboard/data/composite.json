@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T12:30:01.472539+00:00",
+  "generated_at": "2026-07-17T13:00:01.270127+00:00",
   "days_to_election": 109,
   "weights": {
     "polls": 0.5,
@@ -755,8 +755,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 59.6,
-      "composite_rep_pct": 40.4,
+      "composite_dem_pct": 57.9,
+      "composite_rep_pct": 42.1,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -765,7 +765,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 67.0,
+          "dem_prob": 62.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -777,11 +777,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 10.4,
+      "divergence_pts": 5.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 67.0,
-        "rep_pct": 29.0,
+        "dem_pct": 62.0,
+        "rep_pct": 34.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -790,8 +790,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 53.5,
-      "composite_rep_pct": 46.5,
+      "composite_dem_pct": 53.8,
+      "composite_rep_pct": 46.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -800,7 +800,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 52.0,
+          "dem_prob": 53.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -812,11 +812,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 7.0,
+      "divergence_pts": 6.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 52.0,
-        "rep_pct": 48.0,
+        "dem_pct": 53.0,
+        "rep_pct": 46.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -860,8 +860,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 46.3,
-      "composite_rep_pct": 53.7,
+      "composite_dem_pct": 45.6,
+      "composite_rep_pct": 54.4,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -870,7 +870,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 58.0,
+          "dem_prob": 56.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -882,11 +882,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 19.7,
+      "divergence_pts": 17.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 58.0,
-        "rep_pct": 40.0,
+        "dem_pct": 56.0,
+        "rep_pct": 41.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
