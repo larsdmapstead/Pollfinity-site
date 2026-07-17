@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T23:30:01.262978+00:00",
+  "generated_at": "2026-07-17T00:00:01.670229+00:00",
   "days_to_election": 110,
   "weights": {
     "polls": 0.5,
@@ -720,8 +720,8 @@
       "type": "governor",
       "matchup": "Primary Aug. 4 (D) vs. John James (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 66.7,
-      "composite_rep_pct": 33.3,
+      "composite_dem_pct": 67.1,
+      "composite_rep_pct": 32.9,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -730,7 +730,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 82.0,
+          "dem_prob": 83.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -742,10 +742,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 22.7,
+      "divergence_pts": 23.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 82.0,
+        "dem_pct": 83.0,
         "rep_pct": 14.0,
         "event_ticker": "GOVPARTYMI-26"
       }
