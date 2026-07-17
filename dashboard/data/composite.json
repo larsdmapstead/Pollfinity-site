@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T04:00:01.971415+00:00",
+  "generated_at": "2026-07-17T04:30:01.978830+00:00",
   "days_to_election": 110,
   "weights": {
     "polls": 0.5,
@@ -755,8 +755,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 61.0,
-      "composite_rep_pct": 39.0,
+      "composite_dem_pct": 59.6,
+      "composite_rep_pct": 40.4,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -765,7 +765,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 71.0,
+          "dem_prob": 67.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -777,11 +777,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 14.4,
+      "divergence_pts": 10.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 71.0,
-        "rep_pct": 28.0,
+        "dem_pct": 67.0,
+        "rep_pct": 29.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -961,8 +961,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 25.5,
-      "composite_rep_pct": 74.5,
+      "composite_dem_pct": 25.1,
+      "composite_rep_pct": 74.9,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -971,7 +971,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 20.0,
+          "dem_prob": 19.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -983,10 +983,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 7.5,
+      "divergence_pts": 8.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 20.0,
+        "dem_pct": 19.0,
         "rep_pct": 80.0,
         "event_ticker": "GOVPARTYFL-26"
       }
