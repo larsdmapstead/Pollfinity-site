@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T03:00:01.851995+00:00",
+  "generated_at": "2026-07-17T03:30:01.986853+00:00",
   "days_to_election": 110,
   "weights": {
     "polls": 0.5,
@@ -781,7 +781,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 71.0,
-        "rep_pct": 27.0,
+        "rep_pct": 28.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
