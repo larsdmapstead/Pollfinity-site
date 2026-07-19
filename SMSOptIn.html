@@ -171,7 +171,14 @@
       <div id="form-container">
         <h2 style="color:#f8fafc;font-size:1.4rem;margin-bottom:1.5rem;text-align:center;">Sign Up for the Research Panel</h2>
 
-        <form id="optin-form" action="https://api.web3forms.com/submit" method="POST" onsubmit="handleSubmit(event)">
+        <form id="optin-form" action="/api/optin" method="POST" onsubmit="handleSubmit(event)">
+          <input type="hidden" name="utm_source" id="utm_source">
+          <input type="hidden" name="utm_medium" id="utm_medium">
+          <input type="hidden" name="utm_campaign" id="utm_campaign">
+          <input type="hidden" name="utm_content" id="utm_content">
+          <input type="hidden" name="page_referrer" id="page_referrer">
+          <input type="hidden" name="consent_text_snapshot" id="consent_text_snapshot">
+          <input type="text" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
           <input type="hidden" name="access_key" value="e2ce76da-3f09-4618-8fa2-40b3ca27e447">
           <input type="hidden" name="subject" value="New Pollfinity Panel Opt-In">
           <input type="hidden" name="from_name" value="Pollfinity Research">
@@ -341,13 +348,30 @@
 </footer>
 
 <script>
+// Capture ad attribution + consent snapshot
+(function () {
+  const p = new URLSearchParams(window.location.search);
+  ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'].forEach(function (k) {
+    const el = document.getElementById(k);
+    if (el) el.value = p.get(k) || '';
+  });
+  const ref = document.getElementById('page_referrer');
+  if (ref) ref.value = document.referrer || '';
+  const consentLabel = document.querySelector('label[for="sms_consent"], #sms_consent');
+  const snap = document.getElementById('consent_text_snapshot');
+  if (snap) {
+    const labelEl = document.getElementById('sms_consent');
+    const wrapper = labelEl ? labelEl.closest('label') : null;
+    snap.value = wrapper ? wrapper.innerText.trim().slice(0, 1200) : '';
+  }
+})();
+
 function handleSubmit(e) {
   e.preventDefault();
   const form = document.getElementById('optin-form');
   const data = new FormData(form);
 
-  // Send to Formspree (or swap endpoint for your backend)
-  fetch('https://api.web3forms.com/submit', {
+  fetch('/api/optin', {
     method: 'POST',
     body: data,
     headers: { 'Accept': 'application/json' }
