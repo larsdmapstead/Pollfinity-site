@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T20:00:02.154581+00:00",
+  "generated_at": "2026-07-20T20:30:01.818432+00:00",
   "days_to_election": 106,
   "weights": {
     "polls": 0.5,
@@ -40,7 +40,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 90.6,
-        "rep_pct": 9.2,
+        "rep_pct": 9.3,
         "event_ticker": "SENATENC-26"
       }
     },
