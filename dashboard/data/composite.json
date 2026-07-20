@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T16:00:01.433610+00:00",
+  "generated_at": "2026-07-20T16:30:01.908097+00:00",
   "days_to_election": 106,
   "weights": {
     "polls": 0.5,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 64.8,
-      "composite_rep_pct": 35.2,
+      "composite_dem_pct": 65.5,
+      "composite_rep_pct": 34.5,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 86.0,
+          "dem_prob": 88.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,11 +36,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 26.7,
+      "divergence_pts": 28.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 86.0,
-        "rep_pct": 13.0,
+        "dem_pct": 88.0,
+        "rep_pct": 10.0,
         "event_ticker": "SENATENC-26"
       }
     },
