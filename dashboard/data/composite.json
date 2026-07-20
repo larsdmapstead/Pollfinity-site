@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T16:30:01.908097+00:00",
+  "generated_at": "2026-07-20T17:00:01.371041+00:00",
   "days_to_election": 106,
   "weights": {
     "polls": 0.5,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 65.5,
-      "composite_rep_pct": 34.5,
+      "composite_dem_pct": 65.9,
+      "composite_rep_pct": 34.1,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 88.0,
+          "dem_prob": 89.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,10 +36,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 28.7,
+      "divergence_pts": 29.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 88.0,
+        "dem_pct": 89.0,
         "rep_pct": 10.0,
         "event_ticker": "SENATENC-26"
       }
@@ -720,8 +720,8 @@
       "type": "governor",
       "matchup": "Primary Aug. 4 (D) vs. John James (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 66.7,
-      "composite_rep_pct": 33.3,
+      "composite_dem_pct": 67.1,
+      "composite_rep_pct": 32.9,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -730,7 +730,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 82.0,
+          "dem_prob": 83.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -742,11 +742,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 22.7,
+      "divergence_pts": 23.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 82.0,
-        "rep_pct": 14.0,
+        "dem_pct": 83.0,
+        "rep_pct": 15.0,
         "event_ticker": "GOVPARTYMI-26"
       }
     },
@@ -860,8 +860,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 45.6,
-      "composite_rep_pct": 54.4,
+      "composite_dem_pct": 45.9,
+      "composite_rep_pct": 54.1,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -870,7 +870,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 56.0,
+          "dem_prob": 57.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -882,10 +882,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 17.7,
+      "divergence_pts": 18.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 56.0,
+        "dem_pct": 57.0,
         "rep_pct": 42.0,
         "event_ticker": "GOVPARTYNV-26"
       }
@@ -926,8 +926,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 69.7,
-      "composite_rep_pct": 30.3,
+      "composite_dem_pct": 69.8,
+      "composite_rep_pct": 30.2,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -936,7 +936,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 92.0,
+          "dem_prob": 92.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -948,11 +948,11 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 35.7,
+      "divergence_pts": 35.8,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.0,
-        "rep_pct": 8.4,
+        "dem_pct": 92.1,
+        "rep_pct": 8.5,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
