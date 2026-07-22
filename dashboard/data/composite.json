@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:00:01.772785+00:00",
+  "generated_at": "2026-07-22T20:30:01.534154+00:00",
   "days_to_election": 104,
   "weights": {
     "polls": 0.5,
@@ -816,7 +816,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 56.0,
-        "rep_pct": 44.0,
+        "rep_pct": 43.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -851,7 +851,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 80.0,
-        "rep_pct": 19.0,
+        "rep_pct": 18.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
     },
@@ -886,7 +886,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 55.0,
-        "rep_pct": 43.0,
+        "rep_pct": 42.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
@@ -1022,7 +1022,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 45.0,
-        "rep_pct": 57.0,
+        "rep_pct": 56.0,
         "event_ticker": "GOVPARTYOH-26"
       }
     },
