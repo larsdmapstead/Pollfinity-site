@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T02:30:01.920004+00:00",
+  "generated_at": "2026-07-22T03:00:01.530607+00:00",
   "days_to_election": 105,
   "weights": {
     "polls": 0.5,
@@ -755,8 +755,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 57.2,
-      "composite_rep_pct": 42.8,
+      "composite_dem_pct": 56.8,
+      "composite_rep_pct": 43.2,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -765,7 +765,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 60.0,
+          "dem_prob": 59.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -777,10 +777,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 3.4,
+      "divergence_pts": 2.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 60.0,
+        "dem_pct": 59.0,
         "rep_pct": 38.0,
         "event_ticker": "GOVPARTYWI-26"
       }
