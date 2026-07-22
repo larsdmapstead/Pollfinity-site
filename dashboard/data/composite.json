@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T19:30:01.278442+00:00",
+  "generated_at": "2026-07-22T20:00:01.772785+00:00",
   "days_to_election": 104,
   "weights": {
     "polls": 0.5,
@@ -755,8 +755,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 54.4,
-      "composite_rep_pct": 45.6,
+      "composite_dem_pct": 55.1,
+      "composite_rep_pct": 44.9,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -765,7 +765,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 52.0,
+          "dem_prob": 54.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -777,11 +777,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 4.6,
+      "divergence_pts": 2.6,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 52.0,
-        "rep_pct": 47.0,
+        "dem_pct": 54.0,
+        "rep_pct": 44.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -825,8 +825,8 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 68.7,
-      "composite_rep_pct": 31.3,
+      "composite_dem_pct": 68.3,
+      "composite_rep_pct": 31.7,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
@@ -835,7 +835,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 81.0,
+          "dem_prob": 80.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -847,10 +847,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 16.6,
+      "divergence_pts": 15.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": null,
+        "dem_pct": 80.0,
         "rep_pct": 19.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
