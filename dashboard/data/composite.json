@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:30:01.803076+00:00",
+  "generated_at": "2026-07-23T17:00:01.243448+00:00",
   "days_to_election": 103,
   "weights": {
     "polls": 0.5,
@@ -816,7 +816,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 56.0,
-        "rep_pct": 42.0,
+        "rep_pct": 43.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -825,8 +825,8 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 68.3,
-      "composite_rep_pct": 31.7,
+      "composite_dem_pct": 68.7,
+      "composite_rep_pct": 31.3,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
@@ -835,7 +835,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 80.0,
+          "dem_prob": 81.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -847,10 +847,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 15.6,
+      "divergence_pts": 16.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 80.0,
+        "dem_pct": 81.0,
         "rep_pct": 18.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
