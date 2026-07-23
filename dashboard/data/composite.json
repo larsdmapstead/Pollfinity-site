@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T21:00:02.199409+00:00",
+  "generated_at": "2026-07-23T21:30:01.502935+00:00",
   "days_to_election": 103,
   "weights": {
     "polls": 0.5,
@@ -247,8 +247,8 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 33.2,
-      "composite_rep_pct": 66.8,
+      "composite_dem_pct": 33.6,
+      "composite_rep_pct": 66.4,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
@@ -257,7 +257,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 36.0,
+          "dem_prob": 37.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -269,10 +269,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 3.4,
+      "divergence_pts": 4.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 36.0,
+        "dem_pct": 37.0,
         "rep_pct": 63.0,
         "event_ticker": "SENATEIA-26"
       }
