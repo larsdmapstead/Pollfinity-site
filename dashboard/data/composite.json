@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T02:30:01.479141+00:00",
+  "generated_at": "2026-07-24T03:00:02.007652+00:00",
   "days_to_election": 103,
   "weights": {
     "polls": 0.5,
@@ -181,8 +181,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 69.9,
-      "composite_rep_pct": 30.1,
+      "composite_dem_pct": 70.0,
+      "composite_rep_pct": 30.0,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -191,7 +191,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 91.0,
+          "dem_prob": 91.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -203,10 +203,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 28.7,
+      "divergence_pts": 28.8,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.0,
+        "dem_pct": 91.1,
         "rep_pct": 9.4,
         "event_ticker": "SENATEGA-26"
       }
@@ -790,8 +790,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.6,
-      "composite_rep_pct": 44.4,
+      "composite_dem_pct": 55.9,
+      "composite_rep_pct": 44.1,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -800,7 +800,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 58.0,
+          "dem_prob": 59.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -812,10 +812,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 1.0,
+      "divergence_pts": 0.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 58.0,
+        "dem_pct": 59.0,
         "rep_pct": 40.0,
         "event_ticker": "GOVPARTYGA-26"
       }
