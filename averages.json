@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T01:00:01.981349Z",
+  "generated_at": "2026-07-24T16:22:26.934739Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
@@ -7,128 +7,123 @@
       "last_updated": "2026-07-20",
       "polls_in_average": 7,
       "current": {
-        "approve": 38.1,
-        "disapprove": 56.7,
+        "approve": 37.9,
+        "disapprove": 56.5,
         "net": -18.6
       },
       "history": [
         {
-          "date": "2026-04-27",
-          "approve": 37.2,
-          "disapprove": 59.2
+          "date": "2026-04-28",
+          "approve": 37.6,
+          "disapprove": 59.5
         },
         {
-          "date": "2026-04-30",
+          "date": "2026-05-01",
           "approve": 38.7,
-          "disapprove": 59.3
+          "disapprove": 57.9
         },
         {
-          "date": "2026-05-03",
-          "approve": 42.5,
-          "disapprove": 53.2
-        },
-        {
-          "date": "2026-05-06",
-          "approve": 39.0,
+          "date": "2026-05-04",
+          "approve": 39.4,
           "disapprove": 57.2
         },
         {
-          "date": "2026-05-09",
-          "approve": 39.5,
-          "disapprove": 59.8
+          "date": "2026-05-07",
+          "approve": 40.2,
+          "disapprove": 56.2
         },
         {
-          "date": "2026-05-12",
+          "date": "2026-05-13",
           "approve": 32.9,
           "disapprove": 56.9
         },
         {
-          "date": "2026-05-15",
+          "date": "2026-05-16",
           "approve": 37.9,
           "disapprove": 60.6
         },
         {
-          "date": "2026-05-18",
-          "approve": 39.3,
-          "disapprove": 57.4
+          "date": "2026-05-19",
+          "approve": 39.2,
+          "disapprove": 57.5
         },
         {
-          "date": "2026-05-21",
-          "approve": 35.9,
-          "disapprove": 60.1
+          "date": "2026-05-22",
+          "approve": 35.1,
+          "disapprove": 60.3
         },
         {
-          "date": "2026-05-24",
-          "approve": 43.0,
-          "disapprove": 54.0
+          "date": "2026-05-25",
+          "approve": 41.2,
+          "disapprove": 54.6
         },
         {
-          "date": "2026-05-27",
-          "approve": 38.7,
-          "disapprove": 57.7
+          "date": "2026-05-28",
+          "approve": 38.5,
+          "disapprove": 57.9
         },
         {
-          "date": "2026-05-30",
-          "approve": 37.0,
-          "disapprove": 54.0
+          "date": "2026-05-31",
+          "approve": 42.6,
+          "disapprove": 54.6
         },
         {
-          "date": "2026-06-02",
-          "approve": 36.6,
-          "disapprove": 52.2
+          "date": "2026-06-03",
+          "approve": 35.0,
+          "disapprove": 52.3
         },
         {
-          "date": "2026-06-05",
-          "approve": 41.0,
-          "disapprove": 58.0
+          "date": "2026-06-06",
+          "approve": 44.0,
+          "disapprove": 55.0
         },
         {
-          "date": "2026-06-08",
+          "date": "2026-06-09",
           "approve": 38.4,
           "disapprove": 58.8
         },
         {
-          "date": "2026-06-11",
+          "date": "2026-06-12",
           "approve": 42.0,
           "disapprove": 56.0
         },
         {
-          "date": "2026-06-14",
-          "approve": 40.0,
-          "disapprove": 59.0
+          "date": "2026-06-15",
+          "approve": 39.0,
+          "disapprove": 58.5
         },
         {
-          "date": "2026-06-17",
-          "approve": 34.6,
-          "disapprove": 60.7
+          "date": "2026-06-18",
+          "approve": 34.1,
+          "disapprove": 60.0
         },
         {
-          "date": "2026-06-20",
+          "date": "2026-06-21",
           "approve": 37.1,
-          "disapprove": 61.7
+          "disapprove": 62.0
         },
         {
-          "date": "2026-06-23",
-          "approve": 37.9,
-          "disapprove": 59.4
+          "date": "2026-06-24",
+          "approve": 37.1,
+          "disapprove": 60.0
         },
         {
-          "date": "2026-06-29",
+          "date": "2026-06-30",
           "approve": 41.3,
           "disapprove": 56.6
         },
         {
-          "date": "2026-07-08",
+          "date": "2026-07-06",
           "approve": 16.0,
           "disapprove": 10.0
         },
         {
-          "date": "2026-07-14",
+          "date": "2026-07-15",
           "approve": 36.9,
           "disapprove": 57.5
         },
         {
-          "date": "2026-07-20",
+          "date": "2026-07-21",
           "approve": 39.2,
           "disapprove": 58.4
         }
@@ -180,7 +175,7 @@
           "sample_size": 1432,
           "approve": 40.0,
           "disapprove": 58.0,
-          "weight": 1.0172
+          "weight": 0.7778
         },
         {
           "pollster": "Economist / YouGov",
@@ -188,7 +183,7 @@
           "sample_size": "N/A",
           "approve": 36.0,
           "disapprove": 60.0,
-          "weight": 0.255
+          "weight": 0.195
         }
       ]
     },
@@ -196,117 +191,117 @@
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
       "last_updated": "2026-07-20",
-      "polls_in_average": 5,
+      "polls_in_average": 8,
       "current": {
         "dem": 46.3,
-        "rep": 41.5,
-        "dem_lead": 4.8
+        "rep": 39.9,
+        "dem_lead": 6.4
       },
       "history": [
         {
-          "date": "2026-04-27",
-          "dem": 43.8,
-          "rep": 39.6
+          "date": "2026-04-28",
+          "dem": 44.7,
+          "rep": 40.0
         },
         {
-          "date": "2026-04-30",
-          "dem": 49.9,
-          "rep": 41.7
+          "date": "2026-05-01",
+          "dem": 52.0,
+          "rep": 42.0
         },
         {
-          "date": "2026-05-03",
-          "dem": 46.0,
-          "rep": 43.0
+          "date": "2026-05-04",
+          "dem": 42.5,
+          "rep": 39.2
         },
         {
-          "date": "2026-05-06",
-          "dem": 45.0,
-          "rep": 40.7
+          "date": "2026-05-07",
+          "dem": 48.8,
+          "rep": 42.6
         },
         {
-          "date": "2026-05-09",
-          "dem": 51.6,
-          "rep": 40.5
-        },
-        {
-          "date": "2026-05-12",
+          "date": "2026-05-13",
           "dem": 39.7,
           "rep": 35.0
         },
         {
-          "date": "2026-05-15",
+          "date": "2026-05-16",
           "dem": 47.0,
           "rep": 39.6
         },
         {
-          "date": "2026-05-18",
-          "dem": 44.6,
-          "rep": 39.7
+          "date": "2026-05-19",
+          "dem": 45.0,
+          "rep": 39.8
         },
         {
-          "date": "2026-05-21",
-          "dem": 49.7,
-          "rep": 41.4
+          "date": "2026-05-22",
+          "dem": 48.8,
+          "rep": 41.0
         },
         {
-          "date": "2026-05-24",
-          "dem": 46.0,
-          "rep": 42.0
+          "date": "2026-05-25",
+          "dem": 46.4,
+          "rep": 41.9
         },
         {
-          "date": "2026-05-27",
-          "dem": 45.1,
-          "rep": 38.9
+          "date": "2026-05-28",
+          "dem": 44.2,
+          "rep": 38.4
         },
         {
-          "date": "2026-06-02",
-          "dem": 44.7,
-          "rep": 39.9
+          "date": "2026-05-31",
+          "dem": 51.0,
+          "rep": 49.0
         },
         {
-          "date": "2026-06-05",
-          "dem": 50.6,
-          "rep": 45.5
+          "date": "2026-06-03",
+          "dem": 45.3,
+          "rep": 40.2
         },
         {
-          "date": "2026-06-08",
+          "date": "2026-06-06",
+          "dem": 49.0,
+          "rep": 45.0
+        },
+        {
+          "date": "2026-06-09",
           "dem": 42.6,
           "rep": 38.2
         },
         {
-          "date": "2026-06-14",
-          "dem": 47.6,
-          "rep": 39.6
+          "date": "2026-06-15",
+          "dem": 41.4,
+          "rep": 37.5
         },
         {
-          "date": "2026-06-17",
-          "dem": 41.1,
-          "rep": 37.4
+          "date": "2026-06-18",
+          "dem": 45.0,
+          "rep": 38.5
         },
         {
-          "date": "2026-06-23",
+          "date": "2026-06-24",
           "dem": 42.8,
           "rep": 39.1
         },
         {
-          "date": "2026-06-29",
-          "dem": 46.5,
-          "rep": 41.7
+          "date": "2026-06-30",
+          "dem": 47.2,
+          "rep": 42.0
         },
         {
-          "date": "2026-07-02",
-          "dem": 50.0,
-          "rep": 43.0
+          "date": "2026-07-12",
+          "dem": 43.0,
+          "rep": 37.0
         },
         {
-          "date": "2026-07-14",
+          "date": "2026-07-15",
           "dem": 46.0,
           "rep": 42.0
         },
         {
-          "date": "2026-07-20",
-          "dem": 46.0,
-          "rep": 41.0
+          "date": "2026-07-21",
+          "dem": 49.1,
+          "rep": 40.5
         }
       ],
       "polls_used": [
@@ -348,14 +343,38 @@
           "sample_size": 1432,
           "dem": 46.0,
           "rep": 41.0,
-          "weight": 1.0172
+          "weight": 0.7778
+        },
+        {
+          "pollster": "Pew Research Center",
+          "end_date": "2026-07-12",
+          "sample_size": "N/A",
+          "dem": 43.0,
+          "rep": 37.0,
+          "weight": 0.12
+        },
+        {
+          "pollster": "Pew Research Center",
+          "end_date": "2026-07-12",
+          "sample_size": "3554",
+          "dem": 43.0,
+          "rep": 37.0,
+          "weight": 0.7541
+        },
+        {
+          "pollster": "Emerson",
+          "end_date": "2026-07-20",
+          "sample_size": null,
+          "dem": 61.5,
+          "rep": 38.5,
+          "weight": 0.195
         }
       ]
     },
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-07-23",
+      "last_updated": "2026-07-24",
       "total_polls": 13,
       "lp_included": 0,
       "lp_pct": 0.0,
