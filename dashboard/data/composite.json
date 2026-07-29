@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T18:30:01.311635+00:00",
+  "generated_at": "2026-07-29T19:00:02.001980+00:00",
   "days_to_election": 97,
   "weights": {
     "polls": 0.5,
@@ -146,8 +146,8 @@
       "type": "senate",
       "matchup": "Mary Peltola (D) vs. Dan Sullivan (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 37.8,
-      "composite_rep_pct": 62.2,
+      "composite_dem_pct": 38.2,
+      "composite_rep_pct": 61.8,
       "inputs": {
         "polls": {
           "dem_prob": 37.4,
@@ -156,7 +156,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 53.0,
+          "dem_prob": 54.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -168,11 +168,11 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 15.6,
+      "divergence_pts": 16.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": null,
-        "rep_pct": 47.0,
+        "rep_pct": 46.0,
         "event_ticker": "SENATEAK-26"
       }
     },
@@ -936,7 +936,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 91.3,
+          "dem_prob": 91.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -948,10 +948,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 35.0,
+      "divergence_pts": 34.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.3,
+        "dem_pct": 91.2,
         "rep_pct": 7.2,
         "event_ticker": "GOVPARTYPA-26"
       }
