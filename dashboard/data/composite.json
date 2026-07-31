@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T01:30:01.717780+00:00",
+  "generated_at": "2026-07-31T02:00:01.326760+00:00",
   "days_to_election": 96,
   "weights": {
     "polls": 0.5,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 90.6,
+          "dem_prob": 90.8,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,10 +36,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 31.3,
+      "divergence_pts": 31.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.6,
+        "dem_pct": 90.8,
         "rep_pct": 8.3,
         "event_ticker": "SENATENC-26"
       }
@@ -313,8 +313,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 28.0,
-      "composite_rep_pct": 72.0,
+      "composite_dem_pct": 27.7,
+      "composite_rep_pct": 72.3,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -323,7 +323,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 48.0,
+          "dem_prob": 47.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -335,11 +335,11 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 26.5,
+      "divergence_pts": 25.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 48.0,
-        "rep_pct": 51.0,
+        "dem_pct": 47.0,
+        "rep_pct": 52.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -996,8 +996,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 39.2,
-      "composite_rep_pct": 60.8,
+      "composite_dem_pct": 39.5,
+      "composite_rep_pct": 60.5,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
@@ -1006,7 +1006,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 48.0,
+          "dem_prob": 49.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -1018,10 +1018,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 13.3,
+      "divergence_pts": 14.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 48.0,
+        "dem_pct": 49.0,
         "rep_pct": 50.0,
         "event_ticker": "GOVPARTYOH-26"
       }
