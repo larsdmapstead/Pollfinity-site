@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T06:30:02.074051+00:00",
-  "days_to_election": 95,
+  "generated_at": "2026-08-01T12:00:01.385428+00:00",
+  "days_to_election": 94,
   "weights": {
     "polls": 0.5,
     "markets": 0.35,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 66.5,
-      "composite_rep_pct": 33.5,
+      "composite_dem_pct": 66.3,
+      "composite_rep_pct": 33.7,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 90.8,
+          "dem_prob": 90.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,11 +36,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 31.5,
+      "divergence_pts": 30.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.8,
-        "rep_pct": 8.8,
+        "dem_pct": 90.2,
+        "rep_pct": 8.9,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -313,8 +313,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 27.0,
-      "composite_rep_pct": 73.0,
+      "composite_dem_pct": 27.3,
+      "composite_rep_pct": 72.7,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -323,7 +323,7 @@
           "weight_applied": 0.4
         },
         "markets": {
-          "dem_prob": 45.0,
+          "dem_prob": 46.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -335,10 +335,10 @@
           "weight_applied": 0.25
         }
       },
-      "divergence_pts": 23.5,
+      "divergence_pts": 24.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 45.0,
+        "dem_pct": 46.0,
         "rep_pct": 53.0,
         "event_ticker": "SENATETX-26"
       }
@@ -781,7 +781,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 52.0,
-        "rep_pct": 48.0,
+        "rep_pct": 47.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -961,8 +961,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 24.4,
-      "composite_rep_pct": 75.6,
+      "composite_dem_pct": 24.8,
+      "composite_rep_pct": 75.2,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -971,7 +971,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 17.0,
+          "dem_prob": 18.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -983,10 +983,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 10.5,
+      "divergence_pts": 9.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 17.0,
+        "dem_pct": 18.0,
         "rep_pct": 80.0,
         "event_ticker": "GOVPARTYFL-26"
       }
@@ -996,8 +996,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 38.8,
-      "composite_rep_pct": 61.2,
+      "composite_dem_pct": 39.2,
+      "composite_rep_pct": 60.8,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
@@ -1006,7 +1006,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 47.0,
+          "dem_prob": 48.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -1018,10 +1018,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 12.3,
+      "divergence_pts": 13.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 47.0,
+        "dem_pct": 48.0,
         "rep_pct": 51.0,
         "event_ticker": "GOVPARTYOH-26"
       }
