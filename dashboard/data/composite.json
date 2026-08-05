@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T01:30:01.295222+00:00",
+  "generated_at": "2026-08-05T02:00:01.927226+00:00",
   "days_to_election": 91,
   "weights": {
     "polls": 0.5,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 66.3,
-      "composite_rep_pct": 33.7,
+      "composite_dem_pct": 66.4,
+      "composite_rep_pct": 33.6,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 90.3,
+          "dem_prob": 90.4,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -36,10 +36,10 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 31.0,
+      "divergence_pts": 31.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.3,
+        "dem_pct": 90.4,
         "rep_pct": 8.7,
         "event_ticker": "SENATENC-26"
       }
@@ -75,7 +75,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 63.0,
-        "rep_pct": 36.0,
+        "rep_pct": 35.0,
         "event_ticker": "SENATEME-26"
       }
     },
@@ -860,8 +860,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 45.2,
-      "composite_rep_pct": 54.8,
+      "composite_dem_pct": 45.9,
+      "composite_rep_pct": 54.1,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -870,7 +870,7 @@
           "weight_applied": 0.45
         },
         "markets": {
-          "dem_prob": 55.0,
+          "dem_prob": 57.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.35
@@ -882,11 +882,11 @@
           "weight_applied": 0.2
         }
       },
-      "divergence_pts": 16.7,
+      "divergence_pts": 18.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 55.0,
-        "rep_pct": 43.0,
+        "dem_pct": 57.0,
+        "rep_pct": 40.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
