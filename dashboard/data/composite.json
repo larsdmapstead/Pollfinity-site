@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-06T06:30:01.821724+00:00",
-  "days_to_election": 90,
+  "generated_at": "2026-08-06T12:00:01.994789+00:00",
+  "days_to_election": 89,
   "weights": {
-    "polls": 0.5,
-    "markets": 0.35,
-    "fundamentals": 0.15
+    "polls": 0.45,
+    "markets": 0.45,
+    "fundamentals": 0.1
   },
   "generic_ballot_dem_adv": 4.0,
   "kalshi_markets_fetched": 17,
@@ -14,32 +14,32 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 66.6,
-      "composite_rep_pct": 33.4,
+      "composite_dem_pct": 70.8,
+      "composite_rep_pct": 29.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
           "dem_margin": 3.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 91.0,
+          "dem_prob": 90.9,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 40.3,
           "pvi": -4,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
-      "divergence_pts": 31.7,
+      "divergence_pts": 31.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.0,
+        "dem_pct": 90.9,
         "rep_pct": 8.3,
         "event_ticker": "SENATENC-26"
       }
@@ -49,32 +49,32 @@
       "type": "senate",
       "matchup": "Graham Platner (D) vs. Susan Collins (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 56.2,
-      "composite_rep_pct": 43.8,
+      "composite_dem_pct": 57.6,
+      "composite_rep_pct": 42.4,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
           "dem_margin": -1.0,
           "sample_quality": "thin",
-          "weight_applied": 0.4
+          "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 64.0,
+          "dem_prob": 65.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 4,
           "incumbency": "R",
-          "weight_applied": 0.25
+          "weight_applied": 0.19
         }
       },
-      "divergence_pts": 17.0,
+      "divergence_pts": 18.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 64.0,
+        "dem_pct": 65.0,
         "rep_pct": 36.0,
         "event_ticker": "SENATEME-26"
       }
@@ -84,26 +84,26 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 57.3,
-      "composite_rep_pct": 42.7,
+      "composite_dem_pct": 57.4,
+      "composite_rep_pct": 42.6,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
           "dem_margin": 2.3,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 58.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 56.8,
           "pvi": 1,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 1.1,
@@ -119,14 +119,14 @@
       "type": "senate",
       "matchup": "TBD (D) vs. Jon Husted (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 44.2,
-      "composite_rep_pct": 55.8,
+      "composite_dem_pct": 44.6,
+      "composite_rep_pct": 55.4,
       "inputs": {
         "polls": {
           "dem_prob": 50.0,
           "dem_margin": 0.0,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -138,7 +138,7 @@
           "dem_prob": 27.1,
           "pvi": -6,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -150,26 +150,26 @@
       "type": "senate",
       "matchup": "Mary Peltola (D) vs. Dan Sullivan (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 38.5,
-      "composite_rep_pct": 61.5,
+      "composite_dem_pct": 41.5,
+      "composite_rep_pct": 58.5,
       "inputs": {
         "polls": {
           "dem_prob": 37.4,
           "dem_margin": -4.2,
           "sample_quality": "thin",
-          "weight_applied": 0.4
+          "weight_applied": 0.36
         },
         "markets": {
           "dem_prob": 55.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 17.2,
           "pvi": -9,
           "incumbency": "R",
-          "weight_applied": 0.25
+          "weight_applied": 0.19
         }
       },
       "divergence_pts": 17.6,
@@ -185,26 +185,26 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 70.0,
-      "composite_rep_pct": 30.0,
+      "composite_dem_pct": 73.5,
+      "composite_rep_pct": 26.5,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
           "dem_margin": 4.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 91.1,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 50.2,
           "pvi": -3,
           "incumbency": "D",
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 28.8,
@@ -220,14 +220,14 @@
       "type": "senate",
       "matchup": "Chris Pappas (D) vs. John Sununu (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 64.2,
-      "composite_rep_pct": 35.8,
+      "composite_dem_pct": 64.3,
+      "composite_rep_pct": 35.7,
       "inputs": {
         "polls": {
           "dem_prob": 65.6,
           "dem_margin": 5.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -239,7 +239,7 @@
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -251,26 +251,26 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 35.0,
-      "composite_rep_pct": 65.0,
+      "composite_dem_pct": 36.0,
+      "composite_rep_pct": 64.0,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
           "dem_margin": -5.8,
           "sample_quality": "thin",
-          "weight_applied": 0.4
+          "weight_applied": 0.36
         },
         "markets": {
           "dem_prob": 41.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 30.4,
           "pvi": -7,
           "incumbency": null,
-          "weight_applied": 0.25
+          "weight_applied": 0.19
         }
       },
       "divergence_pts": 8.4,
@@ -286,14 +286,14 @@
       "type": "senate",
       "matchup": "Flanagan/Craig (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 74.0,
-      "composite_rep_pct": 26.0,
+      "composite_dem_pct": 74.1,
+      "composite_rep_pct": 25.9,
       "inputs": {
         "polls": {
           "dem_prob": 74.3,
           "dem_margin": 8.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -305,7 +305,7 @@
           "dem_prob": 73.3,
           "pvi": 4,
           "incumbency": "D",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -317,26 +317,26 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 28.0,
-      "composite_rep_pct": 72.0,
+      "composite_dem_pct": 31.4,
+      "composite_rep_pct": 68.6,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
           "dem_margin": -9.5,
           "sample_quality": "thin",
-          "weight_applied": 0.4
+          "weight_applied": 0.36
         },
         "markets": {
           "dem_prob": 48.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 10.6,
           "pvi": -13,
           "incumbency": null,
-          "weight_applied": 0.25
+          "weight_applied": 0.19
         }
       },
       "divergence_pts": 26.5,
@@ -352,26 +352,26 @@
       "type": "senate",
       "matchup": "Mark Warner (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 79.6,
-      "composite_rep_pct": 20.4,
+      "composite_dem_pct": 81.8,
+      "composite_rep_pct": 18.2,
       "inputs": {
         "polls": {
           "dem_prob": 68.9,
           "dem_margin": 6.3,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 95.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 76.6,
           "pvi": 5,
           "incumbency": "D",
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 26.1,
@@ -387,14 +387,14 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 27.6,
-      "composite_rep_pct": 72.4,
+      "composite_dem_pct": 27.5,
+      "composite_rep_pct": 72.5,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
           "dem_margin": -7.8,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -406,7 +406,7 @@
           "dem_prob": 30.4,
           "pvi": -7,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -418,14 +418,14 @@
       "type": "house",
       "matchup": "Primary Jun. 23 (D) vs. Mike Lawler (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 57.2,
-      "composite_rep_pct": 42.8,
+      "composite_dem_pct": 57.4,
+      "composite_rep_pct": 42.6,
       "inputs": {
         "polls": {
           "dem_prob": 59.6,
           "dem_margin": 3.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -437,7 +437,7 @@
           "dem_prob": 50.2,
           "pvi": 1,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -449,14 +449,14 @@
       "type": "house",
       "matchup": "Rebecca Bennett (D) vs. Tom Kean Jr. (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 50.1,
-      "composite_rep_pct": 49.9,
+      "composite_dem_pct": 50.0,
+      "composite_rep_pct": 50.0,
       "inputs": {
         "polls": {
           "dem_prob": 50.0,
           "dem_margin": 0.0,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -468,7 +468,7 @@
           "dem_prob": 50.2,
           "pvi": 1,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -480,14 +480,14 @@
       "type": "house",
       "matchup": "Christina Bohannan (D) vs. Miller-Meeks (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 42.5,
-      "composite_rep_pct": 57.5,
+      "composite_dem_pct": 42.9,
+      "composite_rep_pct": 57.1,
       "inputs": {
         "polls": {
           "dem_prob": 46.7,
           "dem_margin": -1.1,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -499,7 +499,7 @@
           "dem_prob": 30.4,
           "pvi": -5,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -511,14 +511,14 @@
       "type": "house",
       "matchup": "Sarah Trone Garriott (D) vs. Zach Nunn (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 49.4,
-      "composite_rep_pct": 50.6,
+      "composite_dem_pct": 49.7,
+      "composite_rep_pct": 50.3,
       "inputs": {
         "polls": {
           "dem_prob": 53.6,
           "dem_margin": 1.2,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -530,7 +530,7 @@
           "dem_prob": 37.0,
           "pvi": -3,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -542,14 +542,14 @@
       "type": "house",
       "matchup": "JoAnna Mendoza (D) vs. Juan Ciscomani (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 45.8,
-      "composite_rep_pct": 54.2,
+      "composite_dem_pct": 46.2,
+      "composite_rep_pct": 53.8,
       "inputs": {
         "polls": {
           "dem_prob": 50.0,
           "dem_margin": 0.0,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -561,7 +561,7 @@
           "dem_prob": 33.7,
           "pvi": -4,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -573,14 +573,14 @@
       "type": "house",
       "matchup": "TBD (D) vs. Gabe Evans (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 52.2,
-      "composite_rep_pct": 47.8,
+      "composite_dem_pct": 52.5,
+      "composite_rep_pct": 47.5,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -592,7 +592,7 @@
           "dem_prob": 40.3,
           "pvi": -2,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -604,14 +604,14 @@
       "type": "house",
       "matchup": "TBD (D) vs. Tom Barrett (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 46.1,
-      "composite_rep_pct": 53.9,
+      "composite_dem_pct": 46.2,
+      "composite_rep_pct": 53.8,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
           "dem_margin": -1.0,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -623,7 +623,7 @@
           "dem_prob": 43.6,
           "pvi": -1,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -635,14 +635,14 @@
       "type": "house",
       "matchup": "Bob Brooks (D) vs. Ryan Mackenzie (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 57.0,
-      "composite_rep_pct": 43.0,
+      "composite_dem_pct": 57.2,
+      "composite_rep_pct": 42.8,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
           "dem_margin": 3.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -654,7 +654,7 @@
           "dem_prob": 50.2,
           "pvi": 1,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -666,14 +666,14 @@
       "type": "house",
       "matchup": "Rebecca Cooke (D) vs. Derrick Van Orden (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 56.1,
-      "composite_rep_pct": 43.9,
+      "composite_dem_pct": 56.6,
+      "composite_rep_pct": 43.4,
       "inputs": {
         "polls": {
           "dem_prob": 62.6,
           "dem_margin": 4.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -685,7 +685,7 @@
           "dem_prob": 37.0,
           "pvi": -3,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -697,14 +697,14 @@
       "type": "house",
       "matchup": "Elaine Luria (D) vs. Jen Kiggans (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 52.7,
-      "composite_rep_pct": 47.3,
+      "composite_dem_pct": 53.0,
+      "composite_rep_pct": 47.0,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
           "dem_margin": 2.3,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -716,7 +716,7 @@
           "dem_prob": 40.3,
           "pvi": -2,
           "incumbency": "R",
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -728,26 +728,26 @@
       "type": "governor",
       "matchup": "Primary Aug. 4 (D) vs. John James (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 67.4,
-      "composite_rep_pct": 32.6,
+      "composite_dem_pct": 70.1,
+      "composite_rep_pct": 29.9,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
           "dem_margin": 3.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 84.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 56.8,
           "pvi": 1,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 24.7,
@@ -763,33 +763,33 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 50.5,
-      "composite_rep_pct": 49.5,
+      "composite_dem_pct": 48.7,
+      "composite_rep_pct": 51.3,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
           "dem_margin": 2.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 41.0,
+          "dem_prob": 40.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 53.5,
           "pvi": 0,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
-      "divergence_pts": 15.6,
+      "divergence_pts": 16.6,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 41.0,
-        "rep_pct": 58.0,
+        "dem_pct": 40.0,
+        "rep_pct": 59.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -798,26 +798,26 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.6,
-      "composite_rep_pct": 44.4,
+      "composite_dem_pct": 56.3,
+      "composite_rep_pct": 43.7,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
           "dem_margin": 3.0,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 58.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -3,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 1.0,
@@ -833,33 +833,33 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 68.3,
-      "composite_rep_pct": 31.7,
+      "composite_dem_pct": 70.3,
+      "composite_rep_pct": 29.7,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
           "dem_margin": 4.8,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 80.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 56.8,
           "pvi": -1,
           "incumbency": "D",
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 15.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 80.0,
-        "rep_pct": 19.0,
+        "rep_pct": 18.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
     },
@@ -868,26 +868,26 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 44.2,
-      "composite_rep_pct": 55.8,
+      "composite_dem_pct": 45.2,
+      "composite_rep_pct": 54.8,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
           "dem_margin": -3.9,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 52.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 43.6,
           "pvi": -1,
           "incumbency": "R",
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 13.7,
@@ -910,7 +910,7 @@
           "dem_prob": 59.3,
           "dem_margin": 3.1,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -922,7 +922,7 @@
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -934,33 +934,33 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 69.8,
-      "composite_rep_pct": 30.2,
+      "composite_dem_pct": 73.1,
+      "composite_rep_pct": 26.9,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
           "dem_margin": 2.1,
           "sample_quality": "thin",
-          "weight_applied": 0.4
+          "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 92.1,
+          "dem_prob": 92.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.25
+          "weight_applied": 0.19
         }
       },
-      "divergence_pts": 35.8,
+      "divergence_pts": 35.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.1,
-        "rep_pct": 7.2,
+        "dem_pct": 92.0,
+        "rep_pct": 7.1,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -969,26 +969,26 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 25.1,
-      "composite_rep_pct": 74.9,
+      "composite_dem_pct": 24.1,
+      "composite_rep_pct": 75.9,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
           "dem_margin": -7.5,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 19.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 30.4,
           "pvi": -7,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 8.5,
@@ -1004,26 +1004,26 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 39.5,
-      "composite_rep_pct": 60.5,
+      "composite_dem_pct": 41.0,
+      "composite_rep_pct": 59.0,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
           "dem_margin": -5.1,
           "sample_quality": "moderate",
-          "weight_applied": 0.45
+          "weight_applied": 0.405
         },
         "markets": {
           "dem_prob": 49.0,
           "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.35
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 33.7,
           "pvi": -6,
           "incumbency": null,
-          "weight_applied": 0.2
+          "weight_applied": 0.145
         }
       },
       "divergence_pts": 14.3,
@@ -1039,14 +1039,14 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mark Robinson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 47.5,
-      "composite_rep_pct": 52.5,
+      "composite_dem_pct": 47.7,
+      "composite_rep_pct": 52.3,
       "inputs": {
         "polls": {
           "dem_prob": 50.0,
           "dem_margin": 0.0,
           "sample_quality": "thin",
-          "weight_applied": 0.745
+          "weight_applied": 0.765
         },
         "markets": {
           "dem_prob": null,
@@ -1058,7 +1058,7 @@
           "dem_prob": 40.3,
           "pvi": -4,
           "incumbency": null,
-          "weight_applied": 0.255
+          "weight_applied": 0.235
         }
       },
       "divergence_pts": null,
@@ -1066,5 +1066,5 @@
       "kalshi_raw": null
     }
   },
-  "methodology": "Pollfinity Composite blends recency-weighted poll averages, Kalshi prediction market odds, and electoral fundamentals (PVI + incumbency + generic ballot). Current weights: Polls 50% / Markets 35% / Fundamentals 15%. Weights shift toward markets as election day approaches."
+  "methodology": "Pollfinity Composite blends recency-weighted poll averages, Kalshi prediction market odds, and electoral fundamentals (PVI + incumbency + generic ballot). Current weights: Polls 45% / Markets 45% / Fundamentals 10%. Weights shift toward markets as election day approaches."
 }
