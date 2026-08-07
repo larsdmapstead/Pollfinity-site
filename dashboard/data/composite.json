@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T03:00:01.630298+00:00",
+  "generated_at": "2026-08-07T03:30:01.483213+00:00",
   "days_to_election": 89,
   "weights": {
     "polls": 0.45,
@@ -211,7 +211,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.1,
-        "rep_pct": 8.7,
+        "rep_pct": 8.5,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -352,8 +352,8 @@
       "type": "senate",
       "matchup": "Mark Warner (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 81.7,
-      "composite_rep_pct": 18.3,
+      "composite_dem_pct": 81.8,
+      "composite_rep_pct": 18.2,
       "inputs": {
         "polls": {
           "dem_prob": 68.9,
@@ -362,7 +362,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 94.9,
+          "dem_prob": 95.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -374,10 +374,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 26.0,
+      "divergence_pts": 26.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 94.9,
+        "dem_pct": 95.0,
         "rep_pct": 3.1,
         "event_ticker": "SENATEVA-26"
       }
@@ -789,7 +789,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 39.0,
-        "rep_pct": 60.0,
+        "rep_pct": 59.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -859,7 +859,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 83.0,
-        "rep_pct": 17.0,
+        "rep_pct": 16.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
     },
