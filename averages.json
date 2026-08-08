@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:21:37.584048Z",
+  "generated_at": "2026-08-08T01:00:01.260823Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
@@ -277,11 +277,11 @@
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
       "last_updated": "2026-08-03",
-      "polls_in_average": 6,
+      "polls_in_average": 4,
       "current": {
-        "dem": 46.1,
-        "rep": 41.1,
-        "dem_lead": 5.0
+        "dem": 47.0,
+        "rep": 42.2,
+        "dem_lead": 4.8
       },
       "history": [
         {
@@ -355,11 +355,6 @@
           "rep": 43.0
         },
         {
-          "date": "2026-07-14",
-          "dem": 43.0,
-          "rep": 37.0
-        },
-        {
           "date": "2026-07-20",
           "dem": 61.5,
           "rep": 38.5
@@ -376,22 +371,6 @@
         }
       ],
       "polls_used": [
-        {
-          "pollster": "Pew Research Center",
-          "end_date": "2026-07-12",
-          "sample_size": "N/A",
-          "dem": 43.0,
-          "rep": 37.0,
-          "weight": 0.06
-        },
-        {
-          "pollster": "Pew Research Center",
-          "end_date": "2026-07-12",
-          "sample_size": "3554",
-          "dem": 43.0,
-          "rep": 37.0,
-          "weight": 0.377
-        },
         {
           "pollster": "Emerson",
           "end_date": "2026-07-20",
