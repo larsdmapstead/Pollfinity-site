@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T22:30:01.799641+00:00",
+  "generated_at": "2026-08-08T23:00:01.958120+00:00",
   "days_to_election": 87,
   "weights": {
     "polls": 0.45,
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 56.9,
-      "composite_rep_pct": 43.1,
+      "composite_dem_pct": 56.5,
+      "composite_rep_pct": 43.5,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 57.0,
+          "dem_prob": 56.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,11 +106,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 0.1,
-      "divergence_direction": "market_bullish_dem",
+      "divergence_pts": 0.9,
+      "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 57.0,
-        "rep_pct": 44.0,
+        "dem_pct": 56.0,
+        "rep_pct": 45.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 73.5,
-      "composite_rep_pct": 26.5,
+      "composite_dem_pct": 73.6,
+      "composite_rep_pct": 26.4,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 91.1,
+          "dem_prob": 91.3,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 28.8,
+      "divergence_pts": 29.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.1,
+        "dem_pct": 91.3,
         "rep_pct": 8.5,
         "event_ticker": "SENATEGA-26"
       }
@@ -317,8 +317,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 31.8,
-      "composite_rep_pct": 68.2,
+      "composite_dem_pct": 32.3,
+      "composite_rep_pct": 67.7,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -327,7 +327,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 49.0,
+          "dem_prob": 50.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -339,10 +339,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 27.5,
+      "divergence_pts": 28.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 49.0,
+        "dem_pct": 50.0,
         "rep_pct": 50.0,
         "event_ticker": "SENATETX-26"
       }
