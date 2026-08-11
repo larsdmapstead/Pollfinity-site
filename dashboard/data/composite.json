@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T19:00:01.469001+00:00",
+  "generated_at": "2026-08-11T19:30:01.491921+00:00",
   "days_to_election": 84,
   "weights": {
     "polls": 0.45,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 70.9,
-      "composite_rep_pct": 29.1,
+      "composite_dem_pct": 70.8,
+      "composite_rep_pct": 29.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 91.1,
+          "dem_prob": 91.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -36,11 +36,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 31.8,
+      "divergence_pts": 31.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.1,
-        "rep_pct": 8.6,
+        "dem_pct": 91.0,
+        "rep_pct": 8.4,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 56.5,
-      "composite_rep_pct": 43.5,
+      "composite_dem_pct": 56.9,
+      "composite_rep_pct": 43.1,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 56.0,
+          "dem_prob": 57.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,10 +106,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 0.9,
-      "divergence_direction": "market_bearish_dem",
+      "divergence_pts": 0.1,
+      "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 56.0,
+        "dem_pct": 57.0,
         "rep_pct": 42.0,
         "event_ticker": "SENATEMI-26"
       }
@@ -150,8 +150,8 @@
       "type": "senate",
       "matchup": "Mary Peltola (D) vs. Dan Sullivan (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 40.6,
-      "composite_rep_pct": 59.4,
+      "composite_dem_pct": 40.1,
+      "composite_rep_pct": 59.9,
       "inputs": {
         "polls": {
           "dem_prob": 37.4,
@@ -160,7 +160,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 53.0,
+          "dem_prob": 52.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -172,11 +172,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 15.6,
+      "divergence_pts": 14.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": null,
-        "rep_pct": 47.0,
+        "rep_pct": 48.0,
         "event_ticker": "SENATEAK-26"
       }
     },
@@ -211,7 +211,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.3,
-        "rep_pct": 8.2,
+        "rep_pct": 8.1,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -317,8 +317,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 32.3,
-      "composite_rep_pct": 67.7,
+      "composite_dem_pct": 32.7,
+      "composite_rep_pct": 67.3,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -327,7 +327,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 50.0,
+          "dem_prob": 51.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -339,11 +339,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 28.5,
+      "divergence_pts": 29.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 50.0,
-        "rep_pct": 49.0,
+        "dem_pct": 51.0,
+        "rep_pct": 48.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -934,8 +934,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 73.9,
-      "composite_rep_pct": 26.1,
+      "composite_dem_pct": 74.0,
+      "composite_rep_pct": 26.0,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -944,7 +944,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 93.7,
+          "dem_prob": 94.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -956,11 +956,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 37.4,
+      "divergence_pts": 37.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 93.7,
-        "rep_pct": 4.4,
+        "dem_pct": 94.0,
+        "rep_pct": 4.1,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
