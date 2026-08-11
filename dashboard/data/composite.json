@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:00:01.604934+00:00",
+  "generated_at": "2026-08-11T21:30:01.364244+00:00",
   "days_to_election": 84,
   "weights": {
     "polls": 0.45,
@@ -317,8 +317,8 @@
       "type": "senate",
       "matchup": "James Talarico (D) vs. Ken Paxton (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 32.7,
-      "composite_rep_pct": 67.3,
+      "composite_dem_pct": 33.2,
+      "composite_rep_pct": 66.8,
       "inputs": {
         "polls": {
           "dem_prob": 21.5,
@@ -327,7 +327,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 51.0,
+          "dem_prob": 52.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -339,10 +339,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 29.5,
+      "divergence_pts": 30.5,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 51.0,
+        "dem_pct": 52.0,
         "rep_pct": 47.0,
         "event_ticker": "SENATETX-26"
       }
@@ -868,8 +868,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 45.2,
-      "composite_rep_pct": 54.8,
+      "composite_dem_pct": 43.9,
+      "composite_rep_pct": 56.1,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -878,7 +878,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 52.0,
+          "dem_prob": 49.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -890,11 +890,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 13.7,
+      "divergence_pts": 10.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 52.0,
-        "rep_pct": 47.0,
+        "dem_pct": 49.0,
+        "rep_pct": 49.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
@@ -934,8 +934,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 73.7,
-      "composite_rep_pct": 26.3,
+      "composite_dem_pct": 74.3,
+      "composite_rep_pct": 25.7,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -944,7 +944,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 93.3,
+          "dem_prob": 94.6,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -956,10 +956,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 37.0,
+      "divergence_pts": 38.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 93.3,
+        "dem_pct": 94.6,
         "rep_pct": 3.9,
         "event_ticker": "GOVPARTYPA-26"
       }
