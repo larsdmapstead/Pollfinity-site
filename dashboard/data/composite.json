@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T20:30:01.942535+00:00",
+  "generated_at": "2026-08-11T21:00:01.604934+00:00",
   "days_to_election": 84,
   "weights": {
     "polls": 0.45,
@@ -40,7 +40,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.0,
-        "rep_pct": 8.4,
+        "rep_pct": 8.6,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -789,7 +789,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 38.0,
-        "rep_pct": 60.0,
+        "rep_pct": 61.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -833,8 +833,8 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 72.6,
-      "composite_rep_pct": 27.4,
+      "composite_dem_pct": 73.5,
+      "composite_rep_pct": 26.5,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
@@ -843,7 +843,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 85.0,
+          "dem_prob": 87.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -855,11 +855,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 20.6,
+      "divergence_pts": 22.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 85.0,
-        "rep_pct": 14.0,
+        "dem_pct": 87.0,
+        "rep_pct": 13.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
     },
@@ -868,8 +868,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 45.7,
-      "composite_rep_pct": 54.3,
+      "composite_dem_pct": 45.2,
+      "composite_rep_pct": 54.8,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -878,7 +878,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 53.0,
+          "dem_prob": 52.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -890,11 +890,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 14.7,
+      "divergence_pts": 13.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 53.0,
-        "rep_pct": 45.0,
+        "dem_pct": 52.0,
+        "rep_pct": 47.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
@@ -934,8 +934,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 74.4,
-      "composite_rep_pct": 25.6,
+      "composite_dem_pct": 73.7,
+      "composite_rep_pct": 26.3,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -944,7 +944,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 94.9,
+          "dem_prob": 93.3,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -956,11 +956,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 38.6,
+      "divergence_pts": 37.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 94.9,
-        "rep_pct": 3.8,
+        "dem_pct": 93.3,
+        "rep_pct": 3.9,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
