@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12T06:30:01.493901+00:00",
-  "days_to_election": 84,
+  "generated_at": "2026-08-12T12:00:01.493949+00:00",
+  "days_to_election": 83,
   "weights": {
     "polls": 0.45,
     "markets": 0.45,
@@ -40,7 +40,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.0,
-        "rep_pct": 8.5,
+        "rep_pct": 8.4,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 56.0,
-        "rep_pct": 44.0,
+        "rep_pct": 43.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -211,7 +211,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 90.6,
-        "rep_pct": 9.2,
+        "rep_pct": 9.3,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -251,8 +251,8 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 36.0,
-      "composite_rep_pct": 64.0,
+      "composite_dem_pct": 35.5,
+      "composite_rep_pct": 64.5,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
@@ -261,7 +261,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 41.0,
+          "dem_prob": 40.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -273,10 +273,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 8.4,
+      "divergence_pts": 7.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 41.0,
+        "dem_pct": 40.0,
         "rep_pct": 59.0,
         "event_ticker": "SENATEIA-26"
       }
@@ -343,7 +343,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 51.0,
-        "rep_pct": 48.0,
+        "rep_pct": 47.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -763,8 +763,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 64.4,
-      "composite_rep_pct": 35.6,
+      "composite_dem_pct": 65.3,
+      "composite_rep_pct": 34.7,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -773,7 +773,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 75.0,
+          "dem_prob": 77.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -785,11 +785,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 18.4,
+      "divergence_pts": 20.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 75.0,
-        "rep_pct": 24.0,
+        "dem_pct": 77.0,
+        "rep_pct": 23.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -798,8 +798,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 56.3,
-      "composite_rep_pct": 43.7,
+      "composite_dem_pct": 56.8,
+      "composite_rep_pct": 43.2,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -808,7 +808,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 58.0,
+          "dem_prob": 59.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -820,10 +820,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 1.0,
+      "divergence_pts": 0.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 58.0,
+        "dem_pct": 59.0,
         "rep_pct": 43.0,
         "event_ticker": "GOVPARTYGA-26"
       }
@@ -934,8 +934,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 73.4,
-      "composite_rep_pct": 26.6,
+      "composite_dem_pct": 73.2,
+      "composite_rep_pct": 26.8,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -944,7 +944,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 92.7,
+          "dem_prob": 92.3,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -956,10 +956,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 36.4,
+      "divergence_pts": 36.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.7,
+        "dem_pct": 92.3,
         "rep_pct": 5.9,
         "event_ticker": "GOVPARTYPA-26"
       }
