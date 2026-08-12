@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:00:01.173005+00:00",
+  "generated_at": "2026-08-12T05:30:01.446652+00:00",
   "days_to_election": 84,
   "weights": {
     "polls": 0.45,
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 73.4,
-      "composite_rep_pct": 26.6,
+      "composite_dem_pct": 73.3,
+      "composite_rep_pct": 26.7,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 90.8,
+          "dem_prob": 90.6,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 28.5,
+      "divergence_pts": 28.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.8,
+        "dem_pct": 90.6,
         "rep_pct": 8.5,
         "event_ticker": "SENATEGA-26"
       }
@@ -763,8 +763,8 @@
       "type": "governor",
       "matchup": "Mandela Barnes (D) vs. Tom Tiffany (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 62.2,
-      "composite_rep_pct": 37.8,
+      "composite_dem_pct": 59.9,
+      "composite_rep_pct": 40.1,
       "inputs": {
         "polls": {
           "dem_prob": 56.6,
@@ -773,7 +773,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 70.0,
+          "dem_prob": 65.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -785,11 +785,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 13.4,
+      "divergence_pts": 8.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 70.0,
-        "rep_pct": 29.0,
+        "dem_pct": 65.0,
+        "rep_pct": 33.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -824,7 +824,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 58.0,
-        "rep_pct": 42.0,
+        "rep_pct": 43.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
@@ -934,8 +934,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 73.4,
-      "composite_rep_pct": 26.6,
+      "composite_dem_pct": 73.5,
+      "composite_rep_pct": 26.5,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -944,7 +944,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 92.8,
+          "dem_prob": 93.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -956,11 +956,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 36.5,
+      "divergence_pts": 36.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.8,
-        "rep_pct": 4.7,
+        "dem_pct": 93.0,
+        "rep_pct": 5.9,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
