@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T00:30:01.878196+00:00",
+  "generated_at": "2026-08-14T01:00:01.911883+00:00",
   "days_to_election": 82,
   "weights": {
     "polls": 0.45,
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 57.0,
-        "rep_pct": 42.0,
+        "rep_pct": 43.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -211,7 +211,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.5,
-        "rep_pct": 8.5,
+        "rep_pct": 8.6,
         "event_ticker": "SENATEGA-26"
       }
     },
