@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T02:00:01.776042+00:00",
+  "generated_at": "2026-08-14T02:30:01.424135+00:00",
   "days_to_election": 82,
   "weights": {
     "polls": 0.45,
@@ -793,7 +793,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 76.0,
-        "rep_pct": 26.0,
+        "rep_pct": 25.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
@@ -802,8 +802,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 56.8,
-      "composite_rep_pct": 43.2,
+      "composite_dem_pct": 57.2,
+      "composite_rep_pct": 42.8,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -812,7 +812,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 59.0,
+          "dem_prob": 60.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -824,11 +824,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 0.0,
-      "divergence_direction": "market_bearish_dem",
+      "divergence_pts": 1.0,
+      "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 59.0,
-        "rep_pct": 41.0,
+        "dem_pct": 60.0,
+        "rep_pct": 40.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
