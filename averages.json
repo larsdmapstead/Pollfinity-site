@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-15T16:21:53.906551Z",
+  "generated_at": "2026-08-16T01:00:02.086120Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
       "last_updated": "2026-08-10",
-      "polls_in_average": 19,
+      "polls_in_average": 16,
       "current": {
-        "approve": 33.3,
-        "disapprove": 58.6,
-        "net": -25.3
+        "approve": 33.8,
+        "disapprove": 58.4,
+        "net": -24.6
       },
       "history": [
         {
@@ -99,8 +99,8 @@
         },
         {
           "date": "2026-07-28",
-          "approve": 29.9,
-          "disapprove": 57.0
+          "approve": 30.3,
+          "disapprove": 56.6
         },
         {
           "date": "2026-08-03",
@@ -129,30 +129,6 @@
           "approve": 34.0,
           "disapprove": 62.0,
           "weight": 0.06
-        },
-        {
-          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
-          "end_date": "2026-07-27",
-          "sample_size": "1165",
-          "approve": 33.0,
-          "disapprove": 66.0,
-          "weight": 0.0648
-        },
-        {
-          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
-          "end_date": "2026-07-27",
-          "sample_size": "1165",
-          "approve": 17.0,
-          "disapprove": 47.0,
-          "weight": 0.0648
-        },
-        {
-          "pollster": "The Associated Press-NORC Center for Public Affairs Research",
-          "end_date": "2026-07-27",
-          "sample_size": "1165",
-          "approve": 28.0,
-          "disapprove": 69.0,
-          "weight": 0.0648
         },
         {
           "pollster": "AP-NORC Center for Public Affairs Research",
