@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:00:01.497005+00:00",
+  "generated_at": "2026-08-18T14:30:01.327558+00:00",
   "days_to_election": 77,
   "weights": {
     "polls": 0.45,
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 56.0,
-        "rep_pct": 44.0,
+        "rep_pct": 43.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -964,7 +964,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 92.5,
-        "rep_pct": 3.5,
+        "rep_pct": 3.8,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -973,8 +973,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 24.1,
-      "composite_rep_pct": 75.9,
+      "composite_dem_pct": 23.6,
+      "composite_rep_pct": 76.4,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -983,7 +983,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 19.0,
+          "dem_prob": 18.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -995,10 +995,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 8.5,
+      "divergence_pts": 9.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 19.0,
+        "dem_pct": 18.0,
         "rep_pct": 80.0,
         "event_ticker": "GOVPARTYFL-26"
       }
