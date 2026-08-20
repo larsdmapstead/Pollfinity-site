@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-20T06:30:02.132280+00:00",
-  "days_to_election": 76,
+  "generated_at": "2026-08-20T12:00:01.207089+00:00",
+  "days_to_election": 75,
   "weights": {
     "polls": 0.45,
     "markets": 0.45,
@@ -14,8 +14,8 @@
       "type": "senate",
       "matchup": "Roy Cooper (D) vs. Michael Whatley (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 71.4,
-      "composite_rep_pct": 28.6,
+      "composite_dem_pct": 71.3,
+      "composite_rep_pct": 28.7,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -24,7 +24,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 92.3,
+          "dem_prob": 92.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -36,11 +36,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 33.0,
+      "divergence_pts": 32.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.3,
-        "rep_pct": 7.0,
+        "dem_pct": 92.2,
+        "rep_pct": 6.4,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 58.7,
-      "composite_rep_pct": 41.3,
+      "composite_dem_pct": 59.2,
+      "composite_rep_pct": 40.8,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 61.0,
+          "dem_prob": 62.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,10 +106,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 4.1,
+      "divergence_pts": 5.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 61.0,
+        "dem_pct": 62.0,
         "rep_pct": 38.0,
         "event_ticker": "SENATEMI-26"
       }
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 73.6,
-      "composite_rep_pct": 26.4,
+      "composite_dem_pct": 73.8,
+      "composite_rep_pct": 26.2,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 91.4,
+          "dem_prob": 91.7,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,11 +207,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 29.1,
+      "divergence_pts": 29.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.4,
-        "rep_pct": 8.2,
+        "dem_pct": 91.7,
+        "rep_pct": 7.6,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -347,7 +347,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 49.0,
-        "rep_pct": 51.0,
+        "rep_pct": 50.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 18.4,
-      "composite_rep_pct": 81.6,
+      "composite_dem_pct": 18.5,
+      "composite_rep_pct": 81.5,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 6.7,
+          "dem_prob": 7.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,11 +413,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 19.9,
+      "divergence_pts": 19.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 6.7,
-        "rep_pct": 91.5,
+        "dem_pct": 7.1,
+        "rep_pct": 91.9,
         "event_ticker": "SENATEFLS-26"
       }
     },
@@ -942,8 +942,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 73.4,
-      "composite_rep_pct": 26.6,
+      "composite_dem_pct": 73.5,
+      "composite_rep_pct": 26.5,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -952,7 +952,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 92.7,
+          "dem_prob": 93.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -964,11 +964,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 36.4,
+      "divergence_pts": 36.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.7,
-        "rep_pct": 2.8,
+        "dem_pct": 93.0,
+        "rep_pct": 3.0,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -977,8 +977,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 24.5,
-      "composite_rep_pct": 75.5,
+      "composite_dem_pct": 24.1,
+      "composite_rep_pct": 75.9,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -987,7 +987,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 20.0,
+          "dem_prob": 19.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -999,10 +999,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 7.5,
+      "divergence_pts": 8.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 20.0,
+        "dem_pct": 19.0,
         "rep_pct": 81.0,
         "event_ticker": "GOVPARTYFL-26"
       }
