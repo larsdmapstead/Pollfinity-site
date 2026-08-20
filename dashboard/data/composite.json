@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T02:30:01.480591+00:00",
+  "generated_at": "2026-08-20T03:00:02.042419+00:00",
   "days_to_election": 76,
   "weights": {
     "polls": 0.45,
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 92.6,
-        "rep_pct": 4.0,
+        "rep_pct": 4.1,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -1003,7 +1003,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 19.0,
-        "rep_pct": 80.0,
+        "rep_pct": 81.0,
         "event_ticker": "GOVPARTYFL-26"
       }
     },
