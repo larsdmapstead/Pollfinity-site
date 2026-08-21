@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T19:30:01.999129+00:00",
+  "generated_at": "2026-08-21T20:00:01.340026+00:00",
   "days_to_election": 74,
   "weights": {
     "polls": 0.45,
@@ -277,7 +277,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 41.0,
-        "rep_pct": 58.0,
+        "rep_pct": 59.0,
         "event_ticker": "SENATEIA-26"
       }
     },
@@ -356,8 +356,8 @@
       "type": "senate",
       "matchup": "Mark Warner (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 82.0,
-      "composite_rep_pct": 18.0,
+      "composite_dem_pct": 81.8,
+      "composite_rep_pct": 18.2,
       "inputs": {
         "polls": {
           "dem_prob": 68.9,
@@ -366,7 +366,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 95.6,
+          "dem_prob": 95.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -378,10 +378,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 26.7,
+      "divergence_pts": 26.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 95.6,
+        "dem_pct": 95.0,
         "rep_pct": 1.5,
         "event_ticker": "SENATEVA-26"
       }
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 92.6,
-        "rep_pct": 2.6,
+        "rep_pct": 2.5,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -977,8 +977,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 24.1,
-      "composite_rep_pct": 75.9,
+      "composite_dem_pct": 23.6,
+      "composite_rep_pct": 76.4,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -987,7 +987,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 19.0,
+          "dem_prob": 18.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -999,10 +999,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 8.5,
+      "divergence_pts": 9.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 19.0,
+        "dem_pct": 18.0,
         "rep_pct": 81.0,
         "event_ticker": "GOVPARTYFL-26"
       }
