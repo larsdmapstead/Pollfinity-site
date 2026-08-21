@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:30:01.692240+00:00",
+  "generated_at": "2026-08-21T05:00:01.936405+00:00",
   "days_to_election": 75,
   "weights": {
     "polls": 0.45,
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 17.7,
-      "composite_rep_pct": 82.3,
+      "composite_dem_pct": 18.1,
+      "composite_rep_pct": 81.9,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 5.2,
+          "dem_prob": 6.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,10 +413,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 21.4,
+      "divergence_pts": 20.4,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 5.2,
+        "dem_pct": 6.2,
         "rep_pct": 94.3,
         "event_ticker": "SENATEFLS-26"
       }
@@ -841,8 +841,8 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 73.0,
-      "composite_rep_pct": 27.0,
+      "composite_dem_pct": 72.6,
+      "composite_rep_pct": 27.4,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
@@ -851,7 +851,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 86.0,
+          "dem_prob": 85.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -863,10 +863,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 21.6,
+      "divergence_pts": 20.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 86.0,
+        "dem_pct": 85.0,
         "rep_pct": 14.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 92.7,
-        "rep_pct": 2.8,
+        "rep_pct": 3.2,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -1038,7 +1038,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 50.0,
-        "rep_pct": 51.0,
+        "rep_pct": 49.0,
         "event_ticker": "GOVPARTYOH-26"
       }
     },
