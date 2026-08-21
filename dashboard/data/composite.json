@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:00:01.312044+00:00",
+  "generated_at": "2026-08-21T13:30:01.714589+00:00",
   "days_to_election": 74,
   "weights": {
     "polls": 0.45,
@@ -40,7 +40,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 92.4,
-        "rep_pct": 7.4,
+        "rep_pct": 7.6,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 58.7,
-      "composite_rep_pct": 41.3,
+      "composite_dem_pct": 59.2,
+      "composite_rep_pct": 40.8,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 61.0,
+          "dem_prob": 62.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,10 +106,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 4.1,
+      "divergence_pts": 5.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 61.0,
+        "dem_pct": 62.0,
         "rep_pct": 38.0,
         "event_ticker": "SENATEMI-26"
       }
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 17.6,
-      "composite_rep_pct": 82.4,
+      "composite_dem_pct": 18.1,
+      "composite_rep_pct": 81.9,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 5.1,
+          "dem_prob": 6.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,10 +413,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 21.5,
+      "divergence_pts": 20.6,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 5.1,
+        "dem_pct": 6.0,
         "rep_pct": 94.3,
         "event_ticker": "SENATEFLS-26"
       }
@@ -841,8 +841,8 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 73.0,
-      "composite_rep_pct": 27.0,
+      "composite_dem_pct": 73.5,
+      "composite_rep_pct": 26.5,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
@@ -851,7 +851,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 86.0,
+          "dem_prob": 87.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -863,10 +863,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 21.6,
+      "divergence_pts": 22.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 86.0,
+        "dem_pct": 87.0,
         "rep_pct": 14.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
