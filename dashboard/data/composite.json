@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:00:02.117329+00:00",
+  "generated_at": "2026-08-21T03:30:02.043913+00:00",
   "days_to_election": 75,
   "weights": {
     "polls": 0.45,
@@ -150,8 +150,8 @@
       "type": "senate",
       "matchup": "Mary Peltola (D) vs. Dan Sullivan (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 42.8,
-      "composite_rep_pct": 57.2,
+      "composite_dem_pct": 43.3,
+      "composite_rep_pct": 56.7,
       "inputs": {
         "polls": {
           "dem_prob": 37.4,
@@ -160,7 +160,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 58.0,
+          "dem_prob": 59.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -172,11 +172,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 20.6,
+      "divergence_pts": 21.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": null,
-        "rep_pct": 42.0,
+        "rep_pct": 41.0,
         "event_ticker": "SENATEAK-26"
       }
     },
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 17.8,
-      "composite_rep_pct": 82.2,
+      "composite_dem_pct": 17.9,
+      "composite_rep_pct": 82.1,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 5.4,
+          "dem_prob": 5.6,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,10 +413,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 21.2,
+      "divergence_pts": 21.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 5.4,
+        "dem_pct": 5.6,
         "rep_pct": 94.3,
         "event_ticker": "SENATEFLS-26"
       }
@@ -841,8 +841,8 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 72.6,
-      "composite_rep_pct": 27.4,
+      "composite_dem_pct": 73.0,
+      "composite_rep_pct": 27.0,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
@@ -851,7 +851,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 85.0,
+          "dem_prob": 86.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -863,10 +863,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 20.6,
+      "divergence_pts": 21.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 85.0,
+        "dem_pct": 86.0,
         "rep_pct": 14.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 92.7,
-        "rep_pct": 2.5,
+        "rep_pct": 2.9,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
