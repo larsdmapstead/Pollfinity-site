@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:30:01.782917+00:00",
+  "generated_at": "2026-08-23T00:00:02.063163+00:00",
   "days_to_election": 73,
   "weights": {
     "polls": 0.45,
@@ -347,7 +347,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 47.0,
-        "rep_pct": 53.0,
+        "rep_pct": 52.0,
         "event_ticker": "SENATETX-26"
       }
     },
