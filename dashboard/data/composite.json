@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T21:30:01.905037+00:00",
+  "generated_at": "2026-08-23T22:00:02.015316+00:00",
   "days_to_election": 72,
   "weights": {
     "polls": 0.45,
@@ -75,7 +75,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 68.0,
-        "rep_pct": 32.0,
+        "rep_pct": 31.0,
         "event_ticker": "SENATEME-26"
       }
     },
@@ -797,7 +797,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 78.0,
-        "rep_pct": 20.0,
+        "rep_pct": 21.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
