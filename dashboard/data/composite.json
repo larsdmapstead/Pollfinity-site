@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T00:00:01.863272+00:00",
+  "generated_at": "2026-08-25T00:30:01.578984+00:00",
   "days_to_election": 71,
   "weights": {
     "polls": 0.45,
@@ -24,7 +24,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 91.2,
+          "dem_prob": 91.3,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -36,10 +36,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 31.9,
+      "divergence_pts": 32.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.2,
+        "dem_pct": 91.3,
         "rep_pct": 8.0,
         "event_ticker": "SENATENC-26"
       }
@@ -211,7 +211,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.5,
-        "rep_pct": 7.9,
+        "rep_pct": 7.8,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 18.9,
-      "composite_rep_pct": 81.1,
+      "composite_dem_pct": 18.8,
+      "composite_rep_pct": 81.2,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 7.8,
+          "dem_prob": 7.6,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,10 +413,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 18.8,
+      "divergence_pts": 19.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 7.8,
+        "dem_pct": 7.6,
         "rep_pct": 92.3,
         "event_ticker": "SENATEFLS-26"
       }
@@ -806,8 +806,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 56.8,
-      "composite_rep_pct": 43.2,
+      "composite_dem_pct": 56.3,
+      "composite_rep_pct": 43.7,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -816,7 +816,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 59.0,
+          "dem_prob": 58.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -828,10 +828,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 0.0,
+      "divergence_pts": 1.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 59.0,
+        "dem_pct": 58.0,
         "rep_pct": 40.0,
         "event_ticker": "GOVPARTYGA-26"
       }
@@ -867,7 +867,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 87.0,
-        "rep_pct": 11.0,
+        "rep_pct": 12.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
     },
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 96.1,
-        "rep_pct": 3.4,
+        "rep_pct": 3.6,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
