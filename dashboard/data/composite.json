@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:30:01.871974+00:00",
+  "generated_at": "2026-08-25T00:00:01.863272+00:00",
   "days_to_election": 71,
   "weights": {
     "polls": 0.45,
@@ -24,7 +24,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 91.1,
+          "dem_prob": 91.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -36,10 +36,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 31.8,
+      "divergence_pts": 31.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.1,
+        "dem_pct": 91.2,
         "rep_pct": 8.0,
         "event_ticker": "SENATENC-26"
       }
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 59.0,
-        "rep_pct": 41.0,
+        "rep_pct": 40.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -296,7 +296,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 90.1,
+          "dem_prob": 90.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -308,10 +308,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 15.8,
+      "divergence_pts": 15.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.1,
+        "dem_pct": 90.2,
         "rep_pct": 9.1,
         "event_ticker": "SENATEMN-26"
       }
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 18.8,
-      "composite_rep_pct": 81.2,
+      "composite_dem_pct": 18.9,
+      "composite_rep_pct": 81.1,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 7.6,
+          "dem_prob": 7.8,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,10 +413,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 19.0,
+      "divergence_pts": 18.8,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 7.6,
+        "dem_pct": 7.8,
         "rep_pct": 92.3,
         "event_ticker": "SENATEFLS-26"
       }
@@ -1012,8 +1012,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 43.2,
-      "composite_rep_pct": 56.8,
+      "composite_dem_pct": 43.7,
+      "composite_rep_pct": 56.3,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
@@ -1022,7 +1022,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 54.0,
+          "dem_prob": 55.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -1034,10 +1034,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 19.3,
+      "divergence_pts": 20.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 54.0,
+        "dem_pct": 55.0,
         "rep_pct": 45.0,
         "event_ticker": "GOVPARTYOH-26"
       }
