@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:30:01.409263+00:00",
+  "generated_at": "2026-08-25T15:00:01.187150+00:00",
   "days_to_election": 70,
   "weights": {
     "polls": 0.45,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 91.5,
+          "dem_prob": 91.6,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 29.2,
+      "divergence_pts": 29.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 91.5,
+        "dem_pct": 91.6,
         "rep_pct": 7.9,
         "event_ticker": "SENATEGA-26"
       }
@@ -347,7 +347,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 50.0,
-        "rep_pct": 49.0,
+        "rep_pct": 50.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 19.0,
-      "composite_rep_pct": 81.0,
+      "composite_dem_pct": 18.7,
+      "composite_rep_pct": 81.3,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 8.1,
+          "dem_prob": 7.5,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,11 +413,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 18.5,
+      "divergence_pts": 19.1,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 8.1,
-        "rep_pct": 92.0,
+        "dem_pct": 7.5,
+        "rep_pct": 91.4,
         "event_ticker": "SENATEFLS-26"
       }
     },
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 96.1,
-        "rep_pct": 2.7,
+        "rep_pct": 3.3,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
