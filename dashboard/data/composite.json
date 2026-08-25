@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T06:30:01.317278+00:00",
-  "days_to_election": 71,
+  "generated_at": "2026-08-25T12:00:01.649954+00:00",
+  "days_to_election": 70,
   "weights": {
     "polls": 0.45,
     "markets": 0.45,
@@ -40,7 +40,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.6,
-        "rep_pct": 7.9,
+        "rep_pct": 7.8,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 59.0,
-        "rep_pct": 41.0,
+        "rep_pct": 40.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -211,7 +211,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.5,
-        "rep_pct": 7.8,
+        "rep_pct": 7.9,
         "event_ticker": "SENATEGA-26"
       }
     },
@@ -347,7 +347,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 49.0,
-        "rep_pct": 51.0,
+        "rep_pct": 50.0,
         "event_ticker": "SENATETX-26"
       }
     },
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 19.1,
-      "composite_rep_pct": 80.9,
+      "composite_dem_pct": 19.0,
+      "composite_rep_pct": 81.0,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 8.3,
+          "dem_prob": 8.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,10 +413,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 18.3,
+      "divergence_pts": 18.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 8.3,
+        "dem_pct": 8.1,
         "rep_pct": 91.8,
         "event_ticker": "SENATEFLS-26"
       }
@@ -841,8 +841,8 @@
       "type": "governor",
       "matchup": "Katie Hobbs (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 73.5,
-      "composite_rep_pct": 26.5,
+      "composite_dem_pct": 73.9,
+      "composite_rep_pct": 26.1,
       "inputs": {
         "polls": {
           "dem_prob": 64.4,
@@ -851,7 +851,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 87.0,
+          "dem_prob": 88.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -863,10 +863,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 22.6,
+      "divergence_pts": 23.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 87.0,
+        "dem_pct": 88.0,
         "rep_pct": 13.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 96.1,
-        "rep_pct": 3.5,
+        "rep_pct": 3.6,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
