@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:30:01.803256+00:00",
+  "generated_at": "2026-08-26T17:00:01.161070+00:00",
   "days_to_election": 69,
   "weights": {
     "polls": 0.45,
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 61.0,
-        "rep_pct": 38.0,
+        "rep_pct": 39.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 74.0,
-      "composite_rep_pct": 26.0,
+      "composite_dem_pct": 73.9,
+      "composite_rep_pct": 26.1,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 92.1,
+          "dem_prob": 92.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 29.8,
+      "divergence_pts": 29.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.1,
+        "dem_pct": 92.0,
         "rep_pct": 7.7,
         "event_ticker": "SENATEGA-26"
       }
@@ -251,8 +251,8 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 36.4,
-      "composite_rep_pct": 63.6,
+      "composite_dem_pct": 36.0,
+      "composite_rep_pct": 64.0,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
@@ -261,7 +261,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 42.0,
+          "dem_prob": 41.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -273,11 +273,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 9.4,
+      "divergence_pts": 8.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 42.0,
-        "rep_pct": 56.0,
+        "dem_pct": 41.0,
+        "rep_pct": 58.0,
         "event_ticker": "SENATEIA-26"
       }
     },
@@ -286,8 +286,8 @@
       "type": "senate",
       "matchup": "Flanagan/Craig (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 81.3,
-      "composite_rep_pct": 18.7,
+      "composite_dem_pct": 81.4,
+      "composite_rep_pct": 18.6,
       "inputs": {
         "polls": {
           "dem_prob": 74.3,
@@ -296,7 +296,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 90.2,
+          "dem_prob": 90.3,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -308,11 +308,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 15.9,
+      "divergence_pts": 16.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.2,
-        "rep_pct": 9.2,
+        "dem_pct": 90.3,
+        "rep_pct": 9.1,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -356,8 +356,8 @@
       "type": "senate",
       "matchup": "Mark Warner (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 82.1,
-      "composite_rep_pct": 17.9,
+      "composite_dem_pct": 81.8,
+      "composite_rep_pct": 18.2,
       "inputs": {
         "polls": {
           "dem_prob": 68.9,
@@ -366,7 +366,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 95.7,
+          "dem_prob": 95.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -378,10 +378,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 26.8,
+      "divergence_pts": 26.2,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 95.7,
+        "dem_pct": 95.1,
         "rep_pct": 0.2,
         "event_ticker": "SENATEVA-26"
       }
