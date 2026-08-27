@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T20:00:01.197396+00:00",
+  "generated_at": "2026-08-27T20:30:01.426586+00:00",
   "days_to_election": 68,
   "weights": {
     "polls": 0.45,
@@ -75,7 +75,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 67.0,
-        "rep_pct": 32.0,
+        "rep_pct": 33.0,
         "event_ticker": "SENATEME-26"
       }
     },
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 74.0,
-      "composite_rep_pct": 26.0,
+      "composite_dem_pct": 73.9,
+      "composite_rep_pct": 26.1,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 92.1,
+          "dem_prob": 92.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 29.8,
+      "divergence_pts": 29.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.1,
+        "dem_pct": 92.0,
         "rep_pct": 7.6,
         "event_ticker": "SENATEGA-26"
       }
@@ -312,7 +312,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 90.8,
-        "rep_pct": 8.5,
+        "rep_pct": 8.4,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -366,7 +366,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 97.1,
+          "dem_prob": 97.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -378,10 +378,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 28.2,
+      "divergence_pts": 28.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 97.1,
+        "dem_pct": 97.0,
         "rep_pct": 0.2,
         "event_ticker": "SENATEVA-26"
       }
@@ -942,8 +942,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 74.6,
-      "composite_rep_pct": 25.4,
+      "composite_dem_pct": 74.8,
+      "composite_rep_pct": 25.2,
       "inputs": {
         "polls": {
           "dem_prob": 56.3,
@@ -952,7 +952,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 95.3,
+          "dem_prob": 95.9,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -964,11 +964,11 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 39.0,
+      "divergence_pts": 39.6,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 95.3,
-        "rep_pct": 2.0,
+        "dem_pct": 95.9,
+        "rep_pct": 2.2,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -977,8 +977,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 23.2,
-      "composite_rep_pct": 76.8,
+      "composite_dem_pct": 23.6,
+      "composite_rep_pct": 76.4,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -987,7 +987,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 17.0,
+          "dem_prob": 18.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -999,10 +999,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 10.5,
+      "divergence_pts": 9.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 17.0,
+        "dem_pct": 18.0,
         "rep_pct": 82.0,
         "event_ticker": "GOVPARTYFL-26"
       }
