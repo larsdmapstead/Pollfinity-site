@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T23:00:01.748356+00:00",
+  "generated_at": "2026-08-28T23:30:01.695968+00:00",
   "days_to_election": 67,
   "weights": {
     "polls": 0.45,
@@ -366,7 +366,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 97.1,
+          "dem_prob": 97.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -378,10 +378,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 28.2,
+      "divergence_pts": 28.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 97.1,
+        "dem_pct": 97.0,
         "rep_pct": 0.2,
         "event_ticker": "SENATEVA-26"
       }
@@ -417,7 +417,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 7.5,
-        "rep_pct": 92.7,
+        "rep_pct": 92.6,
         "event_ticker": "SENATEFLS-26"
       }
     },
@@ -867,7 +867,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 88.0,
-        "rep_pct": 12.0,
+        "rep_pct": 13.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
     },
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 96.7,
-        "rep_pct": 2.7,
+        "rep_pct": 3.1,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
