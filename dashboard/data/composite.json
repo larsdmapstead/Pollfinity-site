@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T18:30:01.238472+00:00",
+  "generated_at": "2026-08-29T19:00:02.011127+00:00",
   "days_to_election": 66,
   "weights": {
     "polls": 0.45,
@@ -251,8 +251,8 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 36.0,
-      "composite_rep_pct": 64.0,
+      "composite_dem_pct": 36.4,
+      "composite_rep_pct": 63.6,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
@@ -261,7 +261,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 41.0,
+          "dem_prob": 42.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -273,10 +273,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 8.4,
+      "divergence_pts": 9.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 41.0,
+        "dem_pct": 42.0,
         "rep_pct": 58.0,
         "event_ticker": "SENATEIA-26"
       }
@@ -762,7 +762,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 88.0,
-        "rep_pct": 9.0,
+        "rep_pct": 10.0,
         "event_ticker": "GOVPARTYMI-26"
       }
     },
@@ -977,8 +977,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 22.7,
-      "composite_rep_pct": 77.3,
+      "composite_dem_pct": 23.2,
+      "composite_rep_pct": 76.8,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -987,7 +987,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 16.0,
+          "dem_prob": 17.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -999,10 +999,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 11.5,
+      "divergence_pts": 10.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 16.0,
+        "dem_pct": 17.0,
         "rep_pct": 83.0,
         "event_ticker": "GOVPARTYFL-26"
       }
@@ -1012,8 +1012,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 43.7,
-      "composite_rep_pct": 56.3,
+      "composite_dem_pct": 44.1,
+      "composite_rep_pct": 55.9,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
@@ -1022,7 +1022,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 55.0,
+          "dem_prob": 56.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -1034,11 +1034,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 20.3,
+      "divergence_pts": 21.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 55.0,
-        "rep_pct": 45.0,
+        "dem_pct": 56.0,
+        "rep_pct": 43.0,
         "event_ticker": "GOVPARTYOH-26"
       }
     },
