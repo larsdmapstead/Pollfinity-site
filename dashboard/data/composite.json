@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T04:30:01.755639+00:00",
+  "generated_at": "2026-08-29T05:00:01.558911+00:00",
   "days_to_election": 67,
   "weights": {
     "polls": 0.45,
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 61.0,
-        "rep_pct": 39.0,
+        "rep_pct": 38.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -312,7 +312,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 90.9,
-        "rep_pct": 9.1,
+        "rep_pct": 9.0,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -1003,7 +1003,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 17.0,
-        "rep_pct": 82.0,
+        "rep_pct": 83.0,
         "event_ticker": "GOVPARTYFL-26"
       }
     },
