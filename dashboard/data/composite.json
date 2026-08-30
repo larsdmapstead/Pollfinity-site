@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T04:00:01.762370+00:00",
+  "generated_at": "2026-08-30T04:30:01.652936+00:00",
   "days_to_election": 66,
   "weights": {
     "polls": 0.45,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 92.1,
+          "dem_prob": 92.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 29.8,
+      "divergence_pts": 29.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.1,
+        "dem_pct": 92.2,
         "rep_pct": 7.4,
         "event_ticker": "SENATEGA-26"
       }
@@ -736,8 +736,8 @@
       "type": "governor",
       "matchup": "Primary Aug. 4 (D) vs. John James (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 71.0,
-      "composite_rep_pct": 29.0,
+      "composite_dem_pct": 71.4,
+      "composite_rep_pct": 28.6,
       "inputs": {
         "polls": {
           "dem_prob": 59.3,
@@ -746,7 +746,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 86.0,
+          "dem_prob": 87.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -758,11 +758,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 26.7,
+      "divergence_pts": 27.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 86.0,
-        "rep_pct": 9.5,
+        "dem_pct": 87.0,
+        "rep_pct": 11.0,
         "event_ticker": "GOVPARTYMI-26"
       }
     },
