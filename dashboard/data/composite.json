@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:00:01.306101+00:00",
+  "generated_at": "2026-08-31T16:30:01.467186+00:00",
   "days_to_election": 64,
   "weights": {
     "polls": 0.45,
@@ -277,7 +277,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 40.0,
-        "rep_pct": 58.0,
+        "rep_pct": 59.0,
         "event_ticker": "SENATEIA-26"
       }
     },
@@ -762,7 +762,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 88.0,
-        "rep_pct": 11.0,
+        "rep_pct": 12.0,
         "event_ticker": "GOVPARTYMI-26"
       }
     },
