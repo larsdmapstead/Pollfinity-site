@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:00:01.859104+00:00",
+  "generated_at": "2026-09-02T13:30:02.168967+00:00",
   "days_to_election": 62,
   "weights": {
     "polls": 0.45,
@@ -75,7 +75,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 68.0,
-        "rep_pct": 30.0,
+        "rep_pct": 31.0,
         "event_ticker": "SENATEME-26"
       }
     },
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 59.6,
-      "composite_rep_pct": 40.4,
+      "composite_dem_pct": 60.1,
+      "composite_rep_pct": 39.9,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 63.0,
+          "dem_prob": 64.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,11 +106,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 6.1,
+      "divergence_pts": 7.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 63.0,
-        "rep_pct": 35.0,
+        "dem_pct": 64.0,
+        "rep_pct": 36.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 93.0,
+          "dem_prob": 93.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 30.7,
+      "divergence_pts": 30.8,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 93.0,
+        "dem_pct": 93.1,
         "rep_pct": 6.6,
         "event_ticker": "SENATEGA-26"
       }
@@ -832,7 +832,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 59.0,
-        "rep_pct": 41.0,
+        "rep_pct": 40.0,
         "event_ticker": "GOVPARTYGA-26"
       }
     },
