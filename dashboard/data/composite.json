@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T20:30:01.602913+00:00",
+  "generated_at": "2026-09-02T21:00:01.863867+00:00",
   "days_to_election": 62,
   "weights": {
     "polls": 0.45,
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 74.5,
-      "composite_rep_pct": 25.5,
+      "composite_dem_pct": 74.2,
+      "composite_rep_pct": 25.8,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 93.4,
+          "dem_prob": 92.7,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 31.1,
+      "divergence_pts": 30.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 93.4,
+        "dem_pct": 92.7,
         "rep_pct": 6.5,
         "event_ticker": "SENATEGA-26"
       }
