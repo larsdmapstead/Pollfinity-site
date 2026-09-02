@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:00:01.973610+00:00",
+  "generated_at": "2026-09-02T16:30:01.167820+00:00",
   "days_to_election": 62,
   "weights": {
     "polls": 0.45,
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 74.4,
-      "composite_rep_pct": 25.6,
+      "composite_dem_pct": 74.5,
+      "composite_rep_pct": 25.5,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 93.1,
+          "dem_prob": 93.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 30.8,
+      "divergence_pts": 30.9,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 93.1,
+        "dem_pct": 93.2,
         "rep_pct": 6.6,
         "event_ticker": "SENATEGA-26"
       }
@@ -356,8 +356,8 @@
       "type": "senate",
       "matchup": "Mark Warner (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 82.9,
-      "composite_rep_pct": 17.1,
+      "composite_dem_pct": 82.7,
+      "composite_rep_pct": 17.3,
       "inputs": {
         "polls": {
           "dem_prob": 68.9,
@@ -366,7 +366,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 97.5,
+          "dem_prob": 97.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -378,10 +378,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 28.6,
+      "divergence_pts": 28.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 97.5,
+        "dem_pct": 97.0,
         "rep_pct": 0.2,
         "event_ticker": "SENATEVA-26"
       }
