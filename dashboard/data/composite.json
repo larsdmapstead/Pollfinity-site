@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:00:01.613085+00:00",
+  "generated_at": "2026-09-03T14:30:01.364776+00:00",
   "days_to_election": 61,
   "weights": {
     "polls": 0.45,
@@ -1038,7 +1038,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 57.0,
-        "rep_pct": 44.0,
+        "rep_pct": 43.0,
         "event_ticker": "GOVPARTYOH-26"
       }
     },
