@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:00:01.334231+00:00",
+  "generated_at": "2026-09-04T13:30:01.178976+00:00",
   "days_to_election": 60,
   "weights": {
     "polls": 0.45,
@@ -40,7 +40,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.0,
-        "rep_pct": 8.6,
+        "rep_pct": 8.7,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 59.6,
-      "composite_rep_pct": 40.4,
+      "composite_dem_pct": 59.2,
+      "composite_rep_pct": 40.8,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 63.0,
+          "dem_prob": 62.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,10 +106,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 6.1,
+      "divergence_pts": 5.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 63.0,
+        "dem_pct": 62.0,
         "rep_pct": 36.0,
         "event_ticker": "SENATEMI-26"
       }
@@ -185,8 +185,8 @@
       "type": "senate",
       "matchup": "Jon Ossoff (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 74.0,
-      "composite_rep_pct": 26.0,
+      "composite_dem_pct": 74.1,
+      "composite_rep_pct": 25.9,
       "inputs": {
         "polls": {
           "dem_prob": 62.3,
@@ -195,7 +195,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 92.2,
+          "dem_prob": 92.5,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -207,10 +207,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 29.9,
+      "divergence_pts": 30.2,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 92.2,
+        "dem_pct": 92.5,
         "rep_pct": 6.6,
         "event_ticker": "SENATEGA-26"
       }
@@ -762,7 +762,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 87.0,
-        "rep_pct": 9.0,
+        "rep_pct": 11.0,
         "event_ticker": "GOVPARTYMI-26"
       }
     },
@@ -806,8 +806,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.4,
-      "composite_rep_pct": 44.6,
+      "composite_dem_pct": 55.9,
+      "composite_rep_pct": 44.1,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -816,7 +816,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 56.0,
+          "dem_prob": 57.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -828,10 +828,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 3.0,
+      "divergence_pts": 2.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 56.0,
+        "dem_pct": 57.0,
         "rep_pct": 42.0,
         "event_ticker": "GOVPARTYGA-26"
       }
