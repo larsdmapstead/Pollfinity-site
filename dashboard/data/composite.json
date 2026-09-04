@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:00:01.317192+00:00",
+  "generated_at": "2026-09-04T15:30:01.341350+00:00",
   "days_to_election": 60,
   "weights": {
     "polls": 0.45,
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 59.6,
-      "composite_rep_pct": 40.4,
+      "composite_dem_pct": 59.2,
+      "composite_rep_pct": 40.8,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 63.0,
+          "dem_prob": 62.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,10 +106,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 6.1,
+      "divergence_pts": 5.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 63.0,
+        "dem_pct": 62.0,
         "rep_pct": 36.0,
         "event_ticker": "SENATEMI-26"
       }
@@ -312,7 +312,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 92.0,
-        "rep_pct": 8.6,
+        "rep_pct": 8.7,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -391,8 +391,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 19.0,
-      "composite_rep_pct": 81.0,
+      "composite_dem_pct": 19.1,
+      "composite_rep_pct": 80.9,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -401,7 +401,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 8.2,
+          "dem_prob": 8.4,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -413,10 +413,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 18.4,
+      "divergence_pts": 18.2,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 8.2,
+        "dem_pct": 8.4,
         "rep_pct": 91.3,
         "event_ticker": "SENATEFLS-26"
       }
@@ -867,7 +867,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 86.0,
-        "rep_pct": 13.0,
+        "rep_pct": 14.0,
         "event_ticker": "GOVPARTYAZ-26"
       }
     },
