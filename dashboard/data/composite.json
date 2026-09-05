@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T02:00:01.973227+00:00",
+  "generated_at": "2026-09-05T02:30:01.837882+00:00",
   "days_to_election": 60,
   "weights": {
     "polls": 0.45,
@@ -84,8 +84,8 @@
       "type": "senate",
       "matchup": "Primary Aug. 4 (D) vs. Primary Aug. 4 (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 59.2,
-      "composite_rep_pct": 40.8,
+      "composite_dem_pct": 59.6,
+      "composite_rep_pct": 40.4,
       "inputs": {
         "polls": {
           "dem_prob": 56.9,
@@ -94,7 +94,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 62.0,
+          "dem_prob": 63.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -106,10 +106,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 5.1,
+      "divergence_pts": 6.1,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 62.0,
+        "dem_pct": 63.0,
         "rep_pct": 37.0,
         "event_ticker": "SENATEMI-26"
       }
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 96.8,
-        "rep_pct": 2.8,
+        "rep_pct": 2.9,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
