@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:30:01.734267+00:00",
+  "generated_at": "2026-09-06T02:00:01.890554+00:00",
   "days_to_election": 59,
   "weights": {
     "polls": 0.45,
@@ -312,7 +312,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.8,
-        "rep_pct": 8.1,
+        "rep_pct": 8.0,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -347,7 +347,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 48.0,
-        "rep_pct": 51.0,
+        "rep_pct": 52.0,
         "event_ticker": "SENATETX-26"
       }
     },
