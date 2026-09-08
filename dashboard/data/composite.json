@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08T06:30:01.893776+00:00",
-  "days_to_election": 57,
+  "generated_at": "2026-09-08T12:00:01.175962+00:00",
+  "days_to_election": 56,
   "weights": {
     "polls": 0.45,
     "markets": 0.45,
@@ -49,8 +49,8 @@
       "type": "senate",
       "matchup": "Graham Platner (D) vs. Susan Collins (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 58.9,
-      "composite_rep_pct": 41.1,
+      "composite_dem_pct": 58.5,
+      "composite_rep_pct": 41.5,
       "inputs": {
         "polls": {
           "dem_prob": 47.0,
@@ -59,7 +59,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 68.0,
+          "dem_prob": 67.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -71,10 +71,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 21.0,
+      "divergence_pts": 20.0,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 68.0,
+        "dem_pct": 67.0,
         "rep_pct": 31.0,
         "event_ticker": "SENATEME-26"
       }
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 63.0,
-        "rep_pct": 36.0,
+        "rep_pct": 35.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -312,7 +312,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 91.3,
-        "rep_pct": 8.2,
+        "rep_pct": 8.1,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -417,7 +417,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 8.1,
-        "rep_pct": 91.3,
+        "rep_pct": 91.4,
         "event_ticker": "SENATEFLS-26"
       }
     },
@@ -762,7 +762,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 88.0,
-        "rep_pct": 10.0,
+        "rep_pct": 11.0,
         "event_ticker": "GOVPARTYMI-26"
       }
     },
@@ -876,8 +876,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 40.3,
-      "composite_rep_pct": 59.7,
+      "composite_dem_pct": 39.8,
+      "composite_rep_pct": 60.2,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -886,7 +886,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 41.0,
+          "dem_prob": 40.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -898,11 +898,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 2.7,
+      "divergence_pts": 1.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 41.0,
-        "rep_pct": 60.0,
+        "dem_pct": 40.0,
+        "rep_pct": 61.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
@@ -968,7 +968,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 96.9,
-        "rep_pct": 2.8,
+        "rep_pct": 2.6,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
@@ -1012,8 +1012,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Mike DeWine (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 44.6,
-      "composite_rep_pct": 55.4,
+      "composite_dem_pct": 43.2,
+      "composite_rep_pct": 56.8,
       "inputs": {
         "polls": {
           "dem_prob": 34.7,
@@ -1022,7 +1022,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 57.0,
+          "dem_prob": 54.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -1034,11 +1034,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 22.3,
+      "divergence_pts": 19.3,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 57.0,
-        "rep_pct": 44.0,
+        "dem_pct": 54.0,
+        "rep_pct": 45.0,
         "event_ticker": "GOVPARTYOH-26"
       }
     },
