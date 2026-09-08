@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:30:02.031527+00:00",
+  "generated_at": "2026-09-08T06:00:02.059628+00:00",
   "days_to_election": 57,
   "weights": {
     "polls": 0.45,
@@ -806,8 +806,8 @@
       "type": "governor",
       "matchup": "Keisha Lance Bottoms (D) vs. Rick Jackson (R)",
       "rating": "Toss-Up",
-      "composite_dem_pct": 55.4,
-      "composite_rep_pct": 44.6,
+      "composite_dem_pct": 54.5,
+      "composite_rep_pct": 45.5,
       "inputs": {
         "polls": {
           "dem_prob": 59.0,
@@ -816,7 +816,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 56.0,
+          "dem_prob": 54.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -828,10 +828,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 3.0,
+      "divergence_pts": 5.0,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 56.0,
+        "dem_pct": 54.0,
         "rep_pct": 43.0,
         "event_ticker": "GOVPARTYGA-26"
       }
