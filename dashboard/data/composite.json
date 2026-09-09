@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:00:01.860500+00:00",
+  "generated_at": "2026-09-09T16:30:01.833236+00:00",
   "days_to_election": 55,
   "weights": {
     "polls": 0.45,
@@ -296,7 +296,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 90.2,
+          "dem_prob": 90.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -308,11 +308,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 15.9,
+      "divergence_pts": 15.8,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.2,
-        "rep_pct": 9.8,
+        "dem_pct": 90.1,
+        "rep_pct": 9.9,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -797,7 +797,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 80.0,
-        "rep_pct": 20.0,
+        "rep_pct": 19.0,
         "event_ticker": "GOVPARTYWI-26"
       }
     },
