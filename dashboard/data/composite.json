@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T23:00:01.475844+00:00",
+  "generated_at": "2026-09-09T23:30:02.193827+00:00",
   "days_to_election": 55,
   "weights": {
     "polls": 0.45,
@@ -7,7 +7,7 @@
     "fundamentals": 0.1
   },
   "generic_ballot_dem_adv": 4.0,
-  "kalshi_markets_fetched": 19,
+  "kalshi_markets_fetched": 20,
   "races": {
     "senate_NC": {
       "label": "NC Senate",
@@ -220,31 +220,35 @@
       "type": "senate",
       "matchup": "Chris Pappas (D) vs. John Sununu (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 64.3,
-      "composite_rep_pct": 35.7,
+      "composite_dem_pct": 72.6,
+      "composite_rep_pct": 27.4,
       "inputs": {
         "polls": {
           "dem_prob": 65.6,
           "dem_margin": 5.2,
           "sample_quality": "moderate",
-          "weight_applied": 0.765
+          "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": null,
-          "available": false,
+          "dem_prob": 83.0,
+          "available": true,
           "source": "Kalshi",
-          "weight_applied": 0.0
+          "weight_applied": 0.45
         },
         "fundamentals": {
           "dem_prob": 60.1,
           "pvi": 2,
           "incumbency": null,
-          "weight_applied": 0.235
+          "weight_applied": 0.145
         }
       },
-      "divergence_pts": null,
-      "divergence_direction": null,
-      "kalshi_raw": null
+      "divergence_pts": 17.4,
+      "divergence_direction": "market_bullish_dem",
+      "kalshi_raw": {
+        "dem_pct": 83.0,
+        "rep_pct": 16.0,
+        "event_ticker": "SENATENH-26"
+      }
     },
     "senate_IA": {
       "label": "IA Senate",
@@ -286,8 +290,8 @@
       "type": "senate",
       "matchup": "Flanagan/Craig (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 81.3,
-      "composite_rep_pct": 18.7,
+      "composite_dem_pct": 81.2,
+      "composite_rep_pct": 18.8,
       "inputs": {
         "polls": {
           "dem_prob": 74.3,
@@ -296,7 +300,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 90.1,
+          "dem_prob": 90.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -308,10 +312,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 15.8,
+      "divergence_pts": 15.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.1,
+        "dem_pct": 90.0,
         "rep_pct": 10.0,
         "event_ticker": "SENATEMN-26"
       }
@@ -762,7 +766,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 89.0,
-        "rep_pct": 9.1,
+        "rep_pct": 10.0,
         "event_ticker": "GOVPARTYMI-26"
       }
     },
@@ -968,7 +972,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 95.1,
-        "rep_pct": 3.0,
+        "rep_pct": 2.6,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
