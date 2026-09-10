@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:00:01.969613+00:00",
+  "generated_at": "2026-09-10T20:30:02.131663+00:00",
   "days_to_election": 54,
   "weights": {
     "polls": 0.45,
@@ -110,7 +110,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 63.0,
-        "rep_pct": 35.0,
+        "rep_pct": 36.0,
         "event_ticker": "SENATEMI-26"
       }
     },
@@ -255,8 +255,8 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 32.8,
-      "composite_rep_pct": 67.2,
+      "composite_dem_pct": 32.4,
+      "composite_rep_pct": 67.6,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
@@ -265,7 +265,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 34.0,
+          "dem_prob": 33.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -277,10 +277,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 1.4,
+      "divergence_pts": 0.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 34.0,
+        "dem_pct": 33.0,
         "rep_pct": 66.0,
         "event_ticker": "SENATEIA-26"
       }
@@ -981,8 +981,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. TBD (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 24.5,
-      "composite_rep_pct": 75.5,
+      "composite_dem_pct": 24.1,
+      "composite_rep_pct": 75.9,
       "inputs": {
         "polls": {
           "dem_prob": 27.5,
@@ -991,7 +991,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 20.0,
+          "dem_prob": 19.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -1003,10 +1003,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 7.5,
+      "divergence_pts": 8.5,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 20.0,
+        "dem_pct": 19.0,
         "rep_pct": 80.0,
         "event_ticker": "GOVPARTYFL-26"
       }
