@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T15:00:01.457588+00:00",
+  "generated_at": "2026-09-10T15:30:01.504759+00:00",
   "days_to_election": 54,
   "weights": {
     "polls": 0.45,
@@ -40,7 +40,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 90.8,
-        "rep_pct": 9.2,
+        "rep_pct": 9.1,
         "event_ticker": "SENATENC-26"
       }
     },
@@ -255,8 +255,8 @@
       "type": "senate",
       "matchup": "Josh Turek (D) vs. Ashley Hinson (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 33.3,
-      "composite_rep_pct": 66.7,
+      "composite_dem_pct": 32.8,
+      "composite_rep_pct": 67.2,
       "inputs": {
         "polls": {
           "dem_prob": 32.6,
@@ -265,7 +265,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 35.0,
+          "dem_prob": 34.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -277,10 +277,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 2.4,
+      "divergence_pts": 1.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 35.0,
+        "dem_pct": 34.0,
         "rep_pct": 65.0,
         "event_ticker": "SENATEIA-26"
       }
@@ -290,8 +290,8 @@
       "type": "senate",
       "matchup": "Flanagan/Craig (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 81.2,
-      "composite_rep_pct": 18.8,
+      "composite_dem_pct": 81.3,
+      "composite_rep_pct": 18.7,
       "inputs": {
         "polls": {
           "dem_prob": 74.3,
@@ -300,7 +300,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 90.0,
+          "dem_prob": 90.1,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -312,11 +312,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 15.7,
+      "divergence_pts": 15.8,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.0,
-        "rep_pct": 9.8,
+        "dem_pct": 90.1,
+        "rep_pct": 9.7,
         "event_ticker": "SENATEMN-26"
       }
     },
