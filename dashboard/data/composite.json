@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T06:00:01.643213+00:00",
+  "generated_at": "2026-09-10T06:30:01.667948+00:00",
   "days_to_election": 55,
   "weights": {
     "polls": 0.45,
@@ -405,7 +405,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 8.1,
+          "dem_prob": 8.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -417,10 +417,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 18.5,
+      "divergence_pts": 18.4,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 8.1,
+        "dem_pct": 8.2,
         "rep_pct": 91.1,
         "event_ticker": "SENATEFLS-26"
       }
