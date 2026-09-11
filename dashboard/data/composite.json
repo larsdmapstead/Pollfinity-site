@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T22:00:01.918405+00:00",
+  "generated_at": "2026-09-11T22:30:02.209516+00:00",
   "days_to_election": 53,
   "weights": {
     "polls": 0.45,
@@ -395,8 +395,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 19.4,
-      "composite_rep_pct": 80.6,
+      "composite_dem_pct": 19.2,
+      "composite_rep_pct": 80.8,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -405,7 +405,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 8.9,
+          "dem_prob": 8.5,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -417,10 +417,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 17.7,
+      "divergence_pts": 18.1,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 8.9,
+        "dem_pct": 8.5,
         "rep_pct": 91.1,
         "event_ticker": "SENATEFLS-26"
       }
@@ -972,7 +972,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 95.6,
-        "rep_pct": 2.8,
+        "rep_pct": 3.2,
         "event_ticker": "GOVPARTYPA-26"
       }
     },
