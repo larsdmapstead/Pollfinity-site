@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T04:00:01.614163+00:00",
+  "generated_at": "2026-09-13T04:30:01.391243+00:00",
   "days_to_election": 52,
   "weights": {
     "polls": 0.45,
@@ -220,8 +220,8 @@
       "type": "senate",
       "matchup": "Chris Pappas (D) vs. John Sununu (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 73.1,
-      "composite_rep_pct": 26.9,
+      "composite_dem_pct": 72.6,
+      "composite_rep_pct": 27.4,
       "inputs": {
         "polls": {
           "dem_prob": 65.6,
@@ -230,7 +230,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 84.0,
+          "dem_prob": 83.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -242,10 +242,10 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 18.4,
+      "divergence_pts": 17.4,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 84.0,
+        "dem_pct": 83.0,
         "rep_pct": 15.0,
         "event_ticker": "SENATENH-26"
       }
