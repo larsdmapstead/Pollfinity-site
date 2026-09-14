@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T01:30:02.107861+00:00",
+  "generated_at": "2026-09-14T02:00:01.520000+00:00",
   "days_to_election": 51,
   "weights": {
     "polls": 0.45,
@@ -421,7 +421,7 @@
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
         "dem_pct": 8.8,
-        "rep_pct": 91.2,
+        "rep_pct": 91.5,
         "event_ticker": "SENATEFLS-26"
       }
     },
