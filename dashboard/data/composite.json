@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:30:02.146753+00:00",
+  "generated_at": "2026-09-15T00:00:01.759487+00:00",
   "days_to_election": 50,
   "weights": {
     "polls": 0.45,
@@ -246,7 +246,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 83.0,
-        "rep_pct": 16.0,
+        "rep_pct": 17.0,
         "event_ticker": "SENATENH-26"
       }
     },
@@ -290,8 +290,8 @@
       "type": "senate",
       "matchup": "Flanagan/Craig (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 81.2,
-      "composite_rep_pct": 18.8,
+      "composite_dem_pct": 80.8,
+      "composite_rep_pct": 19.2,
       "inputs": {
         "polls": {
           "dem_prob": 74.3,
@@ -300,7 +300,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 90.0,
+          "dem_prob": 89.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -312,11 +312,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 15.7,
+      "divergence_pts": 14.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 90.0,
-        "rep_pct": 10.0,
+        "dem_pct": 89.0,
+        "rep_pct": 11.0,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -395,8 +395,8 @@
       "type": "senate",
       "matchup": "Vindman/Nixon (D) vs. Ashley Moody (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 19.4,
-      "composite_rep_pct": 80.6,
+      "composite_dem_pct": 19.5,
+      "composite_rep_pct": 80.5,
       "inputs": {
         "polls": {
           "dem_prob": 26.6,
@@ -405,7 +405,7 @@
           "weight_applied": 0.36
         },
         "markets": {
-          "dem_prob": 9.1,
+          "dem_prob": 9.2,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -417,10 +417,10 @@
           "weight_applied": 0.19
         }
       },
-      "divergence_pts": 17.5,
+      "divergence_pts": 17.4,
       "divergence_direction": "market_bearish_dem",
       "kalshi_raw": {
-        "dem_pct": 9.1,
+        "dem_pct": 9.2,
         "rep_pct": 91.1,
         "event_ticker": "SENATEFLS-26"
       }
@@ -880,8 +880,8 @@
       "type": "governor",
       "matchup": "TBD (D) vs. Joe Lombardo (R)",
       "rating": "Lean R",
-      "composite_dem_pct": 41.6,
-      "composite_rep_pct": 58.4,
+      "composite_dem_pct": 42.1,
+      "composite_rep_pct": 57.9,
       "inputs": {
         "polls": {
           "dem_prob": 38.3,
@@ -890,7 +890,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 44.0,
+          "dem_prob": 45.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -902,11 +902,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 5.7,
+      "divergence_pts": 6.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 44.0,
-        "rep_pct": 55.0,
+        "dem_pct": 45.0,
+        "rep_pct": 54.0,
         "event_ticker": "GOVPARTYNV-26"
       }
     },
