@@ -1,81 +1,86 @@
 {
-  "generated_at": "2026-09-15T01:00:01.858770Z",
+  "generated_at": "2026-09-15T16:21:44.565722Z",
   "tracks": {
     "trump_approval": {
       "label": "Trump Job Approval",
       "subtitle": "Weighted average of recent national polls",
-      "last_updated": "2026-09-07",
-      "polls_in_average": 9,
+      "last_updated": "2026-09-14",
+      "polls_in_average": 11,
       "current": {
-        "approve": 37.7,
+        "approve": 38.3,
         "disapprove": 59.7,
-        "net": -22.0
+        "net": -21.4
       },
       "history": [
         {
-          "date": "2026-06-19",
-          "approve": 38.8,
-          "disapprove": 60.5
+          "date": "2026-06-20",
+          "approve": 37.1,
+          "disapprove": 61.7
         },
         {
-          "date": "2026-06-22",
-          "approve": 36.8,
-          "disapprove": 60.5
+          "date": "2026-06-23",
+          "approve": 37.9,
+          "disapprove": 59.4
         },
         {
-          "date": "2026-06-28",
-          "approve": 44.4,
-          "disapprove": 53.3
+          "date": "2026-06-29",
+          "approve": 41.3,
+          "disapprove": 56.6
         },
         {
-          "date": "2026-07-01",
-          "approve": 40.0,
-          "disapprove": 58.0
-        },
-        {
-          "date": "2026-07-07",
+          "date": "2026-07-08",
           "approve": 16.0,
           "disapprove": 10.0
         },
         {
-          "date": "2026-07-13",
+          "date": "2026-07-14",
           "approve": 34.0,
           "disapprove": 57.0
         },
         {
-          "date": "2026-07-22",
+          "date": "2026-07-20",
           "approve": 36.0,
           "disapprove": 60.0
         },
         {
-          "date": "2026-07-28",
+          "date": "2026-07-29",
           "approve": 34.0,
           "disapprove": 62.0
         },
         {
-          "date": "2026-08-12",
+          "date": "2026-08-10",
           "approve": 33.0,
           "disapprove": 62.0
         },
         {
-          "date": "2026-08-18",
+          "date": "2026-08-16",
           "approve": 42.0,
-          "disapprove": 55.5
+          "disapprove": 56.0
         },
         {
-          "date": "2026-08-24",
+          "date": "2026-08-19",
+          "approve": 42.0,
+          "disapprove": 55.0
+        },
+        {
+          "date": "2026-08-25",
           "approve": 36.5,
           "disapprove": 60.1
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-08-31",
           "approve": 38.0,
           "disapprove": 60.0
         },
         {
-          "date": "2026-09-08",
+          "date": "2026-09-09",
           "approve": 38.0,
           "disapprove": 60.0
+        },
+        {
+          "date": "2026-09-15",
+          "approve": 39.1,
+          "disapprove": 59.9
         }
       ],
       "polls_used": [
@@ -141,7 +146,7 @@
           "sample_size": 1437,
           "approve": 38.0,
           "disapprove": 60.0,
-          "weight": 0.4795
+          "weight": 0.2397
         },
         {
           "pollster": "YouGov / The Economist",
@@ -149,65 +154,86 @@
           "sample_size": 1449,
           "approve": 38.0,
           "disapprove": 60.0,
-          "weight": 0.7824
+          "weight": 0.4815
+        },
+        {
+          "pollster": "Reuters/Ipsos",
+          "end_date": "2026-09-14",
+          "sample_size": "1143",
+          "approve": 38.0,
+          "disapprove": 62.0,
+          "weight": 0.9087
+        },
+        {
+          "pollster": "YouGov / The Economist",
+          "end_date": "2026-09-14",
+          "sample_size": 1434,
+          "approve": 40.0,
+          "disapprove": 58.0,
+          "weight": 1.0179
         }
       ]
     },
     "generic_ballot": {
       "label": "2026 Generic Congressional Ballot",
       "subtitle": "Which party's candidate would you vote for in your congressional district?",
-      "last_updated": "2026-09-08",
-      "polls_in_average": 10,
+      "last_updated": "2026-09-15",
+      "polls_in_average": 12,
       "current": {
-        "dem": 44.3,
-        "rep": 37.6,
-        "dem_lead": 6.7
+        "dem": 44.6,
+        "rep": 38.4,
+        "dem_lead": 6.2
       },
       "history": [
         {
-          "date": "2026-06-19",
-          "dem": 47.0,
-          "rep": 43.0
-        },
-        {
-          "date": "2026-06-22",
+          "date": "2026-06-23",
           "dem": 42.8,
           "rep": 39.1
         },
         {
-          "date": "2026-06-28",
-          "dem": 50.2,
-          "rep": 41.0
+          "date": "2026-06-29",
+          "dem": 46.5,
+          "rep": 41.7
         },
         {
-          "date": "2026-07-01",
-          "dem": 46.3,
-          "rep": 42.3
+          "date": "2026-07-02",
+          "dem": 50.0,
+          "rep": 43.0
         },
         {
-          "date": "2026-08-03",
+          "date": "2026-08-04",
           "dem": 49.0,
           "rep": 45.0
         },
         {
-          "date": "2026-08-18",
+          "date": "2026-08-16",
           "dem": 47.0,
           "rep": 42.0
         },
         {
-          "date": "2026-08-24",
+          "date": "2026-08-25",
           "dem": 39.7,
           "rep": 33.7
         },
         {
-          "date": "2026-09-02",
+          "date": "2026-08-31",
           "dem": 46.0,
           "rep": 40.0
         },
         {
-          "date": "2026-09-08",
-          "dem": 45.8,
-          "rep": 38.5
+          "date": "2026-09-06",
+          "dem": 46.0,
+          "rep": 42.0
+        },
+        {
+          "date": "2026-09-09",
+          "dem": 46.5,
+          "rep": 37.6
+        },
+        {
+          "date": "2026-09-15",
+          "dem": 45.3,
+          "rep": 40.5
         }
       ],
       "polls_used": [
@@ -273,7 +299,7 @@
           "sample_size": 1434,
           "dem": 46.0,
           "rep": 40.0,
-          "weight": 0.479
+          "weight": 0.2395
         },
         {
           "pollster": "The Economist / YouGov",
@@ -281,7 +307,7 @@
           "sample_size": "N/A",
           "dem": 46.0,
           "rep": 40.0,
-          "weight": 0.12
+          "weight": 0.06
         },
         {
           "pollster": "YouGov / The Economist",
@@ -289,15 +315,31 @@
           "sample_size": 1444,
           "dem": 43.0,
           "rep": 37.0,
-          "weight": 0.7811
+          "weight": 0.4807
+        },
+        {
+          "pollster": "Siena Research Institute",
+          "end_date": "2026-09-15",
+          "sample_size": "unknown",
+          "dem": 51.0,
+          "rep": 43.0,
+          "weight": 0.225
+        },
+        {
+          "pollster": "YouGov / The Economist",
+          "end_date": "2026-09-14",
+          "sample_size": 1428,
+          "dem": 44.0,
+          "rep": 40.0,
+          "weight": 1.0157
         }
       ]
     },
     "lp_inclusion": {
       "label": "Third-Party Inclusion Rate",
       "subtitle": "How often do pollsters include Libertarian candidates?",
-      "last_updated": "2026-09-14",
-      "total_polls": 27,
+      "last_updated": "2026-09-15",
+      "total_polls": 28,
       "lp_included": 0,
       "lp_pct": 0.0,
       "example_races": []
