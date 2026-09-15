@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T15:30:01.977834+00:00",
+  "generated_at": "2026-09-15T16:00:01.868481+00:00",
   "days_to_election": 49,
   "weights": {
     "polls": 0.45,
@@ -290,8 +290,8 @@
       "type": "senate",
       "matchup": "Flanagan/Craig (D) vs. TBD (R)",
       "rating": "Lean D",
-      "composite_dem_pct": 80.8,
-      "composite_rep_pct": 19.2,
+      "composite_dem_pct": 81.2,
+      "composite_rep_pct": 18.8,
       "inputs": {
         "polls": {
           "dem_prob": 74.3,
@@ -300,7 +300,7 @@
           "weight_applied": 0.405
         },
         "markets": {
-          "dem_prob": 89.0,
+          "dem_prob": 90.0,
           "available": true,
           "source": "Kalshi",
           "weight_applied": 0.45
@@ -312,11 +312,11 @@
           "weight_applied": 0.145
         }
       },
-      "divergence_pts": 14.7,
+      "divergence_pts": 15.7,
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
-        "dem_pct": 89.0,
-        "rep_pct": 10.0,
+        "dem_pct": 90.0,
+        "rep_pct": 9.7,
         "event_ticker": "SENATEMN-26"
       }
     },
@@ -351,7 +351,7 @@
       "divergence_direction": "market_bullish_dem",
       "kalshi_raw": {
         "dem_pct": 51.0,
-        "rep_pct": 47.0,
+        "rep_pct": 48.0,
         "event_ticker": "SENATETX-26"
       }
     },
